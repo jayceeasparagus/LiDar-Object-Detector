@@ -1,0 +1,2 @@
+namespace detector_core {
+}

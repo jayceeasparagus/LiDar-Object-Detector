@@ -1,0 +1,30 @@
+Start testing: Aug 07 20:22 PDT
+----------------------------------------------------------
+1/1 Testing: Point2DTest.StoresCoordinates
+1/1 Test: Point2DTest.StoresCoordinates
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point2DTest.StoresCoordinates" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point2DTest.StoresCoordinates" start time: Aug 07 20:22 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point2DTest.StoresCoordinates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point2DTest
+[ RUN      ] Point2DTest.StoresCoordinates
+[       OK ] Point2DTest.StoresCoordinates (0 ms)
+[----------] 1 test from Point2DTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point2DTest.StoresCoordinates" end time: Aug 07 20:22 PDT
+"Point2DTest.StoresCoordinates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 07 20:22 PDT
