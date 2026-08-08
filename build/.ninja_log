@@ -1,7 +1,14 @@
 # ninja log v5
 1	28	1786131588831106193	detector_core/CMakeFiles/detector_core.dir/src/library.cpp.o	685df61d5db019c6
-29	82	1786131588888152726	detector_core/libdetector_core.a	d00b5af391e0a2d0
+77	85	1786164918176162012	detector_core/libdetector_core.a	4a5f348809741ec0
 3	2436	1786159358962251096	detector_core/CMakeFiles/detector_core_tests.dir/tests/point2d_test.cpp.o	a43bdf581b3353c3
-2437	2886	1786159359411965073	detector_core/detector_core_tests	201a0b42fa03c10b
-2437	2886	1786159359411965073	detector_core/detector_core_tests[1]_tests.cmake	201a0b42fa03c10b
-2437	2886	1786159359411965073	/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests[1]_tests.cmake	201a0b42fa03c10b
+2	77	1786164918167434063	detector_core/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o	bb5565f55d25072f
+139	233	1786164388549849007	detector_core/detector_core_tests	779473ebaec387c3
+139	233	1786164388549849007	/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests[1]_tests.cmake	779473ebaec387c3
+1	130	1786164388449242232	detector_core/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o	782311168e610eba
+139	233	1786164388549849007	detector_core/detector_core_tests[1]_tests.cmake	779473ebaec387c3
+2	564	1786164355085745965	detector_core/CMakeFiles/detector_core_tests.dir/tests/polar_conversion_test.cpp.o	677136fe9112cef7
+1	462	1786164945731272034	detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_processing_test.cpp.o	a3f8b87b4222135e
+463	553	1786164945817850672	detector_core/detector_core_tests	4d51c137ce65c5d9
+463	553	1786164945817850672	detector_core/detector_core_tests[1]_tests.cmake	4d51c137ce65c5d9
+463	553	1786164945817850672	/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests[1]_tests.cmake	4d51c137ce65c5d9

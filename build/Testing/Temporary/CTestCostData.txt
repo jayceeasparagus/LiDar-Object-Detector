@@ -1,2 +1,5 @@
-Point2DTest.StoresCoordinates 1 0.0031441
+Point2DTest.StoresCoordinates 4 0.000399186
+PolarConversionTest.ConvertsZeroAngle 3 0.000469299
+PolarConversionTest.ConvertsNinetyDegreeAngle 3 0.000507187
+ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges 1 0.00152271
 ---

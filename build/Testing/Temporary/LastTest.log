@@ -1,10 +1,10 @@
-Start testing: Aug 07 20:22 PDT
+Start testing: Aug 07 21:55 PDT
 ----------------------------------------------------------
-1/1 Testing: Point2DTest.StoresCoordinates
-1/1 Test: Point2DTest.StoresCoordinates
+1/4 Testing: Point2DTest.StoresCoordinates
+1/4 Test: Point2DTest.StoresCoordinates
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point2DTest.StoresCoordinates" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"Point2DTest.StoresCoordinates" start time: Aug 07 20:22 PDT
+"Point2DTest.StoresCoordinates" start time: Aug 07 21:55 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -23,8 +23,89 @@ Note: Google Test filter = Point2DTest.StoresCoordinates
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Point2DTest.StoresCoordinates" end time: Aug 07 20:22 PDT
+"Point2DTest.StoresCoordinates" end time: Aug 07 21:55 PDT
 "Point2DTest.StoresCoordinates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 07 20:22 PDT
+2/4 Testing: PolarConversionTest.ConvertsZeroAngle
+2/4 Test: PolarConversionTest.ConvertsZeroAngle
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=PolarConversionTest.ConvertsZeroAngle" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"PolarConversionTest.ConvertsZeroAngle" start time: Aug 07 21:55 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = PolarConversionTest.ConvertsZeroAngle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolarConversionTest
+[ RUN      ] PolarConversionTest.ConvertsZeroAngle
+[       OK ] PolarConversionTest.ConvertsZeroAngle (0 ms)
+[----------] 1 test from PolarConversionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PolarConversionTest.ConvertsZeroAngle" end time: Aug 07 21:55 PDT
+"PolarConversionTest.ConvertsZeroAngle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: PolarConversionTest.ConvertsNinetyDegreeAngle
+3/4 Test: PolarConversionTest.ConvertsNinetyDegreeAngle
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=PolarConversionTest.ConvertsNinetyDegreeAngle" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"PolarConversionTest.ConvertsNinetyDegreeAngle" start time: Aug 07 21:55 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = PolarConversionTest.ConvertsNinetyDegreeAngle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolarConversionTest
+[ RUN      ] PolarConversionTest.ConvertsNinetyDegreeAngle
+[       OK ] PolarConversionTest.ConvertsNinetyDegreeAngle (0 ms)
+[----------] 1 test from PolarConversionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PolarConversionTest.ConvertsNinetyDegreeAngle" end time: Aug 07 21:55 PDT
+"PolarConversionTest.ConvertsNinetyDegreeAngle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+4/4 Test: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" start time: Aug 07 21:55 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanProcessingTest
+[ RUN      ] ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+[       OK ] ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges (0 ms)
+[----------] 1 test from ScanProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" end time: Aug 07 21:55 PDT
+"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 07 21:55 PDT
