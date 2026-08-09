@@ -8,7 +8,7 @@ target_compile_features(detector_core PUBLIC cxx_std_17)
 find_package(GTest REQUIRED)
 
 add_executable(detector_core_tests tests/point2d_test.cpp tests/polar_conversion_test.cpp tests/scan_processing_test.cpp
-tests/clustering_test.cpp)
+tests/clustering_test.cpp tests/bounding_box_test.cpp)
 
 target_link_libraries(detector_core_tests PRIVATE detector_core GTest::gtest_main)
 

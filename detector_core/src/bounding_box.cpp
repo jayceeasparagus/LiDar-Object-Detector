@@ -15,10 +15,10 @@ namespace detector_core {
             if (point.y < box.min_y) {
                 box.min_y = point.y;
             }
-            if (point.x < box.min_x) {
+            if (point.x > box.max_x) {
                 box.max_x = point.x;
             }
-            if (point.y < box.min_y) {
+            if (point.y > box.max_y) {
                 box.max_y = point.y;
             }
         }
