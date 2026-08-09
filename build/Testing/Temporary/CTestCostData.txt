@@ -1,5 +1,6 @@
-Point2DTest.StoresCoordinates 4 0.000399186
-PolarConversionTest.ConvertsZeroAngle 3 0.000469299
-PolarConversionTest.ConvertsNinetyDegreeAngle 3 0.000507187
-ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges 1 0.00152271
+Point2DTest.StoresCoordinates 5 0.000235363
+PolarConversionTest.ConvertsZeroAngle 4 0.000311056
+PolarConversionTest.ConvertsNinetyDegreeAngle 4 0.00026974
+ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges 2 0.000512672
+ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters 1 0.0016175
 ---
