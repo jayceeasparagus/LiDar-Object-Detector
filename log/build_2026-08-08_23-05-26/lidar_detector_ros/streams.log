@@ -1,0 +1,38 @@
+[0.013s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/jayce/projects/LiDar-Object-Detector/detector_ros -DCMAKE_INSTALL_PREFIX=/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros
+[0.078s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.078s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.078s]   contain a literal, direct call to the project() command.  Add a line of
+[0.078s]   code such as
+[0.078s] 
+[0.078s]     project(ProjectName)
+[0.078s] 
+[0.078s]   near the top of the file, but after cmake_minimum_required().
+[0.078s] 
+[0.079s]   CMake is pretending there is a "project(Project)" command on the first
+[0.079s]   line.
+[0.079s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.079s] [0m
+[0.079s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.079s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.079s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.079s]   both commands.
+[0.079s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.079s] [0m
+[0.270s] -- The C compiler identification is GNU 13.3.0
+[0.787s] -- The CXX compiler identification is GNU 13.3.0
+[1.143s] -- Detecting C compiler ABI info
+[1.317s] -- Detecting C compiler ABI info - done
+[1.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.324s] -- Detecting C compile features
+[1.325s] -- Detecting C compile features - done
+[1.382s] -- Detecting CXX compiler ABI info
+[1.557s] -- Detecting CXX compiler ABI info - done
+[1.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.565s] -- Detecting CXX compile features
+[1.566s] -- Detecting CXX compile features - done
+[1.567s] -- Configuring done (1.5s)
+[1.569s] -- Generating done (0.0s)
+[1.575s] -- Build files have been written to: /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[1.579s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/jayce/projects/LiDar-Object-Detector/detector_ros -DCMAKE_INSTALL_PREFIX=/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros
+[1.581s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[1.613s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

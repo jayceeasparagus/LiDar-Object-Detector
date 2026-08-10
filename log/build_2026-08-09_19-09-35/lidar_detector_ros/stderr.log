@@ -1,0 +1,13 @@
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp: In member function ‘void LidarDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)’:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:43:83: error: ‘scan_to_points’ is not a member of ‘detector_core’
+   43 |                 const std::vector<detector_core::Point2D> points = detector_core::scan_to_points(ranges, message->angle_min, message->angle_increment, message->range_min, message->range_max);
+      |                                                                                   ^~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:45:38: error: ‘DetectionResult’ in namespace ‘detector_core’ does not name a type
+   45 |                 const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_);
+      |                                      ^~~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:51:58: error: ‘result’ was not declared in this scope
+   51 |                 cloud.width = static_cast<std::uint32_t>(result.obstacle_points.size());
+      |                                                          ^~~~~~
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

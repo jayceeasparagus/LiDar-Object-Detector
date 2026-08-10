@@ -1,0 +1,28 @@
+[0.056s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.510s] [ 80%] Built target detector_core
+[0.648s] [ 90%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m
+[6.166s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.166s]    21 |         rclcpp::Subscription<sensor_msgs[01;31m[K>[m[K::msg::LaserScan>::SharedPtr scan_subscription_;
+[6.166s]       |                                         [01;31m[K^[m[K
+[6.166s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[6.166s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[6.166s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[6.166s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ has not been declared
+[6.166s]    21 |         rclcpp::Subscription<sensor_msgs>::[01;31m[Kmsg[m[K::LaserScan>::SharedPtr scan_subscription_;
+[6.167s]       |                                            [01;31m[K^~~[m[K
+[6.167s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.167s]    21 |         rclcpp::Subscription<sensor_msgs>::msg::[01;31m[KLaserScan[m[K>::SharedPtr scan_subscription_;
+[6.167s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[6.167s]       |                                                          [32m[K;[m[K
+[6.167s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:21:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+[6.167s]    21 |         rclcpp::Subscription<sensor_msgs>::msg::LaserScan[01;31m[K>[m[K::SharedPtr scan_subscription_;
+[6.167s]       |                                                          [01;31m[K^[m[K
+[6.182s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[6.182s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[6.182s]     9 |             [01;31m[Kscan_subscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[6.182s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.182s]       |             [32m[Krcl_subscription_t[m[K
+[9.829s] gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+[9.830s] gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+[9.830s] gmake: *** [Makefile:146: all] Error 2
+[9.833s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

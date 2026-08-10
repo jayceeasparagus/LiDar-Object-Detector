@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdetector_core.a CMakeFiles/detector_core.dir/src/library.cpp.o CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o CMakeFiles/detector_core.dir/src/scan_processing.cpp.o CMakeFiles/detector_core.dir/src/clustering.cpp.o CMakeFiles/detector_core.dir/src/bounding_box.cpp.o CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o CMakeFiles/detector_core.dir/src/scan_detection.cpp.o
+/usr/bin/ranlib libdetector_core.a

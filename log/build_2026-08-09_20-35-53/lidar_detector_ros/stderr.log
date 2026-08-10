@@ -1,0 +1,7 @@
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp: In member function ‘void LidarDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)’:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:52:50: error: ‘class rclcpp::Time’ has no member named ‘to_msg’
+   52 |                         this->get_clock()->now().to_msg();
+      |                                                  ^~~~~~
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

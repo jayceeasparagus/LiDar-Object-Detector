@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000858] (lidar_detector_ros) JobQueued: {'identifier': 'lidar_detector_ros', 'dependencies': OrderedDict()}
+[0.000918] (lidar_detector_ros) JobStarted: {'identifier': 'lidar_detector_ros'}
+[0.029020] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'cmake'}
+[0.032587] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'build'}
+[0.032655] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', '--', '-j8', '-l8'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jayce', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/jayce', 'OLDPWD': '/home/jayce/projects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jayce/projects/LiDar-Object-Detector/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/733_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/snap/bin', 'WT_SESSION': '6fa3f0f3-b78e-4bf6-9690-3159a2e7b5ad', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.097986] (-) TimerEvent: {}
+[0.199230] (-) TimerEvent: {}
+[0.245314] (lidar_detector_ros) StdoutLine: {'line': b'[ 80%] Built target detector_core\n'}
+[0.299461] (-) TimerEvent: {}
+[0.308726] (lidar_detector_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o\x1b[0m\n'}
+[0.399772] (-) TimerEvent: {}
+[0.500367] (-) TimerEvent: {}
+[0.601116] (-) TimerEvent: {}
+[0.701676] (-) TimerEvent: {}
+[0.802338] (-) TimerEvent: {}
+[0.902919] (-) TimerEvent: {}
+[1.003474] (-) TimerEvent: {}
+[1.104455] (-) TimerEvent: {}
+[1.205210] (-) TimerEvent: {}
+[1.305864] (-) TimerEvent: {}
+[1.406503] (-) TimerEvent: {}
+[1.507101] (-) TimerEvent: {}
+[1.607925] (-) TimerEvent: {}
+[1.708494] (-) TimerEvent: {}
+[1.809051] (-) TimerEvent: {}
+[1.909686] (-) TimerEvent: {}
+[2.010346] (-) TimerEvent: {}
+[2.111063] (-) TimerEvent: {}
+[2.211700] (-) TimerEvent: {}
+[2.312097] (-) TimerEvent: {}
+[2.412511] (-) TimerEvent: {}
+[2.512856] (-) TimerEvent: {}
+[2.613313] (-) TimerEvent: {}
+[2.713700] (-) TimerEvent: {}
+[2.814146] (-) TimerEvent: {}
+[2.914522] (-) TimerEvent: {}
+[3.014891] (-) TimerEvent: {}
+[3.115265] (-) TimerEvent: {}
+[3.215655] (-) TimerEvent: {}
+[3.316060] (-) TimerEvent: {}
+[3.416512] (-) TimerEvent: {}
+[3.517084] (-) TimerEvent: {}
+[3.617579] (-) TimerEvent: {}
+[3.717913] (-) TimerEvent: {}
+[3.818307] (-) TimerEvent: {}
+[3.918672] (-) TimerEvent: {}
+[4.019033] (-) TimerEvent: {}
+[4.119462] (-) TimerEvent: {}
+[4.219922] (-) TimerEvent: {}
+[4.320299] (-) TimerEvent: {}
+[4.420824] (-) TimerEvent: {}
+[4.521350] (-) TimerEvent: {}
+[4.621774] (-) TimerEvent: {}
+[4.735352] (-) TimerEvent: {}
+[4.836049] (-) TimerEvent: {}
+[4.936740] (-) TimerEvent: {}
+[5.037249] (-) TimerEvent: {}
+[5.137644] (-) TimerEvent: {}
+[5.238086] (-) TimerEvent: {}
+[5.338516] (-) TimerEvent: {}
+[5.438873] (-) TimerEvent: {}
+[5.513051] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.513577] (lidar_detector_ros) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K:size_t max_cluster_size_;\n'}
+[5.513694] (lidar_detector_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.539122] (-) TimerEvent: {}
+[5.561036] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLidarDetectorNode::\x1b[01;32m\x1b[KLidarDetectorNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.561262] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:15:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass LidarDetectorNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdeclare_paramter\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdeclare_parameter\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.561421] (lidar_detector_ros) StderrLine: {'line': b'   15 |             min_cluster_size_ = this->\x1b[01;31m\x1b[Kdeclare_paramter\x1b[m\x1b[K<int>("min_cluster_size", 2);\n'}
+[5.561505] (lidar_detector_ros) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.561575] (lidar_detector_ros) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kdeclare_parameter\x1b[m\x1b[K\n'}
+[5.561639] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:15:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.561704] (lidar_detector_ros) StderrLine: {'line': b'   15 |             min_cluster_size_ = this->declare_paramter<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K>("min_cluster_size", 2);\n'}
+[5.561766] (lidar_detector_ros) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.570952] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:16:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_cluster_size_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmin_cluster_size_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.571289] (lidar_detector_ros) StderrLine: {'line': b'   16 |             \x1b[01;31m\x1b[Kmax_cluster_size_\x1b[m\x1b[K = this->declare_parameter<int>("max_cluster_size", 1000);\n'}
+[5.571372] (lidar_detector_ros) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.571441] (lidar_detector_ros) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kmin_cluster_size_\x1b[m\x1b[K\n'}
+[5.601633] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LidarDetectorNode::\x1b[01;32m\x1b[Kscan_callback\x1b[m\x1b[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.601857] (lidar_detector_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:34:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_cluster_size_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmin_cluster_size_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.601934] (lidar_detector_ros) StderrLine: {'line': b'   34 | e->angle_increment, message->range_min, message->range_max, distance_tolerance_, min_cluster_size_, \x1b[01;31m\x1b[Kmax_cluster_size_\x1b[m\x1b[K);\n'}
+[5.601999] (lidar_detector_ros) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.602059] (lidar_detector_ros) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[Kmin_cluster_size_\x1b[m\x1b[K\n'}
+[5.639281] (-) TimerEvent: {}
+[5.739705] (-) TimerEvent: {}
+[5.840085] (-) TimerEvent: {}
+[5.940411] (-) TimerEvent: {}
+[6.040786] (-) TimerEvent: {}
+[6.141175] (-) TimerEvent: {}
+[6.241548] (-) TimerEvent: {}
+[6.341902] (-) TimerEvent: {}
+[6.442381] (-) TimerEvent: {}
+[6.542908] (-) TimerEvent: {}
+[6.643329] (-) TimerEvent: {}
+[6.743839] (-) TimerEvent: {}
+[6.844340] (-) TimerEvent: {}
+[6.944789] (-) TimerEvent: {}
+[7.045180] (-) TimerEvent: {}
+[7.145556] (-) TimerEvent: {}
+[7.246012] (-) TimerEvent: {}
+[7.346389] (-) TimerEvent: {}
+[7.446760] (-) TimerEvent: {}
+[7.547135] (-) TimerEvent: {}
+[7.647472] (-) TimerEvent: {}
+[7.747885] (-) TimerEvent: {}
+[7.848293] (-) TimerEvent: {}
+[7.948670] (-) TimerEvent: {}
+[8.049081] (-) TimerEvent: {}
+[8.149520] (-) TimerEvent: {}
+[8.249923] (-) TimerEvent: {}
+[8.350432] (-) TimerEvent: {}
+[8.450867] (-) TimerEvent: {}
+[8.551268] (-) TimerEvent: {}
+[8.651685] (-) TimerEvent: {}
+[8.752064] (-) TimerEvent: {}
+[8.852616] (-) TimerEvent: {}
+[8.953279] (-) TimerEvent: {}
+[9.053893] (-) TimerEvent: {}
+[9.154475] (-) TimerEvent: {}
+[9.255120] (-) TimerEvent: {}
+[9.355981] (-) TimerEvent: {}
+[9.414752] (lidar_detector_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1\n'}
+[9.415489] (lidar_detector_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2\n'}
+[9.415717] (lidar_detector_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.421436] (lidar_detector_ros) CommandEnded: {'returncode': 2}
+[9.456190] (-) TimerEvent: {}
+[9.520660] (lidar_detector_ros) JobEnded: {'identifier': 'lidar_detector_ros', 'rc': 2}
+[9.532500] (-) EventReactorShutdown: {}

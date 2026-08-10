@@ -1,0 +1,23 @@
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd[m[K’ does not name a type
+   27 |         [01;31m[Kstd[m[K:size_t max_cluster_size_;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:15:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarDetectorNode[m[K’ has no member named ‘[01m[Kdeclare_paramter[m[K’; did you mean ‘[01m[Kdeclare_parameter[m[K’?
+   15 |             min_cluster_size_ = this->[01;31m[Kdeclare_paramter[m[K<int>("min_cluster_size", 2);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[Kdeclare_parameter[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:15:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   15 |             min_cluster_size_ = this->declare_paramter<[01;31m[Kint[m[K>("min_cluster_size", 2);
+      |                                                        [01;31m[K^~~[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:16:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_cluster_size_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmin_cluster_size_[m[K’?
+   16 |             [01;31m[Kmax_cluster_size_[m[K = this->declare_parameter<int>("max_cluster_size", 1000);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kmin_cluster_size_[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In member function ‘[01m[Kvoid LidarDetectorNode::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:34:123:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_cluster_size_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmin_cluster_size_[m[K’?
+   34 | e->angle_increment, message->range_min, message->range_max, distance_tolerance_, min_cluster_size_, [01;31m[Kmax_cluster_size_[m[K);
+      |                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                     [32m[Kmin_cluster_size_[m[K
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

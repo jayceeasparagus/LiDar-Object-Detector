@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.084s] [ 80%] Built target detector_core
+[0.111s] [ 90%] Building CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o
+[3.041s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp: In member function ‘void LidarDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)’:
+[3.042s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:52:50: error: ‘class rclcpp::Time’ has no member named ‘to_msg’
+[3.042s]    52 |                         this->get_clock()->now().to_msg();
+[3.042s]       |                                                  ^~~~~~
+[5.657s] gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+[5.657s] gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+[5.657s] gmake: *** [Makefile:146: all] Error 2
+[5.659s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

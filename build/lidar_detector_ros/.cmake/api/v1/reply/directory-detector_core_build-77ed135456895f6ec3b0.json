@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "detector_core_build",
+		"source" : "/home/jayce/projects/LiDar-Object-Detector/detector_core"
+	}
+}

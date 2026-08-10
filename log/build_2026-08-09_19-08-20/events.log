@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000036] (lidar_detector_ros) JobQueued: {'identifier': 'lidar_detector_ros', 'dependencies': OrderedDict()}
+[0.000376] (lidar_detector_ros) JobStarted: {'identifier': 'lidar_detector_ros'}
+[0.010669] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'cmake'}
+[0.011796] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'build'}
+[0.011824] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', '--', '-j8', '-l8'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'USER': 'jayce', 'SHLVL': '0', 'HOME': '/home/jayce', 'OLDPWD': '/mnt/c/Users/jayce/OneDrive/Attachments/Documents/LiDar RayTrace ROS2 Project', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/5399_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jayce/.codex/tmp/arg0/codex-arg03YLrY8:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/jayce/AppData/Local/OpenAI/Codex/bin/fda9f910656130f4:/mnt/c/Program Files/WindowsApps/OpenAI.Codex_26.803.5235.0_x64__2p2nqsd0c76g0/app/resources:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'SHELL': '/bin/bash', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}), 'shell': False}
+[0.093585] (lidar_detector_ros) StdoutLine: {'line': b'[ 80%] Built target detector_core\n'}
+[0.099838] (-) TimerEvent: {}
+[0.114099] (lidar_detector_ros) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o\n'}
+[0.199960] (-) TimerEvent: {}
+[0.300163] (-) TimerEvent: {}
+[0.400327] (-) TimerEvent: {}
+[0.500517] (-) TimerEvent: {}
+[0.602952] (-) TimerEvent: {}
+[0.703181] (-) TimerEvent: {}
+[0.803356] (-) TimerEvent: {}
+[0.903536] (-) TimerEvent: {}
+[1.003711] (-) TimerEvent: {}
+[1.103842] (-) TimerEvent: {}
+[1.204020] (-) TimerEvent: {}
+[1.304195] (-) TimerEvent: {}
+[1.404370] (-) TimerEvent: {}
+[1.504540] (-) TimerEvent: {}
+[1.604714] (-) TimerEvent: {}
+[1.704890] (-) TimerEvent: {}
+[1.805062] (-) TimerEvent: {}
+[1.905335] (-) TimerEvent: {}
+[1.947886] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp: In member function \xe2\x80\x98void LidarDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\xe2\x80\x99:\n'}
+[1.948086] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:43:83: error: \xe2\x80\x98scan_to_points\xe2\x80\x99 is not a member of \xe2\x80\x98detector_core\xe2\x80\x99\n'}
+[1.948127] (lidar_detector_ros) StderrLine: {'line': b'   43 |                 const std::vector<detector_core::Point2D> points = detector_core::scan_to_points(ranges, message->angle_min, message->angle_increment, message->range_min, message->range_max);\n'}
+[1.948159] (lidar_detector_ros) StderrLine: {'line': b'      |                                                                                   ^~~~~~~~~~~~~~\n'}
+[1.948187] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:45:38: error: \xe2\x80\x98DetectionResult\xe2\x80\x99 in namespace \xe2\x80\x98detector_core\xe2\x80\x99 does not name a type\n'}
+[1.948214] (lidar_detector_ros) StderrLine: {'line': b'   45 |                 const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_);\n'}
+[1.948239] (lidar_detector_ros) StderrLine: {'line': b'      |                                      ^~~~~~~~~~~~~~~\n'}
+[1.951857] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:51:58: error: \xe2\x80\x98result\xe2\x80\x99 was not declared in this scope\n'}
+[1.952003] (lidar_detector_ros) StderrLine: {'line': b'   51 |                 cloud.width = static_cast<std::uint32_t>(result.obstacle_points.size());\n'}
+[1.952182] (lidar_detector_ros) StderrLine: {'line': b'      |                                                          ^~~~~~\n'}
+[2.005452] (-) TimerEvent: {}
+[2.105600] (-) TimerEvent: {}
+[2.205779] (-) TimerEvent: {}
+[2.305961] (-) TimerEvent: {}
+[2.406135] (-) TimerEvent: {}
+[2.506300] (-) TimerEvent: {}
+[2.606435] (-) TimerEvent: {}
+[2.706616] (-) TimerEvent: {}
+[2.806799] (-) TimerEvent: {}
+[2.906981] (-) TimerEvent: {}
+[3.007168] (-) TimerEvent: {}
+[3.107344] (-) TimerEvent: {}
+[3.207576] (-) TimerEvent: {}
+[3.307777] (-) TimerEvent: {}
+[3.407970] (-) TimerEvent: {}
+[3.508145] (-) TimerEvent: {}
+[3.608403] (-) TimerEvent: {}
+[3.708681] (-) TimerEvent: {}
+[3.720422] (lidar_detector_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1\n'}
+[3.720680] (lidar_detector_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2\n'}
+[3.720767] (lidar_detector_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.721845] (lidar_detector_ros) CommandEnded: {'returncode': 2}
+[3.746316] (lidar_detector_ros) JobEnded: {'identifier': 'lidar_detector_ros', 'rc': 2}
+[3.756699] (-) EventReactorShutdown: {}

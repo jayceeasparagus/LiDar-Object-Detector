@@ -1,0 +1,43 @@
+[ 80%] Built target detector_core
+[ 90%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:80:47:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs[m[K’; did you mean ‘[01m[Kvisualization_msgs::msg::MarkerArray[m[K’?
+   80 |         rclcpp::Publisher<visualization_msgs::[01;31m[KMarkerArray[m[K>::SharedPtr marker_publisher_;
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7[m[K,
+                 from [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:122:7:[m[K [01;36m[Knote: [m[K‘[01m[Kvisualization_msgs::msg::MarkerArray[m[K’ declared here
+  122 | using [01;36m[KMarkerArray[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:80:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |         rclcpp::Publisher<visualization_msgs::MarkerArray[01;31m[K>[m[K::SharedPtr marker_publisher_;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:80:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   80 |         rclcpp::Publisher<visualization_msgs::MarkerArray>::[01;31m[KSharedPtr[m[K marker_publisher_;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:80:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   80 |         rclcpp::Publisher<visualization_msgs::MarkerArray>::SharedPtr [01;31m[Kmarker_publisher_[m[K;
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[Krmw_publisher_t[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_publishier_[m[K’ was not declared in this scope
+   23 |             [01;31m[Kmarker_publishier_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("obstacles_markers", 10);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In member function ‘[01m[Kvoid LidarDetectorNode::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:49:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+   49 |                     marker.id = static_cast<int32_t>(i)[01;31m[K:[m[K
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:67:45:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   67 |                     marker.lifetime = rclcpp[01;31m[K:[m[KDuration::from_seconds(0.2).to_msg();
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K::[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:67:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[Kto_msg[m[K’
+   67 |                     marker.lifetime = rclcpp:Duration::from_seconds(0.2).[01;31m[Kto_msg[m[K();
+      |                                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   72 |                 [01;31m[Kmarker_publisher_[m[K->publish(marker_array);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
