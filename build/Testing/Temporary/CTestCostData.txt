@@ -1,10 +1,18 @@
-Point2DTest.StoresCoordinates 21 7.57587e-05
-PolarConversionTest.ConvertsZeroAngle 20 7.28152e-05
-PolarConversionTest.ConvertsNinetyDegreeAngle 20 5.44878e-05
-ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges 18 5.93296e-05
-ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters 17 5.81331e-05
-BoundingBoxTest.ComputesMinimumAndMaximumCoordinates 10 9.72556e-05
-ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters 6 0.000169867
-ScanDetectionTest.ConvertsScanIntoObstacleBoxes 3 0.000335366
-DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes 1 0.000972277
+Point2DTest.StoresCoordinates 48 2.68638e-05
+PolarConversionTest.ConvertsZeroAngle 47 8.04877e-05
+PolarConversionTest.ConvertsNinetyDegreeAngle 47 2.59451e-05
+ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges 45 2.5528e-05
+ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters 44 2.67991e-05
+BoundingBoxTest.ComputesMinimumAndMaximumCoordinates 37 3.06745e-05
+ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters 33 2.96632e-05
+ScanDetectionTest.ConvertsScanIntoObstacleBoxes 30 3.96771e-05
+DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes 28 4.19419e-05
+ClusteringTest.OrderedAlgorithmGroupsContiguousPoints 25 4.28372e-05
+ClusteringTest.SeparatesInterleavedObstacles 23 4.79494e-05
+ClusteringTest.SpatialGridMatchesBruteForce 4 0.000380036
+ClusteringTest.SpatialGridHandlesEmptyInput 2 0.000509507
+ClusteringTest.SpatialGridGroupsDuplicatePoints 2 0.000619275
+ClusteringTest.SpatialGridHandlesCellBoundaries 2 0.000542939
+ClusteringTest.SpatialGridPreservesTransitiveConnectivity 2 0.00159291
+ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData 1 0.00212158
 ---

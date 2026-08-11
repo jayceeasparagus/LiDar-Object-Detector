@@ -318,6 +318,9 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "lidar_detector_node" "DESTINATION" "lib/lidar_detector_ros")
 include("/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install("TARGETS" "lidar_detector_node" "synthetic_scan_publisher" "DESTINATION" "lib/lidar_detector_ros")
+include("/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(DIRECTORY "config" "launch" "rviz" "DESTINATION" "share/lidar_detector_ros")
 ament_cmake_symlink_install_directory("/home/jayce/projects/LiDar-Object-Detector/detector_ros" DIRECTORY "config" "launch" "rviz" "DESTINATION" "share/lidar_detector_ros")
 

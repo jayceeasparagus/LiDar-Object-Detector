@@ -1,0 +1,3 @@
+add_executable(clustering_benchmark clustering_benchmark.cpp)
+
+target_link_libraries(clustering_benchmark detector_core)

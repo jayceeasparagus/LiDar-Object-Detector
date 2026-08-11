@@ -211,6 +211,19 @@ lidar_detector_node/fast:
 .PHONY : lidar_detector_node/fast
 
 #=============================================================================
+# Target rules for targets named synthetic_scan_publisher
+
+# Build rule for target.
+synthetic_scan_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 synthetic_scan_publisher
+.PHONY : synthetic_scan_publisher
+
+# fast build rule for target.
+synthetic_scan_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/build
+.PHONY : synthetic_scan_publisher/fast
+
+#=============================================================================
 # Target rules for targets named detector_core
 
 # Build rule for target.
@@ -260,6 +273,30 @@ src/lidar_detector_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_detector_node.dir/build.make CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.s
 .PHONY : src/lidar_detector_node.cpp.s
 
+src/synthetic_scan_publisher.o: src/synthetic_scan_publisher.cpp.o
+.PHONY : src/synthetic_scan_publisher.o
+
+# target to build an object file
+src/synthetic_scan_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/src/synthetic_scan_publisher.cpp.o
+.PHONY : src/synthetic_scan_publisher.cpp.o
+
+src/synthetic_scan_publisher.i: src/synthetic_scan_publisher.cpp.i
+.PHONY : src/synthetic_scan_publisher.i
+
+# target to preprocess a source file
+src/synthetic_scan_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/src/synthetic_scan_publisher.cpp.i
+.PHONY : src/synthetic_scan_publisher.cpp.i
+
+src/synthetic_scan_publisher.s: src/synthetic_scan_publisher.cpp.s
+.PHONY : src/synthetic_scan_publisher.s
+
+# target to generate assembly for a file
+src/synthetic_scan_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/src/synthetic_scan_publisher.cpp.s
+.PHONY : src/synthetic_scan_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -278,9 +315,13 @@ help:
 	@echo "... detector_core"
 	@echo "... detector_core_tests"
 	@echo "... lidar_detector_node"
+	@echo "... synthetic_scan_publisher"
 	@echo "... src/lidar_detector_node.o"
 	@echo "... src/lidar_detector_node.i"
 	@echo "... src/lidar_detector_node.s"
+	@echo "... src/synthetic_scan_publisher.o"
+	@echo "... src/synthetic_scan_publisher.i"
+	@echo "... src/synthetic_scan_publisher.s"
 .PHONY : help
 
 

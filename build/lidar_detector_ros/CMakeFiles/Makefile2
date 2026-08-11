@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/jayce/projects/LiDar-Object-Detector/build/lidar_detect
 
 # The main recursive "all" target.
 all: CMakeFiles/lidar_detector_node.dir/all
+all: CMakeFiles/synthetic_scan_publisher.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/lidar_detector_ros_uninstall.dir/clean
 clean: CMakeFiles/lidar_detector_node.dir/clean
+clean: CMakeFiles/synthetic_scan_publisher.dir/clean
 clean: detector_core_build/clean
 .PHONY : clean
 
@@ -171,6 +173,32 @@ lidar_detector_node: CMakeFiles/lidar_detector_node.dir/rule
 CMakeFiles/lidar_detector_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_detector_node.dir/build.make CMakeFiles/lidar_detector_node.dir/clean
 .PHONY : CMakeFiles/lidar_detector_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/synthetic_scan_publisher.dir
+
+# All Build rule for target.
+CMakeFiles/synthetic_scan_publisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=20,21 "Built target synthetic_scan_publisher"
+.PHONY : CMakeFiles/synthetic_scan_publisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/synthetic_scan_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/synthetic_scan_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles 0
+.PHONY : CMakeFiles/synthetic_scan_publisher.dir/rule
+
+# Convenience name for target.
+synthetic_scan_publisher: CMakeFiles/synthetic_scan_publisher.dir/rule
+.PHONY : synthetic_scan_publisher
+
+# clean rule for target.
+CMakeFiles/synthetic_scan_publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/synthetic_scan_publisher.dir/build.make CMakeFiles/synthetic_scan_publisher.dir/clean
+.PHONY : CMakeFiles/synthetic_scan_publisher.dir/clean
 
 #=============================================================================
 # Target rules for target detector_core_build/CMakeFiles/detector_core.dir

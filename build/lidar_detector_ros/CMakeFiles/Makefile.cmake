@@ -729,6 +729,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp"
   "ament_cmake_core/lidar_detector_rosConfig-version.cmake"
   "ament_cmake_symlink_install_targets_0_.cmake"
+  "ament_cmake_symlink_install_targets_1_.cmake"
   "ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros"
   "ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lidar_detector_ros"
   "ament_cmake_environment_hooks/ament_prefix_path.dsv"
@@ -745,6 +746,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/lidar_detector_ros_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/lidar_detector_node.dir/DependInfo.cmake"
+  "CMakeFiles/synthetic_scan_publisher.dir/DependInfo.cmake"
   "detector_core_build/CMakeFiles/detector_core.dir/DependInfo.cmake"
   "detector_core_build/CMakeFiles/detector_core_tests.dir/DependInfo.cmake"
   )

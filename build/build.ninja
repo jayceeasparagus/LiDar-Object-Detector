@@ -658,7 +658,81 @@ build detector_core/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build detector_core/rebuild_cache: phony detector_core/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target clustering_benchmark
+
+
+#############################################
+# Order-only phony target for clustering_benchmark
+
+build cmake_object_order_depends_target_clustering_benchmark: phony || cmake_object_order_depends_target_detector_core
+
+build benchmarks/CMakeFiles/clustering_benchmark.dir/clustering_benchmark.cpp.o: CXX_COMPILER__clustering_benchmark_unscanned_ /home/jayce/projects/LiDar-Object-Detector/benchmarks/clustering_benchmark.cpp || cmake_object_order_depends_target_clustering_benchmark
+  DEP_FILE = benchmarks/CMakeFiles/clustering_benchmark.dir/clustering_benchmark.cpp.o.d
+  FLAGS = -std=c++17
+  INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
+  OBJECT_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
+  OBJECT_FILE_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target clustering_benchmark
+
+
+#############################################
+# Link the executable benchmarks/clustering_benchmark
+
+build benchmarks/clustering_benchmark: CXX_EXECUTABLE_LINKER__clustering_benchmark_ benchmarks/CMakeFiles/clustering_benchmark.dir/clustering_benchmark.cpp.o | detector_core/libdetector_core.a || detector_core/libdetector_core.a
+  LINK_LIBRARIES = detector_core/libdetector_core.a
+  OBJECT_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = benchmarks/clustering_benchmark
+  TARGET_PDB = clustering_benchmark.dbg
+
+
+#############################################
+# Utility command for test
+
+build benchmarks/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /home/jayce/projects/LiDar-Object-Detector/build/benchmarks && /usr/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build benchmarks/test: phony benchmarks/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build benchmarks/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/jayce/projects/LiDar-Object-Detector/build/benchmarks && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build benchmarks/edit_cache: phony benchmarks/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build benchmarks/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/jayce/projects/LiDar-Object-Detector/build/benchmarks && /usr/bin/cmake --regenerate-during-build -S/home/jayce/projects/LiDar-Object-Detector -B/home/jayce/projects/LiDar-Object-Detector/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build benchmarks/rebuild_cache: phony benchmarks/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build clustering_benchmark: phony benchmarks/clustering_benchmark
 
 build detector_core: phony detector_core/libdetector_core.a
 
@@ -674,7 +748,14 @@ build libdetector_core.a: phony detector_core/libdetector_core.a
 #############################################
 # Folder: /home/jayce/projects/LiDar-Object-Detector/build
 
-build all: phony detector_core/all
+build all: phony detector_core/all benchmarks/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/jayce/projects/LiDar-Object-Detector/build/benchmarks
+
+build benchmarks/all: phony benchmarks/clustering_benchmark
 
 # =============================================================================
 
@@ -690,14 +771,14 @@ build detector_core/all: phony detector_core/libdetector_core.a detector_core/de
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
+build /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
 
 
 #############################################

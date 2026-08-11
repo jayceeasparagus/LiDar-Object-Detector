@@ -22,7 +22,8 @@
 					[
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -58,7 +59,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -81,7 +83,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lidar_detector_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lidar_detector_node-462e80181161bb846639.json",
+					"jsonFile" : "target-lidar_detector_node-2f1f5904fccf08dbac97.json",
 					"name" : "lidar_detector_node",
 					"projectIndex" : 0
 				},
@@ -90,6 +92,13 @@
 					"id" : "lidar_detector_ros_uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lidar_detector_ros_uninstall-9998e32311b7698b5efd.json",
 					"name" : "lidar_detector_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synthetic_scan_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synthetic_scan_publisher-aa70be972c1d7afc2a32.json",
+					"name" : "synthetic_scan_publisher",
 					"projectIndex" : 0
 				},
 				{

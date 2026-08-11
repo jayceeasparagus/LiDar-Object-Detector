@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/lidar_detector_node" "/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/synthetic_scan_publisher" "TARGETS" "lidar_detector_node" "synthetic_scan_publisher" "DESTINATION" "lib/lidar_detector_ros")

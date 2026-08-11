@@ -13,7 +13,8 @@ def generate_launch_description():
 
     nav2_params = os.path.join(package_share, "config", "nav2_costmap.yaml",)
 
-    return LaunchDescription([Node(package="lidar_detector_ros", executable="lidar_detector_node",
+    return LaunchDescription([Node(package="lidar_detector_ros", executable="synthetic_scan_publisher", name="synthetic_scan_publisher", output="screen",),
+    Node(package="lidar_detector_ros", executable="lidar_detector_node",
     name="lidar_detector_node", output="screen", parameters=[parameter_file],),
     Node(package="rviz2", executable="rviz2", name="rviz2", output="screen", arguments=["-d", rviz_config],),
     Node(package="tf2_ros", executable="static_transform_publisher", name="laser_static_transform", arguments=[

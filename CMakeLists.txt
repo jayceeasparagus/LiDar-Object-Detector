@@ -10,3 +10,4 @@ include(CTest)
 enable_testing()
 
 add_subdirectory(detector_core)
+add_subdirectory(benchmarks)

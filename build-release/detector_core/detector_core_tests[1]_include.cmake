@@ -1,0 +1,5 @@
+if(EXISTS "/home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/detector_core_tests[1]_tests.cmake")
+  include("/home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/detector_core_tests[1]_tests.cmake")
+else()
+  add_test(detector_core_tests_NOT_BUILT detector_core_tests_NOT_BUILT)
+endif()
