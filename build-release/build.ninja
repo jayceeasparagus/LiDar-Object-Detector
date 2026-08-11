@@ -487,8 +487,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/library.cpp.o: CXX_COMPILER
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/polar_conversion.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o.d
@@ -496,8 +494,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o: CXX
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/scan_processing.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o.d
@@ -505,8 +501,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o: CXX_
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/clustering.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/clustering.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/clustering.cpp.o.d
@@ -514,8 +508,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/clustering.cpp.o: CXX_COMPI
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/bounding_box.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o.d
@@ -523,8 +515,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o: CXX_COM
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o.d
@@ -532,8 +522,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o: C
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 build detector_core/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o: CXX_COMPILER__detector_core_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/src/scan_detection.cpp || cmake_object_order_depends_target_detector_core
   DEP_FILE = detector_core/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o.d
@@ -541,8 +529,6 @@ build detector_core/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o: CXX_C
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core.dir/src
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
-  TARGET_PDB = detector_core/libdetector_core.pdb
 
 
 # =============================================================================
@@ -557,9 +543,8 @@ build detector_core/libdetector_core.a: CXX_STATIC_LIBRARY_LINKER__detector_core
   OBJECT_DIR = detector_core/CMakeFiles/detector_core.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core.dir/detector_core.pdb
   TARGET_FILE = detector_core/libdetector_core.a
-  TARGET_PDB = detector_core/libdetector_core.pdb
+  TARGET_PDB = detector_core.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target detector_core_tests
@@ -576,8 +561,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/point2d_test.cpp.o:
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/polar_conversion_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/polar_conversion_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/polar_conversion_test.cpp.o.d
@@ -585,8 +568,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/polar_conversion_te
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_processing_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/scan_processing_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_processing_test.cpp.o.d
@@ -594,8 +575,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_processing_tes
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/clustering_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/clustering_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/clustering_test.cpp.o.d
@@ -603,8 +582,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/clustering_test.cpp
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/bounding_box_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/bounding_box_test.cpp.o.d
@@ -612,8 +589,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/bounding_box_test.c
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/obstacle_detection_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/obstacle_detection_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/obstacle_detection_test.cpp.o.d
@@ -621,8 +596,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/obstacle_detection_
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_detection_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/scan_detection_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_detection_test.cpp.o.d
@@ -630,8 +603,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/scan_detection_test
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 build detector_core/CMakeFiles/detector_core_tests.dir/tests/detection_result_test.cpp.o: CXX_COMPILER__detector_core_tests_unscanned_Release /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/detection_result_test.cpp || cmake_object_order_depends_target_detector_core_tests
   DEP_FILE = detector_core/CMakeFiles/detector_core_tests.dir/tests/detection_result_test.cpp.o.d
@@ -639,8 +610,6 @@ build detector_core/CMakeFiles/detector_core_tests.dir/tests/detection_result_te
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = detector_core/CMakeFiles/detector_core_tests.dir
   OBJECT_FILE_DIR = detector_core/CMakeFiles/detector_core_tests.dir/tests
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
-  TARGET_PDB = detector_core/detector_core_tests.pdb
 
 
 # =============================================================================
@@ -657,9 +626,8 @@ build detector_core/detector_core_tests detector_core/detector_core_tests[1]_tes
   POST_BUILD = cd /home/jayce/projects/LiDar-Object-Detector/build-release/detector_core && /usr/bin/cmake -D TEST_TARGET=detector_core_tests -D TEST_EXECUTABLE=/home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/detector_core_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/jayce/projects/LiDar-Object-Detector/build-release/detector_core -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=detector_core_tests_TESTS -D CTEST_FILE=/home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/detector_core_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
   PRE_LINK = :
   RESTAT = 1
-  TARGET_COMPILE_PDB = detector_core/CMakeFiles/detector_core_tests.dir/
   TARGET_FILE = detector_core/detector_core_tests
-  TARGET_PDB = detector_core/detector_core_tests.pdb
+  TARGET_PDB = detector_core_tests.dbg
 
 
 #############################################
@@ -716,8 +684,6 @@ build benchmarks/CMakeFiles/clustering_benchmark.dir/clustering_benchmark.cpp.o:
   INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
   OBJECT_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
   OBJECT_FILE_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
-  TARGET_COMPILE_PDB = benchmarks/CMakeFiles/clustering_benchmark.dir/
-  TARGET_PDB = benchmarks/clustering_benchmark.pdb
 
 
 # =============================================================================
@@ -733,9 +699,8 @@ build benchmarks/clustering_benchmark: CXX_EXECUTABLE_LINKER__clustering_benchma
   OBJECT_DIR = benchmarks/CMakeFiles/clustering_benchmark.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = benchmarks/CMakeFiles/clustering_benchmark.dir/
   TARGET_FILE = benchmarks/clustering_benchmark
-  TARGET_PDB = benchmarks/clustering_benchmark.pdb
+  TARGET_PDB = clustering_benchmark.dbg
 
 
 #############################################
@@ -814,14 +779,14 @@ build detector_core/all: phony detector_core/libdetector_core.a detector_core/de
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
+build /home/jayce/projects/LiDar-Object-Detector/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/benchmarks/CMakeLists.txt /home/jayce/projects/LiDar-Object-Detector/detector_core/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CTest.cmake /usr/share/cmake-3.28/Modules/CTestTargets.cmake /usr/share/cmake-3.28/Modules/CTestUseLaunchers.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in /usr/share/cmake-3.28/Modules/FindGTest.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GoogleTest.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
 
 
 #############################################

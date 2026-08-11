@@ -4,6 +4,31 @@
 #include <iostream>
 #include <vector>
 
+template <typename Function>
+double average_runtime_ms(Function function, int repetitions)
+{
+    for (int i = 0; i < 10; ++i) {
+        function();
+    }
+
+    volatile std::size_t result_sink = 0;
+
+    const auto start = std::chrono::steady_clock::now();
+
+    for (int i = 0; i < repetitions; ++i) {
+        const auto clusters = function();
+        result_sink += clusters.size();
+    }
+
+    const auto end = std::chrono::steady_clock::now();
+
+    const double total_ms =
+        std::chrono::duration<double, std::milli>(
+            end - start).count();
+
+    return total_ms / repetitions;
+}
+
 namespace {
 
 std::vector<detector_core::Point2D> make_points(
@@ -39,6 +64,8 @@ std::vector<detector_core::Point2D> make_points(
 }  // namespace
 
 int main() {
+    constexpr int repetitions = 1000;
+
     const std::vector<std::size_t> sizes{
         360,
         720,
@@ -47,57 +74,61 @@ int main() {
     };
 
     for (const std::size_t size : sizes) {
-        const std::vector<detector_core::Point2D> points =
-            make_points(size);
+    const std::vector<detector_core::Point2D> points =
+        make_points(size);
 
-        const auto brute_force_start =
-        std::chrono::steady_clock::now();
+    constexpr double distance_tolerance = 0.2;
+    constexpr std::size_t min_cluster_size = 2;
+    constexpr std::size_t max_cluster_size = 100000;
 
-        const std::vector<detector_core::Cluster>
-            brute_force_clusters =
-                detector_core::euclidean_clusters(
+    const auto brute_force_clusters =
+        detector_core::euclidean_clusters(
+            points,
+            distance_tolerance,
+            min_cluster_size,
+            max_cluster_size);
+
+    const auto grid_clusters =
+        detector_core::spatial_grid_clusters(
+            points,
+            distance_tolerance,
+            min_cluster_size,
+            max_cluster_size);
+
+    const double brute_force_ms =
+        average_runtime_ms(
+            [&]() {
+                return detector_core::euclidean_clusters(
                     points,
-                    0.2,
-                    2,
-                    100000);
+                    distance_tolerance,
+                    min_cluster_size,
+                    max_cluster_size);
+            },
+            repetitions);
 
-        const auto brute_force_end =
-            std::chrono::steady_clock::now();
-
-        const auto ordered_start =
-            std::chrono::steady_clock::now();
-
-        const std::vector<detector_core::Cluster>
-            ordered_clusters =
-                detector_core::ordered_euclidean_clusters(
+    const double grid_ms =
+        average_runtime_ms(
+            [&]() {
+                return detector_core::spatial_grid_clusters(
                     points,
-                    0.2,
-                    2,
-                    100000);
+                    distance_tolerance,
+                    min_cluster_size,
+                    max_cluster_size);
+            },
+            repetitions);
 
-        const auto ordered_end =
-            std::chrono::steady_clock::now();
-
-        const double brute_force_ms =
-            std::chrono::duration<double, std::milli>(
-                brute_force_end - brute_force_start).count();
-
-        const double ordered_ms =
-            std::chrono::duration<double, std::milli>(
-                ordered_end - ordered_start).count();
-
-        std::cout
-            << "points=" << size
-            << " brute_force_clusters="
-            << brute_force_clusters.size()
-            << " brute_force_ms="
-            << brute_force_ms
-            << " ordered_clusters="
-            << ordered_clusters.size()
-            << " ordered_ms="
-            << ordered_ms
-            << '\n';
-            }
+    std::cout
+        << "points=" << size
+        << " brute_force_clusters="
+        << brute_force_clusters.size()
+        << " brute_force_ms="
+        << brute_force_ms
+        << " grid_clusters="
+        << grid_clusters.size()
+        << " grid_ms="
+        << grid_ms
+        << '\n';
+}
 
     return 0;
 }

@@ -118,7 +118,7 @@ namespace detector_core {
             return clusters;
         };
 
-    std::vector<std::vector<Point2D>> spatial_grid_clusters(
+    std::vector<Cluster> spatial_grid_clusters(
         const std::vector<Point2D>& points, double distance_tolerance,
         std::size_t min_cluster_size, std::size_t max_cluster_size) {
             using Grid = std::unordered_map<GridCell, std::vector<std::size_t>, GridCellHash>;
@@ -133,11 +133,7 @@ namespace detector_core {
                 grid[cell].push_back(i);
             }
 
-            std::vector<std::vector<Point2D>> clusters;
-            
-            if (points.empty() || distance_tolerance <= 0.0) {
-                return clusters;
-            }
+            std::vector<Cluster> clusters;
 
             const double tolerance_squared = distance_tolerance * distance_tolerance;
 
@@ -193,13 +189,7 @@ namespace detector_core {
                 }
 
                 if (cluster_indices.size() >= min_cluster_size && cluster_indices.size() <= max_cluster_size) {
-                    std::vector<Point2D> cluster;
-
-                    for (const std::size_t point_index : cluster_indices) {
-                        cluster.push_back(points[point_index]);
-                    }
-
-                    clusters.push_back(cluster);
+                    clusters.push_back(cluster_indices);
                 }
             }
 

@@ -17,6 +17,6 @@ namespace detector_core {
         const std::vector<Point2D>& points, double distance_tolerance,
         std::size_t min_cluster_size, std::size_t max_cluster_size);
 
-    std::vector<std::vector<Point2D>> spatial_grid_clusters(const std::vector<Point2D>& points,
+    std::vector<Cluster> spatial_grid_clusters(const std::vector<Point2D>& points,
         double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size);
 } // namespace detector_core

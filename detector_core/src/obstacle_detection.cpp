@@ -4,7 +4,7 @@
 namespace detector_core {
     DetectionResult detect_obstacles_with_points(const std::vector<Point2D>& points, 
     double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size) {
-        const std::vector<Cluster> clusters = euclidean_clusters(points, distance_tolerance, min_cluster_size, max_cluster_size);
+        const std::vector<Cluster> clusters = spatial_grid_clusters(points, distance_tolerance, min_cluster_size, max_cluster_size);
 
         DetectionResult result;
         result.bounding_boxes.reserve(clusters.size());
