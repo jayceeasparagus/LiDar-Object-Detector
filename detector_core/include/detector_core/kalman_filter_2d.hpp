@@ -11,7 +11,7 @@ namespace detector_core {
 
             void predict(double delta_time);
 
-            void uptae(double measured_x, double measured_y);
+            void update(double measured_x, double measured_y);
 
             double x() const;
             double y() const;
