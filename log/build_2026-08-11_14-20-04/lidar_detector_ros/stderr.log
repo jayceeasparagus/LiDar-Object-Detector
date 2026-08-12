@@ -1,0 +1,11 @@
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In member function ‘[01m[Kvoid LidarDetectorNode::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:56:38:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K-[m[K’ token
+   56 |                 const auto algorithm [01;31m[K-[m[K clustering_algorithm == "brute_force" ? detector_core::ClusteringAlgorithm::BruteForce
+      |                                      [01;31m[K^[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:59:174:[m[K [01;31m[Kerror: [m[K‘[01m[Kalgorithm[m[K’ was not declared in this scope
+   59 | re::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_, [01;31m[Kalgorithm[m[K);
+      |                                                                                                     [01;31m[K^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

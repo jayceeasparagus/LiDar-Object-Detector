@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.108s] [ 16%] Built target synthetic_scan_publisher
+[0.114s] [ 25%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[0.115s] [ 33%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o[0m
+[0.237s] In file included from [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/scan_detection.cpp:2[m[K:
+[0.237s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/obstacle_detection.hpp:10:92:[m[K [01;31m[Kerror: [m[K‘[01m[KClusteringAlgorithm[m[K’ has not been declared
+[0.237s]    10 |     double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size, [01;31m[KClusteringAlgorithm[m[K algorithm = ClusteringAlgorithm::SpatialGrid);
+[0.237s]       |                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.238s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/obstacle_detection.hpp:10:124:[m[K [01;31m[Kerror: [m[K‘[01m[KClusteringAlgorithm[m[K’ has not been declared
+[0.238s]    10 |     double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size, ClusteringAlgorithm algorithm = [01;31m[KClusteringAlgorithm[m[K::SpatialGrid);
+[0.238s]       |                                                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.244s] gmake[2]: *** [detector_core_build/CMakeFiles/detector_core.dir/build.make:160: detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o] Error 1
+[0.244s] gmake[2]: *** Waiting for unfinished jobs....
+[0.253s] In file included from [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp:1[m[K:
+[0.253s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/obstacle_detection.hpp:10:92:[m[K [01;31m[Kerror: [m[K‘[01m[KClusteringAlgorithm[m[K’ has not been declared
+[0.253s]    10 |     double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size, [01;31m[KClusteringAlgorithm[m[K algorithm = ClusteringAlgorithm::SpatialGrid);
+[0.253s]       |                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.254s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/obstacle_detection.hpp:10:124:[m[K [01;31m[Kerror: [m[K‘[01m[KClusteringAlgorithm[m[K’ has not been declared
+[0.254s]    10 | erance, std::size_t min_cluster_size, std::size_t max_cluster_size, ClusteringAlgorithm algorithm = [01;31m[KClusteringAlgorithm[m[K::SpatialGrid);
+[0.254s]       |                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.254s] 
+[0.257s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp:[m[K In function ‘[01m[Kdetector_core::DetectionResult detector_core::[01;32m[Kdetect_obstacles_with_points[m[K(const std::vector<Point2D>&, double, std::size_t, std::size_t)[m[K’:
+[0.257s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp:7:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kalgorithm[m[K’ was not declared in this scope
+[0.257s]     7 |        const std::vector<Cluster> clusters = [01;31m[Kalgorithm[m[K == ClusteringAlgorithm::BruteForce ? euclidean_clusters(points, distance_tolerance, min_cluster_size, max_cluster_size)
+[0.257s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[0.279s] gmake[2]: *** [detector_core_build/CMakeFiles/detector_core.dir/build.make:146: detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o] Error 1
+[0.279s] gmake[1]: *** [CMakeFiles/Makefile2:209: detector_core_build/CMakeFiles/detector_core.dir/all] Error 2
+[0.280s] gmake: *** [Makefile:146: all] Error 2
+[0.281s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

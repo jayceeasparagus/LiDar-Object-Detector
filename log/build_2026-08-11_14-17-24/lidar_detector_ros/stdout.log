@@ -1,0 +1,3 @@
+[  8%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[ 25%] Built target synthetic_scan_publisher
+[ 33%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o[0m

@@ -1,0 +1,5 @@
+[  8%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[ 25%] Built target synthetic_scan_publisher
+[ 33%] [32m[1mLinking CXX static library libdetector_core.a[0m
+[ 83%] Built target detector_core
+[ 91%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m

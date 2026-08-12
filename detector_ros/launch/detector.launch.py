@@ -20,5 +20,8 @@ def generate_launch_description():
     Node(package="tf2_ros", executable="static_transform_publisher", name="laser_static_transform", arguments=[
         "--x", "0.0", "--y", "0.0", "--z", "0.2", "--yaw", "0.0", "--pitch", "0.0", "--roll", "0.0", "--frame-id", "base_link", "--child-frame-id", "laser",],output="screen",),
     Node(package="nav2_costmap_2d", executable="nav2_costmap_2d", name="costmap", output="screen", parameters=[nav2_params],),
-    TimerAction(period=5.0, actions=[ExecuteProcess(cmd=["ros2", "lifecycle", "set", "/costmap", "configure",], output="screen",)],),
-    TimerAction(period=8.0, actions=[ExecuteProcess(cmd=["ros2", "lifecycle", "set", "/costmap", "activate",], output="screen",)],),])
+    Node(package="nav2_lifecycle_manager", executable="lifecycle_manager", name="lifecycle_manager_costmap", output="screen", parameters=[{
+        "autostart": True,
+        "node_names": ["costmap"],
+    }],),
+    ])

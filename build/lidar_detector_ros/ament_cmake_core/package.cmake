@@ -5,7 +5,7 @@ set(lidar_detector_ros_BUILD_DEPENDS "rclcpp" "sensor_msgs" "visualization_msgs"
 set(lidar_detector_ros_BUILDTOOL_DEPENDS "ament_cmake")
 set(lidar_detector_ros_BUILD_EXPORT_DEPENDS "rclcpp" "sensor_msgs" "visualization_msgs")
 set(lidar_detector_ros_BUILDTOOL_EXPORT_DEPENDS )
-set(lidar_detector_ros_EXEC_DEPENDS "launch" "launch_ros" "ament_index_python" "rviz2" "tf2_ros" "nav2_costmap_2d" "rclcpp" "sensor_msgs" "visualization_msgs")
+set(lidar_detector_ros_EXEC_DEPENDS "launch" "launch_ros" "ament_index_python" "rviz2" "tf2_ros" "nav2_costmap_2d" "nav2_lifecycle_manager" "rclcpp" "sensor_msgs" "visualization_msgs")
 set(lidar_detector_ros_TEST_DEPENDS )
 set(lidar_detector_ros_GROUP_DEPENDS )
 set(lidar_detector_ros_MEMBER_OF_GROUPS )

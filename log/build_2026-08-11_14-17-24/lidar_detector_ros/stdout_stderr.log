@@ -1,0 +1,11 @@
+[  8%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[ 25%] Built target synthetic_scan_publisher
+[ 33%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o[0m
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp:[m[K In function ‘[01m[Kdetector_core::DetectionResult detector_core::[01;32m[Kdetect_obstacles_with_points[m[K(const std::vector<Point2D>&, double, std::size_t, std::size_t)[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_core/src/obstacle_detection.cpp:7:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kalgorithm[m[K’ was not declared in this scope
+    7 |        const std::vector<Cluster> clusters = [01;31m[Kalgorithm[m[K == ClusteringAlgorithm::BruteForce ? euclidean_clusters(points, distance_tolerance, min_cluster_size, max_cluster_size)
+      |                                              [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [detector_core_build/CMakeFiles/detector_core.dir/build.make:146: detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:209: detector_core_build/CMakeFiles/detector_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

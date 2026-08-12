@@ -7,8 +7,8 @@ costmap:
     publish_frequency: 2.0
 
     rolling_window: true
-    width: 6
-    height: 6
+    width: 12
+    height: 12
     resolution: 0.05
 
     robot_radius: 0.2
@@ -19,17 +19,22 @@ costmap:
     obstacle_layer:
       plugin: "nav2_costmap_2d::ObstacleLayer"
       enabled: true
-      observation_sources: obstacle_points
+      combination_method: 1
+      observation_sources: scan
 
-      obstacle_points:
-        topic: /obstacle_points
-        data_type: "PointCloud2"
+      scan:
+        topic: /scan
+        data_type: "LaserScan"
         marking: true
-        clearing: false
+        clearing: true
+        inf_is_valid: true
         min_obstacle_height: 0.0
         max_obstacle_height: 1.0
         obstacle_min_range: 0.0
         obstacle_max_range: 10.0
+        raytrace_min_range: 0.0
+        raytrace_max_range: 10.0
+        observation_persistence: 0.0
 
     inflation_layer:
       plugin: "nav2_costmap_2d::InflationLayer"

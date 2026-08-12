@@ -13,6 +13,7 @@
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
 #include <cstdint>
+#include <stdexcept>
 
 class LidarDetectorNode : public rclcpp::Node {
     public:
@@ -29,6 +30,14 @@ class LidarDetectorNode : public rclcpp::Node {
 
             obstacle_cloud_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("obstacle_points", 10);
 
+            clustering_algorithm_ = this->declare_parameter<std::string>("clustering_algorithm", "spatial_grid");
+
+            if (clustering_algorithm_ != "spatial_grid" && clustering_algorithm_ != "brute_force") {
+                throw std::invalid_argument("clustering_algorithm must be spatial_grid or brute_force");
+            }
+
+            RCLCPP_INFO(this->get_logger(), "Using clustering algorithm: %s", clustering_algorithm_.c_str());
+
             RCLCPP_INFO(this->get_logger(), "LiDar detector node started");
         }
 
@@ -36,6 +45,7 @@ class LidarDetectorNode : public rclcpp::Node {
         double distance_tolerance_;
         std::size_t min_cluster_size_;
         std::size_t max_cluster_size_;
+        std::string clustering_algorithm_;
 
         void scan_callback(
             const sensor_msgs::msg::LaserScan::ConstSharedPtr message) {
@@ -43,7 +53,10 @@ class LidarDetectorNode : public rclcpp::Node {
 
                 const std::vector<detector_core::Point2D> points = detector_core::scan_to_points(ranges, message->angle_min, message->angle_increment, message->range_min, message->range_max);
 
-                const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_);
+                const auto algorithm = clustering_algorithm_ == "brute_force" ? detector_core::ClusteringAlgorithm::BruteForce
+                 : detector_core::ClusteringAlgorithm::SpatialGrid;
+
+                const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_, algorithm);
 
                 auto output_header = message->header;
                 if (output_header.stamp.sec == 0 &&
@@ -89,7 +102,7 @@ class LidarDetectorNode : public rclcpp::Node {
                 visualization_msgs::msg::MarkerArray marker_array;
 
                 const double scan_period = static_cast<double>(message->scan_time);
-                const double lifetime_seconds = std::max(0.2, 2.0 * scan_period);
+                const double lifetime_seconds = std::max(0.3, 1.5 * scan_period);
                 const int32_t lifetime_sec = static_cast<int32_t>(lifetime_seconds);
                 const uint32_t lifetime_nanosec = static_cast<uint32_t>((lifetime_seconds - lifetime_sec) * 1e9);
 

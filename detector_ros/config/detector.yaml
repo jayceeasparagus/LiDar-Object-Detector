@@ -4,3 +4,4 @@ lidar_detector_node:
     distance_tolerance: 0.2
     min_cluster_size: 2
     max_cluster_size: 1000
+    clustering_algorithm: spatial_grid
