@@ -51,7 +51,11 @@ class SyntheticScanPublisher : public rclcpp::Node {
 
             add_obstacle(scan, -0.4, obstacle_one_range);
 
-            add_obstacle(scan, obstacle_two_angle, 4.5);
+            const int cycle = static_cast<int>(elapsed_time_) % 12;
+
+        if (cycle < 9) {
+            add_obstacle(scan, obstacle_two_angle,4.5);
+        }
 
 elapsed_time_ += 0.2;
 

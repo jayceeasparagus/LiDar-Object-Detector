@@ -134,19 +134,19 @@ class LidarDetectorNode : public rclcpp::Node {
                 const int32_t lifetime_sec = static_cast<int32_t>(lifetime_seconds);
                 const uint32_t lifetime_nanosec = static_cast<uint32_t>((lifetime_seconds - lifetime_sec) * 1e9);
 
-                for (std::size_t i = 0; i < result.bounding_boxes.size(); ++i) {
-                    const auto& box = result.bounding_boxes[i];
+                for (const auto& track : tracker_->tracks()) {
+                    const auto& box = track.bounding_box();
 
                     visualization_msgs::msg::Marker marker;
 
                     marker.header = output_header;
                     marker.ns = "obstacles";
-                    marker.id = static_cast<int32_t>(i);
+                    marker.id = static_cast<int32_t>(track.id());
                     marker.type = visualization_msgs::msg::Marker::CUBE;
                     marker.action = visualization_msgs::msg::Marker::ADD;
 
-                    marker.pose.position.x = (box.min_x + box.max_x) / 2.0;
-                    marker.pose.position.y = (box.min_y + box.max_y) / 2.0;
+                    marker.pose.position.x = track.x();
+                    marker.pose.position.y = track.y();
                     marker.pose.position.z = 0.05;
                     marker.pose.orientation.w = 1.0;
 
@@ -163,6 +163,26 @@ class LidarDetectorNode : public rclcpp::Node {
                     marker.lifetime.nanosec = lifetime_nanosec;
 
                     marker_array.markers.push_back(marker);
+
+                    visualization_msgs::msg::Marker id_marker = marker;
+                    id_marker.ns = "obstacle_labels";
+                    id_marker.id = 100000 + static_cast<int32_t>(track.id());
+                    id_marker.type =
+                        visualization_msgs::msg::Marker::TEXT_VIEW_FACING;
+                    id_marker.text =
+                        "ID " + std::to_string(track.id()) +
+                        "\nVx " + std::to_string(track.velocity_x()) +
+                        "\nVy " + std::to_string(track.velocity_y());
+                    id_marker.pose.position.z = 0.3;
+                    id_marker.scale.x = 0.2;
+                    id_marker.scale.y = 0.2;
+                    id_marker.scale.z = 0.2;
+                    id_marker.color.r = 1.0;
+                    id_marker.color.g = 1.0;
+                    id_marker.color.b = 0.0;
+                    id_marker.color.a = 1.0;
+
+                    marker_array.markers.push_back(id_marker);
                 }
 
                 marker_publisher_->publish(marker_array);

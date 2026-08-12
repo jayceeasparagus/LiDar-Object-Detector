@@ -104,3 +104,27 @@ TEST(MultiObjectTrackerTest, FarDetectionCreatesNewTrack)
     EXPECT_EQ(tracker.tracks()[1].id(), 1);
     EXPECT_EQ(tracker.tracks()[1].missed_frames(), 0);
 }
+
+TEST(MultiObjectTrackerTest, KeepsIdsWhenDetectionOrderChanges)
+{
+    detector_core::MultiObjectTracker tracker(
+        2.0, 3, 1.0, 0.1);
+
+    tracker.update({
+        {0.0, 0.0, 1.0, 1.0},
+        {5.0, 5.0, 6.0, 6.0}
+    }, 1.0);
+
+    const auto first_id = tracker.tracks()[0].id();
+    const auto second_id = tracker.tracks()[1].id();
+
+    tracker.update({
+        {5.1, 5.0, 6.1, 6.0},
+        {0.1, 0.0, 1.1, 1.0}
+    }, 1.0);
+
+    ASSERT_EQ(tracker.tracks().size(), 2);
+
+    EXPECT_EQ(tracker.tracks()[0].id(), first_id);
+    EXPECT_EQ(tracker.tracks()[1].id(), second_id);
+}
