@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include
+CXX_INCLUDES = -I/home/jayce/projects/LiDar-Object-Detector/detector_core/include -isystem /usr/include/eigen3
 
 CXX_FLAGS = -std=gnu++17 -DGTEST_HAS_PTHREAD=1
 

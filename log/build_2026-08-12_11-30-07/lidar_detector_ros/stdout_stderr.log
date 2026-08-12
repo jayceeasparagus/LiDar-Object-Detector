@@ -1,0 +1,6 @@
+[ 13%] Built target synthetic_scan_publisher
+[ 86%] Built target detector_core
+[ 93%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidar_detector_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

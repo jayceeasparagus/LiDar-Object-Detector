@@ -167,6 +167,48 @@ detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core.dir/src/scan_detection.cpp.s"
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/src/scan_detection.cpp -o CMakeFiles/detector_core.dir/src/scan_detection.cpp.s
 
+detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/flags.make
+detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/src/kalman_filter_2d.cpp
+detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o -MF CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o.d -o CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/src/kalman_filter_2d.cpp
+
+detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/src/kalman_filter_2d.cpp > CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.i
+
+detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/src/kalman_filter_2d.cpp -o CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.s
+
+detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/flags.make
+detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/src/tracked_obstacle.cpp
+detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o -MF CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o.d -o CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/src/tracked_obstacle.cpp
+
+detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/src/tracked_obstacle.cpp > CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.i
+
+detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/src/tracked_obstacle.cpp -o CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.s
+
+detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/flags.make
+detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/src/multi_object_tracker.cpp
+detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o: detector_core_build/CMakeFiles/detector_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o -MF CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o.d -o CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/src/multi_object_tracker.cpp
+
+detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/src/multi_object_tracker.cpp > CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.i
+
+detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/src/multi_object_tracker.cpp -o CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.s
+
 # Object files for target detector_core
 detector_core_OBJECTS = \
 "CMakeFiles/detector_core.dir/src/library.cpp.o" \
@@ -175,7 +217,10 @@ detector_core_OBJECTS = \
 "CMakeFiles/detector_core.dir/src/clustering.cpp.o" \
 "CMakeFiles/detector_core.dir/src/bounding_box.cpp.o" \
 "CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o" \
-"CMakeFiles/detector_core.dir/src/scan_detection.cpp.o"
+"CMakeFiles/detector_core.dir/src/scan_detection.cpp.o" \
+"CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o" \
+"CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o" \
+"CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o"
 
 # External object files for target detector_core
 detector_core_EXTERNAL_OBJECTS =
@@ -187,9 +232,12 @@ detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_
 detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o
 detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o
 detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o
+detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o
+detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o
+detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o
 detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/build.make
 detector_core_build/libdetector_core.a: detector_core_build/CMakeFiles/detector_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libdetector_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libdetector_core.a"
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && $(CMAKE_COMMAND) -P CMakeFiles/detector_core.dir/cmake_clean_target.cmake
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detector_core.dir/link.txt --verbose=$(VERBOSE)
 

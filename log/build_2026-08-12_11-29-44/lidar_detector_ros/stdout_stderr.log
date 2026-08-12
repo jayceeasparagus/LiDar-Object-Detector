@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[ 13%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o[0m
+[ 13%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/clustering.cpp.o[0m
+[ 20%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o[0m
+[ 26%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/library.cpp.o[0m
+[ 33%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o[0m
+[ 40%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o[0m
+[ 46%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[ 53%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o[0m
+[ 66%] Built target synthetic_scan_publisher
+[ 73%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o[0m
+[ 80%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o[0m
+[ 86%] [32m[1mLinking CXX static library libdetector_core.a[0m
+[ 86%] Built target detector_core
+[ 93%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_missed_frames[m[K’ was not declared in this scope; did you mean ‘[01m[Kmax_missed_frames_[m[K’?
+   47 |                 static_cast<std::size_t>([01;31m[Kmax_missed_frames[m[K), tracking_process_noise, tracking_measurement_noise_);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[Kmax_missed_frames_[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracking_process_noise[m[K’ was not declared in this scope; did you mean ‘[01m[Ktracking_process_noise_[m[K’?
+   47 |                 static_cast<std::size_t>(max_missed_frames), [01;31m[Ktracking_process_noise[m[K, tracking_measurement_noise_);
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                              [32m[Ktracking_process_noise_[m[K
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

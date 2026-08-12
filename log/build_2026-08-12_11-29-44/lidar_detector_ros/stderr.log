@@ -1,0 +1,12 @@
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_missed_frames[m[K’ was not declared in this scope; did you mean ‘[01m[Kmax_missed_frames_[m[K’?
+   47 |                 static_cast<std::size_t>([01;31m[Kmax_missed_frames[m[K), tracking_process_noise, tracking_measurement_noise_);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[Kmax_missed_frames_[m[K
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracking_process_noise[m[K’ was not declared in this scope; did you mean ‘[01m[Ktracking_process_noise_[m[K’?
+   47 |                 static_cast<std::size_t>(max_missed_frames), [01;31m[Ktracking_process_noise[m[K, tracking_measurement_noise_);
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                              [32m[Ktracking_process_noise_[m[K
+gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidar_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

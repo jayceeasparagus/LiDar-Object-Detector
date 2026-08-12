@@ -5,3 +5,8 @@ lidar_detector_node:
     min_cluster_size: 2
     max_cluster_size: 1000
     clustering_algorithm: spatial_grid
+    tracking_enabled: true
+    association_distance: 1.0
+    max_missed_frames: 3
+    tracking_process_noise: 1.0
+    tracking_measurement_noise: 0.1

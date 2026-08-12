@@ -69,21 +69,21 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "detector_core::@b7da9f85b0c611f4523a",
-					"jsonFile" : "target-detector_core-cc28e7ddd3836dc29e27.json",
+					"jsonFile" : "target-detector_core-adbec84dc12d3c175c5e.json",
 					"name" : "detector_core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "detector_core_tests::@b7da9f85b0c611f4523a",
-					"jsonFile" : "target-detector_core_tests-3ceaef0e2495789fe646.json",
+					"jsonFile" : "target-detector_core_tests-360ac6f83de516580b9f.json",
 					"name" : "detector_core_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lidar_detector_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lidar_detector_node-2f1f5904fccf08dbac97.json",
+					"jsonFile" : "target-lidar_detector_node-ed9eb17e7d4fb1c3ea40.json",
 					"name" : "lidar_detector_node",
 					"projectIndex" : 0
 				},

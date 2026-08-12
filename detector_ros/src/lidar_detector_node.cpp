@@ -14,6 +14,7 @@
 #include <sensor_msgs/point_cloud2_iterator.hpp>
 #include <cstdint>
 #include <stdexcept>
+#include "detector_core/multi_object_tracker.hpp"
 
 class LidarDetectorNode : public rclcpp::Node {
     public:
@@ -32,6 +33,19 @@ class LidarDetectorNode : public rclcpp::Node {
 
             clustering_algorithm_ = this->declare_parameter<std::string>("clustering_algorithm", "spatial_grid");
 
+            tracking_enabled_ = this->declare_parameter<bool>("tracking_enabled", true);
+
+            association_distance_ = this->declare_parameter<double>("association_distance", 1.0);
+
+            max_missed_frames_ = this->declare_parameter<int>("max_missed_frames", 3);
+
+            tracking_process_noise_ = this->declare_parameter<double>("tracking_process_noise", 1.0);
+
+            tracking_measurement_noise_ = this->declare_parameter<double>("tracking_measurement_noise", 0.1);
+
+            tracker_ = std::make_unique<detector_core::MultiObjectTracker>(association_distance_, 
+                static_cast<std::size_t>(max_missed_frames_), tracking_process_noise_, tracking_measurement_noise_);
+
             if (clustering_algorithm_ != "spatial_grid" && clustering_algorithm_ != "brute_force") {
                 throw std::invalid_argument("clustering_algorithm must be spatial_grid or brute_force");
             }
@@ -46,6 +60,12 @@ class LidarDetectorNode : public rclcpp::Node {
         std::size_t min_cluster_size_;
         std::size_t max_cluster_size_;
         std::string clustering_algorithm_;
+        std::unique_ptr<detector_core::MultiObjectTracker> tracker_;
+        bool tracking_enabled_;
+        double association_distance_;
+        int max_missed_frames_;
+        double tracking_process_noise_;
+        double tracking_measurement_noise_;
 
         void scan_callback(
             const sensor_msgs::msg::LaserScan::ConstSharedPtr message) {
@@ -57,6 +77,14 @@ class LidarDetectorNode : public rclcpp::Node {
                  : detector_core::ClusteringAlgorithm::SpatialGrid;
 
                 const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, distance_tolerance_, min_cluster_size_, max_cluster_size_, algorithm);
+
+                if (tracking_enabled_) {
+                    const double delta_time = message->scan_time > 0.0F ? static_cast<double>(message->scan_time) : 0.2;
+
+                    tracker_->update(result.bounding_boxes, delta_time);
+
+                    RCLCPP_INFO(this->get_logger(), "Active tracks: %zu", tracker_->tracks().size());
+                }
 
                 auto output_header = message->header;
                 if (output_header.stamp.sec == 0 &&

@@ -1,0 +1,43 @@
+[0.019s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.133s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.391s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.491s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.730s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.781s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.887s] -- Configuring done (0.8s)
+[0.916s] -- Generating done (0.0s)
+[0.920s] -- Build files have been written to: /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[0.954s] [ 13%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_processing.cpp.o[0m
+[0.954s] [ 13%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/clustering.cpp.o[0m
+[0.955s] [ 20%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box.cpp.o[0m
+[0.959s] [ 26%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/library.cpp.o[0m
+[0.961s] [ 33%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o[0m
+[0.963s] [ 40%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/scan_detection.cpp.o[0m
+[0.969s] [ 46%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o[0m
+[1.006s] [ 53%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o[0m
+[1.043s] [ 66%] Built target synthetic_scan_publisher
+[1.055s] [ 73%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.o[0m
+[1.116s] [ 80%] [32mBuilding CXX object detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o[0m
+[2.584s] [ 86%] [32m[1mLinking CXX static library libdetector_core.a[0m
+[2.620s] [ 86%] Built target detector_core
+[2.642s] [ 93%] [32mBuilding CXX object CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o[0m
+[4.393s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:[m[K In constructor ‘[01m[KLidarDetectorNode::[01;32m[KLidarDetectorNode[m[K()[m[K’:
+[4.393s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_missed_frames[m[K’ was not declared in this scope; did you mean ‘[01m[Kmax_missed_frames_[m[K’?
+[4.393s]    47 |                 static_cast<std::size_t>([01;31m[Kmax_missed_frames[m[K), tracking_process_noise, tracking_measurement_noise_);
+[4.394s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.394s]       |                                          [32m[Kmax_missed_frames_[m[K
+[4.397s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/lidar_detector_node.cpp:47:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracking_process_noise[m[K’ was not declared in this scope; did you mean ‘[01m[Ktracking_process_noise_[m[K’?
+[4.397s]    47 |                 static_cast<std::size_t>(max_missed_frames), [01;31m[Ktracking_process_noise[m[K, tracking_measurement_noise_);
+[4.397s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.397s]       |                                                              [32m[Ktracking_process_noise_[m[K
+[6.007s] gmake[2]: *** [CMakeFiles/lidar_detector_node.dir/build.make:76: CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.o] Error 1
+[6.008s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidar_detector_node.dir/all] Error 2
+[6.008s] gmake: *** [Makefile:146: all] Error 2
+[6.009s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
