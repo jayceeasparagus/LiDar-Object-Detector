@@ -1,0 +1,99 @@
+[1.420s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', 'detector_ros', '--symlink-install']
+[1.421s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['detector_ros'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7235f4760590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7235f472fd40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7235f472fd40>>, mixin_verb=('build',))
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.618s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jayce/projects/LiDar-Object-Detector/detector_ros'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extension 'ignore'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extension 'ignore_ament_install'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extensions ['colcon_pkg']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extension 'colcon_pkg'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extensions ['colcon_meta']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extension 'colcon_meta'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extensions ['ros']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(detector_ros) by extension 'ros'
+[1.712s] DEBUG:colcon.colcon_core.package_identification:Package 'detector_ros' with type 'ros.ament_cmake' and name 'lidar_detector_ros'
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_args' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_target' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'lidar_detector_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.822s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_detector_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros', 'merge_install': False, 'path': '/home/jayce/projects/LiDar-Object-Detector/detector_ros', 'symlink_install': True, 'test_result_base': None}
+[1.823s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.824s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jayce/projects/LiDar-Object-Detector/detector_ros' with build type 'ament_cmake'
+[1.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jayce/projects/LiDar-Object-Detector/detector_ros'
+[1.847s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[2.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': /usr/bin/cmake --install /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[2.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_detector_ros)
+[2.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': /usr/bin/cmake --install /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros' for CMake module files
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros' for CMake config files
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_detector_ros', 'cmake_prefix_path')
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.dsv'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.sh'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/bin'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/pkgconfig/lidar_detector_ros.pc'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/python3.12/site-packages'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/bin'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.sh'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.bash'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.zsh'
+[2.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/colcon-core/packages/lidar_detector_ros)
+[2.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_detector_ros)
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros' for CMake module files
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros' for CMake config files
+[2.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_detector_ros', 'cmake_prefix_path')
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.ps1'
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.dsv'
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/hook/cmake_prefix_path.sh'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/bin'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/pkgconfig/lidar_detector_ros.pc'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/python3.12/site-packages'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/bin'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.ps1'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.dsv'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.bash'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.zsh'
+[2.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/colcon-core/packages/lidar_detector_ros)
+[2.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.791s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.145s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.145s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.145s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.152s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.152s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jayce/projects/LiDar-Object-Detector/install/local_setup.ps1'
+[3.159s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jayce/projects/LiDar-Object-Detector/install/_local_setup_util_ps1.py'
+[3.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jayce/projects/LiDar-Object-Detector/install/setup.ps1'
+[3.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jayce/projects/LiDar-Object-Detector/install/local_setup.sh'
+[3.167s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jayce/projects/LiDar-Object-Detector/install/_local_setup_util_sh.py'
+[3.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jayce/projects/LiDar-Object-Detector/install/setup.sh'
+[3.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jayce/projects/LiDar-Object-Detector/install/local_setup.bash'
+[3.175s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jayce/projects/LiDar-Object-Detector/install/setup.bash'
+[3.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jayce/projects/LiDar-Object-Detector/install/local_setup.zsh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jayce/projects/LiDar-Object-Detector/install/setup.zsh'
