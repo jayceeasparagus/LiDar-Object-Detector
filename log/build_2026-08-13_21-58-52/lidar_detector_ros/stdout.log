@@ -1,0 +1,8 @@
+[  5%] Building CXX object detector_core_build/CMakeFiles/detector_core.dir/src/point3d_processing.cpp.o
+[ 15%] Built target synthetic_scan_publisher
+[ 25%] Built target odom_tf_broadcaster
+[ 30%] Linking CXX static library libdetector_core.a
+[ 80%] Built target detector_core
+[ 85%] Linking CXX executable lidar_detector_node
+[ 90%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+[ 95%] Built target lidar_detector_node

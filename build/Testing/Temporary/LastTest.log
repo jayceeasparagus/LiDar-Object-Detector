@@ -1,10 +1,10 @@
-Start testing: Aug 12 12:23 PDT
+Start testing: Aug 14 01:17 PDT
 ----------------------------------------------------------
-1/30 Testing: Point2DTest.StoresCoordinates
-1/30 Test: Point2DTest.StoresCoordinates
+1/43 Testing: Point2DTest.StoresCoordinates
+1/43 Test: Point2DTest.StoresCoordinates
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point2DTest.StoresCoordinates" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"Point2DTest.StoresCoordinates" start time: Aug 12 12:23 PDT
+"Point2DTest.StoresCoordinates" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = Point2DTest.StoresCoordinates
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Point2DTest.StoresCoordinates" end time: Aug 12 12:23 PDT
+"Point2DTest.StoresCoordinates" end time: Aug 14 01:17 PDT
 "Point2DTest.StoresCoordinates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/30 Testing: PolarConversionTest.ConvertsZeroAngle
-2/30 Test: PolarConversionTest.ConvertsZeroAngle
+2/43 Testing: PolarConversionTest.ConvertsZeroAngle
+2/43 Test: PolarConversionTest.ConvertsZeroAngle
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=PolarConversionTest.ConvertsZeroAngle" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"PolarConversionTest.ConvertsZeroAngle" start time: Aug 12 12:23 PDT
+"PolarConversionTest.ConvertsZeroAngle" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = PolarConversionTest.ConvertsZeroAngle
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PolarConversionTest.ConvertsZeroAngle" end time: Aug 12 12:23 PDT
+"PolarConversionTest.ConvertsZeroAngle" end time: Aug 14 01:17 PDT
 "PolarConversionTest.ConvertsZeroAngle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/30 Testing: PolarConversionTest.ConvertsNinetyDegreeAngle
-3/30 Test: PolarConversionTest.ConvertsNinetyDegreeAngle
+3/43 Testing: PolarConversionTest.ConvertsNinetyDegreeAngle
+3/43 Test: PolarConversionTest.ConvertsNinetyDegreeAngle
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=PolarConversionTest.ConvertsNinetyDegreeAngle" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"PolarConversionTest.ConvertsNinetyDegreeAngle" start time: Aug 12 12:23 PDT
+"PolarConversionTest.ConvertsNinetyDegreeAngle" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = PolarConversionTest.ConvertsNinetyDegreeAngle
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PolarConversionTest.ConvertsNinetyDegreeAngle" end time: Aug 12 12:23 PDT
+"PolarConversionTest.ConvertsNinetyDegreeAngle" end time: Aug 14 01:17 PDT
 "PolarConversionTest.ConvertsNinetyDegreeAngle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/30 Testing: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
-4/30 Test: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+4/43 Testing: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
+4/43 Test: ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" start time: Aug 12 12:23 PDT
+"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = ScanProcessingTest.ConvertsValidRangesAndSkipsInvalid
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" end time: Aug 12 12:23 PDT
+"ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" end time: Aug 14 01:17 PDT
 "ScanProcessingTest.ConvertsValidRangesAndSkipsInvalidRanges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/30 Testing: ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters
-5/30 Test: ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters
+5/43 Testing: ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters
+5/43 Test: ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" start time: Aug 12 12:23 PDT
+"ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = ClusteringTest.GroupsNearbyPointsAndRejectsSmallClust
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" end time: Aug 12 12:23 PDT
+"ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" end time: Aug 14 01:17 PDT
 "ClusteringTest.GroupsNearbyPointsAndRejectsSmallClusters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/30 Testing: ClusteringTest.OrderedAlgorithmGroupsContiguousPoints
-6/30 Test: ClusteringTest.OrderedAlgorithmGroupsContiguousPoints
+6/43 Testing: ClusteringTest.OrderedAlgorithmGroupsContiguousPoints
+6/43 Test: ClusteringTest.OrderedAlgorithmGroupsContiguousPoints
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" start time: Aug 12 12:23 PDT
+"ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = ClusteringTest.OrderedAlgorithmGroupsContiguousPoints
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" end time: Aug 12 12:23 PDT
+"ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" end time: Aug 14 01:17 PDT
 "ClusteringTest.OrderedAlgorithmGroupsContiguousPoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/30 Testing: ClusteringTest.SeparatesInterleavedObstacles
-7/30 Test: ClusteringTest.SeparatesInterleavedObstacles
+7/43 Testing: ClusteringTest.SeparatesInterleavedObstacles
+7/43 Test: ClusteringTest.SeparatesInterleavedObstacles
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SeparatesInterleavedObstacles" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SeparatesInterleavedObstacles" start time: Aug 12 12:23 PDT
+"ClusteringTest.SeparatesInterleavedObstacles" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = ClusteringTest.SeparatesInterleavedObstacles
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SeparatesInterleavedObstacles" end time: Aug 12 12:23 PDT
+"ClusteringTest.SeparatesInterleavedObstacles" end time: Aug 14 01:17 PDT
 "ClusteringTest.SeparatesInterleavedObstacles" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/30 Testing: ClusteringTest.SpatialGridMatchesBruteForce
-8/30 Test: ClusteringTest.SpatialGridMatchesBruteForce
+8/43 Testing: ClusteringTest.SpatialGridMatchesBruteForce
+8/43 Test: ClusteringTest.SpatialGridMatchesBruteForce
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridMatchesBruteForce" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridMatchesBruteForce" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridMatchesBruteForce" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = ClusteringTest.SpatialGridMatchesBruteForce
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridMatchesBruteForce" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridMatchesBruteForce" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridMatchesBruteForce" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/30 Testing: ClusteringTest.SpatialGridHandlesEmptyInput
-9/30 Test: ClusteringTest.SpatialGridHandlesEmptyInput
+9/43 Testing: ClusteringTest.SpatialGridHandlesEmptyInput
+9/43 Test: ClusteringTest.SpatialGridHandlesEmptyInput
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridHandlesEmptyInput" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridHandlesEmptyInput" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridHandlesEmptyInput" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = ClusteringTest.SpatialGridHandlesEmptyInput
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridHandlesEmptyInput" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridHandlesEmptyInput" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridHandlesEmptyInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/30 Testing: ClusteringTest.SpatialGridGroupsDuplicatePoints
-10/30 Test: ClusteringTest.SpatialGridGroupsDuplicatePoints
+10/43 Testing: ClusteringTest.SpatialGridGroupsDuplicatePoints
+10/43 Test: ClusteringTest.SpatialGridGroupsDuplicatePoints
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridGroupsDuplicatePoints" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridGroupsDuplicatePoints" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridGroupsDuplicatePoints" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -266,15 +266,15 @@ Note: Google Test filter = ClusteringTest.SpatialGridGroupsDuplicatePoints
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridGroupsDuplicatePoints" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridGroupsDuplicatePoints" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridGroupsDuplicatePoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/30 Testing: ClusteringTest.SpatialGridHandlesCellBoundaries
-11/30 Test: ClusteringTest.SpatialGridHandlesCellBoundaries
+11/43 Testing: ClusteringTest.SpatialGridHandlesCellBoundaries
+11/43 Test: ClusteringTest.SpatialGridHandlesCellBoundaries
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridHandlesCellBoundaries" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridHandlesCellBoundaries" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridHandlesCellBoundaries" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -293,15 +293,15 @@ Note: Google Test filter = ClusteringTest.SpatialGridHandlesCellBoundaries
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridHandlesCellBoundaries" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridHandlesCellBoundaries" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridHandlesCellBoundaries" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/30 Testing: ClusteringTest.SpatialGridPreservesTransitiveConnectivity
-12/30 Test: ClusteringTest.SpatialGridPreservesTransitiveConnectivity
+12/43 Testing: ClusteringTest.SpatialGridPreservesTransitiveConnectivity
+12/43 Test: ClusteringTest.SpatialGridPreservesTransitiveConnectivity
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridPreservesTransitiveConnectivity" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridPreservesTransitiveConnectivity" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridPreservesTransitiveConnectivity" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -320,15 +320,15 @@ Note: Google Test filter = ClusteringTest.SpatialGridPreservesTransitiveConnecti
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridPreservesTransitiveConnectivity" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridPreservesTransitiveConnectivity" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridPreservesTransitiveConnectivity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/30 Testing: ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData
-13/30 Test: ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData
+13/43 Testing: ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData
+13/43 Test: ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" start time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -347,15 +347,96 @@ Note: Google Test filter = ClusteringTest.SpatialGridMatchesBruteForceOnGenerate
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" end time: Aug 12 12:23 PDT
+"ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" end time: Aug 14 01:17 PDT
 "ClusteringTest.SpatialGridMatchesBruteForceOnGeneratedData" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/30 Testing: BoundingBoxTest.ComputesMinimumAndMaximumCoordinates
-14/30 Test: BoundingBoxTest.ComputesMinimumAndMaximumCoordinates
+14/43 Testing: ClusteringTest.SpatialGrid3DSeparatesObjects
+14/43 Test: ClusteringTest.SpatialGrid3DSeparatesObjects
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGrid3DSeparatesObjects" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"ClusteringTest.SpatialGrid3DSeparatesObjects" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ClusteringTest.SpatialGrid3DSeparatesObjects
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClusteringTest
+[ RUN      ] ClusteringTest.SpatialGrid3DSeparatesObjects
+[       OK ] ClusteringTest.SpatialGrid3DSeparatesObjects (0 ms)
+[----------] 1 test from ClusteringTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClusteringTest.SpatialGrid3DSeparatesObjects" end time: Aug 14 01:17 PDT
+"ClusteringTest.SpatialGrid3DSeparatesObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/43 Testing: ClusteringTest.SpatialGrid3DSeparatesAlongZ
+15/43 Test: ClusteringTest.SpatialGrid3DSeparatesAlongZ
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGrid3DSeparatesAlongZ" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"ClusteringTest.SpatialGrid3DSeparatesAlongZ" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ClusteringTest.SpatialGrid3DSeparatesAlongZ
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClusteringTest
+[ RUN      ] ClusteringTest.SpatialGrid3DSeparatesAlongZ
+[       OK ] ClusteringTest.SpatialGrid3DSeparatesAlongZ (0 ms)
+[----------] 1 test from ClusteringTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClusteringTest.SpatialGrid3DSeparatesAlongZ" end time: Aug 14 01:17 PDT
+"ClusteringTest.SpatialGrid3DSeparatesAlongZ" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/43 Testing: ClusteringTest.SpatialGrid3DHandlesEmptyInput
+16/43 Test: ClusteringTest.SpatialGrid3DHandlesEmptyInput
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ClusteringTest.SpatialGrid3DHandlesEmptyInput" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"ClusteringTest.SpatialGrid3DHandlesEmptyInput" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ClusteringTest.SpatialGrid3DHandlesEmptyInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClusteringTest
+[ RUN      ] ClusteringTest.SpatialGrid3DHandlesEmptyInput
+[       OK ] ClusteringTest.SpatialGrid3DHandlesEmptyInput (0 ms)
+[----------] 1 test from ClusteringTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClusteringTest.SpatialGrid3DHandlesEmptyInput" end time: Aug 14 01:17 PDT
+"ClusteringTest.SpatialGrid3DHandlesEmptyInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/43 Testing: BoundingBoxTest.ComputesMinimumAndMaximumCoordinates
+17/43 Test: BoundingBoxTest.ComputesMinimumAndMaximumCoordinates
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" start time: Aug 12 12:23 PDT
+"BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -374,15 +455,96 @@ Note: Google Test filter = BoundingBoxTest.ComputesMinimumAndMaximumCoordinates
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" end time: Aug 12 12:23 PDT
+"BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" end time: Aug 14 01:17 PDT
 "BoundingBoxTest.ComputesMinimumAndMaximumCoordinates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/30 Testing: ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters
-15/30 Test: ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters
+18/43 Testing: OrientedBoundingBoxTest.StoresOrientationAndDimensions
+18/43 Test: OrientedBoundingBoxTest.StoresOrientationAndDimensions
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=OrientedBoundingBoxTest.StoresOrientationAndDimensions" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"OrientedBoundingBoxTest.StoresOrientationAndDimensions" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = OrientedBoundingBoxTest.StoresOrientationAndDimensions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrientedBoundingBoxTest
+[ RUN      ] OrientedBoundingBoxTest.StoresOrientationAndDimensions
+[       OK ] OrientedBoundingBoxTest.StoresOrientationAndDimensions (0 ms)
+[----------] 1 test from OrientedBoundingBoxTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrientedBoundingBoxTest.StoresOrientationAndDimensions" end time: Aug 14 01:17 PDT
+"OrientedBoundingBoxTest.StoresOrientationAndDimensions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/43 Testing: OrientedBoundingBoxTest.ComputesHorizontalBox
+19/43 Test: OrientedBoundingBoxTest.ComputesHorizontalBox
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=OrientedBoundingBoxTest.ComputesHorizontalBox" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"OrientedBoundingBoxTest.ComputesHorizontalBox" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = OrientedBoundingBoxTest.ComputesHorizontalBox
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrientedBoundingBoxTest
+[ RUN      ] OrientedBoundingBoxTest.ComputesHorizontalBox
+[       OK ] OrientedBoundingBoxTest.ComputesHorizontalBox (0 ms)
+[----------] 1 test from OrientedBoundingBoxTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrientedBoundingBoxTest.ComputesHorizontalBox" end time: Aug 14 01:17 PDT
+"OrientedBoundingBoxTest.ComputesHorizontalBox" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/43 Testing: OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox
+20/43 Test: OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrientedBoundingBoxTest
+[ RUN      ] OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox
+[       OK ] OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox (0 ms)
+[----------] 1 test from OrientedBoundingBoxTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox" end time: Aug 14 01:17 PDT
+"OrientedBoundingBoxTest.ComputesFortyFiveDegreeBox" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/43 Testing: ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters
+21/43 Test: ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" start time: Aug 12 12:23 PDT
+"ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -401,15 +563,15 @@ Note: Google Test filter = ObstacleDetectionTest.ProducesBoundingBoxesForPointCl
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" end time: Aug 12 12:23 PDT
+"ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" end time: Aug 14 01:17 PDT
 "ObstacleDetectionTest.ProducesBoundingBoxesForPointClusters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/30 Testing: ScanDetectionTest.ConvertsScanIntoObstacleBoxes
-16/30 Test: ScanDetectionTest.ConvertsScanIntoObstacleBoxes
+22/43 Testing: ScanDetectionTest.ConvertsScanIntoObstacleBoxes
+22/43 Test: ScanDetectionTest.ConvertsScanIntoObstacleBoxes
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=ScanDetectionTest.ConvertsScanIntoObstacleBoxes" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"ScanDetectionTest.ConvertsScanIntoObstacleBoxes" start time: Aug 12 12:23 PDT
+"ScanDetectionTest.ConvertsScanIntoObstacleBoxes" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -428,15 +590,15 @@ Note: Google Test filter = ScanDetectionTest.ConvertsScanIntoObstacleBoxes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ScanDetectionTest.ConvertsScanIntoObstacleBoxes" end time: Aug 12 12:23 PDT
+"ScanDetectionTest.ConvertsScanIntoObstacleBoxes" end time: Aug 14 01:17 PDT
 "ScanDetectionTest.ConvertsScanIntoObstacleBoxes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/30 Testing: DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes
-17/30 Test: DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes
+23/43 Testing: DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes
+23/43 Test: DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" start time: Aug 12 12:23 PDT
+"DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -455,15 +617,15 @@ Note: Google Test filter = DetectionResultTest.ReturnsObstaclePointsAndBoundingB
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" end time: Aug 12 12:23 PDT
+"DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" end time: Aug 14 01:17 PDT
 "DetectionResultTest.ReturnsObstaclePointsAndBoundingBoxes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/30 Testing: KalmanFilter2DTest.InitializesPositionAndZeroVelocity
-18/30 Test: KalmanFilter2DTest.InitializesPositionAndZeroVelocity
+24/43 Testing: KalmanFilter2DTest.InitializesPositionAndZeroVelocity
+24/43 Test: KalmanFilter2DTest.InitializesPositionAndZeroVelocity
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=KalmanFilter2DTest.InitializesPositionAndZeroVelocity" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"KalmanFilter2DTest.InitializesPositionAndZeroVelocity" start time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.InitializesPositionAndZeroVelocity" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -482,15 +644,15 @@ Note: Google Test filter = KalmanFilter2DTest.InitializesPositionAndZeroVelocity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KalmanFilter2DTest.InitializesPositionAndZeroVelocity" end time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.InitializesPositionAndZeroVelocity" end time: Aug 14 01:17 PDT
 "KalmanFilter2DTest.InitializesPositionAndZeroVelocity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/30 Testing: KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject
-19/30 Test: KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject
+25/43 Testing: KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject
+25/43 Test: KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" start time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -509,15 +671,15 @@ Note: Google Test filter = KalmanFilter2DTest.PredictionDoesNotMoveStationaryObj
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" end time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" end time: Aug 14 01:17 PDT
 "KalmanFilter2DTest.PredictionDoesNotMoveStationaryObject" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/30 Testing: KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement
-20/30 Test: KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement
+26/43 Testing: KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement
+26/43 Test: KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" start time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -536,15 +698,15 @@ Note: Google Test filter = KalmanFilter2DTest.UpdateMovesEstimateTowardMeasureme
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" end time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" end time: Aug 14 01:17 PDT
 "KalmanFilter2DTest.UpdateMovesEstimateTowardMeasurement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/30 Testing: KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements
-21/30 Test: KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements
+27/43 Testing: KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements
+27/43 Test: KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" start time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -563,15 +725,15 @@ Note: Google Test filter = KalmanFilter2DTest.EstimatesVelocityFromMovingMeasure
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" end time: Aug 12 12:23 PDT
+"KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" end time: Aug 14 01:17 PDT
 "KalmanFilter2DTest.EstimatesVelocityFromMovingMeasurements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/30 Testing: TrackedObstacleTest.InitializesTrackFromBoundingBox
-22/30 Test: TrackedObstacleTest.InitializesTrackFromBoundingBox
+28/43 Testing: TrackedObstacleTest.InitializesTrackFromBoundingBox
+28/43 Test: TrackedObstacleTest.InitializesTrackFromBoundingBox
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=TrackedObstacleTest.InitializesTrackFromBoundingBox" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"TrackedObstacleTest.InitializesTrackFromBoundingBox" start time: Aug 12 12:23 PDT
+"TrackedObstacleTest.InitializesTrackFromBoundingBox" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -590,15 +752,15 @@ Note: Google Test filter = TrackedObstacleTest.InitializesTrackFromBoundingBox
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedObstacleTest.InitializesTrackFromBoundingBox" end time: Aug 12 12:23 PDT
+"TrackedObstacleTest.InitializesTrackFromBoundingBox" end time: Aug 14 01:17 PDT
 "TrackedObstacleTest.InitializesTrackFromBoundingBox" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/30 Testing: TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames
-23/30 Test: TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames
+29/43 Testing: TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames
+29/43 Test: TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" start time: Aug 12 12:23 PDT
+"TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -617,15 +779,15 @@ Note: Google Test filter = TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedF
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" end time: Aug 12 12:23 PDT
+"TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" end time: Aug 14 01:17 PDT
 "TrackedObstacleTest.UpdateReplacesBoxAndResetsMissedFrames" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/30 Testing: TrackedObstacleTest.CountsMissedFrames
-24/30 Test: TrackedObstacleTest.CountsMissedFrames
+30/43 Testing: TrackedObstacleTest.CountsMissedFrames
+30/43 Test: TrackedObstacleTest.CountsMissedFrames
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=TrackedObstacleTest.CountsMissedFrames" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"TrackedObstacleTest.CountsMissedFrames" start time: Aug 12 12:23 PDT
+"TrackedObstacleTest.CountsMissedFrames" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -644,15 +806,15 @@ Note: Google Test filter = TrackedObstacleTest.CountsMissedFrames
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedObstacleTest.CountsMissedFrames" end time: Aug 12 12:23 PDT
+"TrackedObstacleTest.CountsMissedFrames" end time: Aug 14 01:17 PDT
 "TrackedObstacleTest.CountsMissedFrames" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/30 Testing: MultiObjectTrackerTest.StartsWithNoTracks
-25/30 Test: MultiObjectTrackerTest.StartsWithNoTracks
+31/43 Testing: MultiObjectTrackerTest.StartsWithNoTracks
+31/43 Test: MultiObjectTrackerTest.StartsWithNoTracks
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.StartsWithNoTracks" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.StartsWithNoTracks" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.StartsWithNoTracks" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -671,15 +833,15 @@ Note: Google Test filter = MultiObjectTrackerTest.StartsWithNoTracks
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.StartsWithNoTracks" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.StartsWithNoTracks" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.StartsWithNoTracks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/30 Testing: MultiObjectTrackerTest.CreatesTracksFromInitialDetections
-26/30 Test: MultiObjectTrackerTest.CreatesTracksFromInitialDetections
+32/43 Testing: MultiObjectTrackerTest.CreatesTracksFromInitialDetections
+32/43 Test: MultiObjectTrackerTest.CreatesTracksFromInitialDetections
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.CreatesTracksFromInitialDetections" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.CreatesTracksFromInitialDetections" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.CreatesTracksFromInitialDetections" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -698,15 +860,15 @@ Note: Google Test filter = MultiObjectTrackerTest.CreatesTracksFromInitialDetect
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.CreatesTracksFromInitialDetections" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.CreatesTracksFromInitialDetections" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.CreatesTracksFromInitialDetections" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/30 Testing: MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection
-27/30 Test: MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection
+33/43 Testing: MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection
+33/43 Test: MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -725,15 +887,15 @@ Note: Google Test filter = MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetec
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.MaintainsTrackIdForNearbyDetection" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/30 Testing: MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses
-28/30 Test: MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses
+34/43 Testing: MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses
+34/43 Test: MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -752,15 +914,15 @@ Note: Google Test filter = MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.DeletesTrackAfterTooManyMisses" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/30 Testing: MultiObjectTrackerTest.FarDetectionCreatesNewTrack
-29/30 Test: MultiObjectTrackerTest.FarDetectionCreatesNewTrack
+35/43 Testing: MultiObjectTrackerTest.FarDetectionCreatesNewTrack
+35/43 Test: MultiObjectTrackerTest.FarDetectionCreatesNewTrack
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.FarDetectionCreatesNewTrack" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.FarDetectionCreatesNewTrack" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.FarDetectionCreatesNewTrack" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -779,15 +941,15 @@ Note: Google Test filter = MultiObjectTrackerTest.FarDetectionCreatesNewTrack
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.FarDetectionCreatesNewTrack" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.FarDetectionCreatesNewTrack" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.FarDetectionCreatesNewTrack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/30 Testing: MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges
-30/30 Test: MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges
+36/43 Testing: MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges
+36/43 Test: MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges
 Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" "--gtest_also_run_disabled_tests"
 Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
-"MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" start time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" start time: Aug 14 01:17 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -806,8 +968,197 @@ Note: Google Test filter = MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChan
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" end time: Aug 12 12:23 PDT
+"MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" end time: Aug 14 01:17 PDT
 "MultiObjectTrackerTest.KeepsIdsWhenDetectionOrderChanges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 12 12:23 PDT
+37/43 Testing: Point3DTest.StoresCoordinates
+37/43 Test: Point3DTest.StoresCoordinates
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point3DTest.StoresCoordinates" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point3DTest.StoresCoordinates" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point3DTest.StoresCoordinates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point3DTest
+[ RUN      ] Point3DTest.StoresCoordinates
+[       OK ] Point3DTest.StoresCoordinates (0 ms)
+[----------] 1 test from Point3DTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point3DTest.StoresCoordinates" end time: Aug 14 01:17 PDT
+"Point3DTest.StoresCoordinates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/43 Testing: BoundingBox3DTest.StoresDimensionsAndYaw
+38/43 Test: BoundingBox3DTest.StoresDimensionsAndYaw
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=BoundingBox3DTest.StoresDimensionsAndYaw" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"BoundingBox3DTest.StoresDimensionsAndYaw" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = BoundingBox3DTest.StoresDimensionsAndYaw
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoundingBox3DTest
+[ RUN      ] BoundingBox3DTest.StoresDimensionsAndYaw
+[       OK ] BoundingBox3DTest.StoresDimensionsAndYaw (0 ms)
+[----------] 1 test from BoundingBox3DTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoundingBox3DTest.StoresDimensionsAndYaw" end time: Aug 14 01:17 PDT
+"BoundingBox3DTest.StoresDimensionsAndYaw" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/43 Testing: Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints
+39/43 Test: Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point3DProcessingTest
+[ RUN      ] Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints
+[       OK ] Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints (0 ms)
+[----------] 1 test from Point3DProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints" end time: Aug 14 01:17 PDT
+"Point3DProcessingTest.RemovesInvalidAndOutOfRangePoints" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/43 Testing: Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions
+40/43 Test: Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point3DProcessingTest
+[ RUN      ] Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions
+[       OK ] Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions (0 ms)
+[----------] 1 test from Point3DProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions" end time: Aug 14 01:17 PDT
+"Point3DProcessingTest.AcceptsPointsInsideRangeInThreeDimensions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/43 Testing: Point3DProcessingTest.MergesPointsInSameVoxel
+41/43 Test: Point3DProcessingTest.MergesPointsInSameVoxel
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point3DProcessingTest.MergesPointsInSameVoxel" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point3DProcessingTest.MergesPointsInSameVoxel" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point3DProcessingTest.MergesPointsInSameVoxel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point3DProcessingTest
+[ RUN      ] Point3DProcessingTest.MergesPointsInSameVoxel
+[       OK ] Point3DProcessingTest.MergesPointsInSameVoxel (0 ms)
+[----------] 1 test from Point3DProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point3DProcessingTest.MergesPointsInSameVoxel" end time: Aug 14 01:17 PDT
+"Point3DProcessingTest.MergesPointsInSameVoxel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/43 Testing: Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize
+42/43 Test: Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Point3DProcessingTest
+[ RUN      ] Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize
+[       OK ] Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize (0 ms)
+[----------] 1 test from Point3DProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize" end time: Aug 14 01:17 PDT
+"Point3DProcessingTest.ReturnsOriginalPointsForInvalidVoxelSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/43 Testing: BoundingBox3DProcessingTest.ComputesAxisAlignedBox
+43/43 Test: BoundingBox3DProcessingTest.ComputesAxisAlignedBox
+Command: "/home/jayce/projects/LiDar-Object-Detector/build/detector_core/detector_core_tests" "--gtest_filter=BoundingBox3DProcessingTest.ComputesAxisAlignedBox" "--gtest_also_run_disabled_tests"
+Directory: /home/jayce/projects/LiDar-Object-Detector/build/detector_core
+"BoundingBox3DProcessingTest.ComputesAxisAlignedBox" start time: Aug 14 01:17 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = BoundingBox3DProcessingTest.ComputesAxisAlignedBox
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoundingBox3DProcessingTest
+[ RUN      ] BoundingBox3DProcessingTest.ComputesAxisAlignedBox
+[       OK ] BoundingBox3DProcessingTest.ComputesAxisAlignedBox (0 ms)
+[----------] 1 test from BoundingBox3DProcessingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoundingBox3DProcessingTest.ComputesAxisAlignedBox" end time: Aug 14 01:17 PDT
+"BoundingBox3DProcessingTest.ComputesAxisAlignedBox" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 14 01:17 PDT

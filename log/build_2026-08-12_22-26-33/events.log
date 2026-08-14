@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.001817] (lidar_detector_ros) JobQueued: {'identifier': 'lidar_detector_ros', 'dependencies': OrderedDict()}
+[0.004532] (lidar_detector_ros) JobStarted: {'identifier': 'lidar_detector_ros'}
+[0.043039] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'cmake'}
+[0.048225] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'build'}
+[0.048325] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', '--', '-j8', '-l8'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayce', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayce', 'OLDPWD': '/mnt/c/Users/jayce/OneDrive/Attachments/Documents/LiDar RayTrace ROS2 Project', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/2731_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jayce/.codex/tmp/arg0/codex-arg0cP00kz:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/jayce/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76:/mnt/c/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099870] (-) TimerEvent: {}
+[0.200291] (-) TimerEvent: {}
+[0.300732] (-) TimerEvent: {}
+[0.355890] (lidar_detector_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400913] (-) TimerEvent: {}
+[0.501259] (-) TimerEvent: {}
+[0.601526] (-) TimerEvent: {}
+[0.701902] (-) TimerEvent: {}
+[0.802253] (-) TimerEvent: {}
+[0.902549] (-) TimerEvent: {}
+[0.979832] (lidar_detector_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.002736] (-) TimerEvent: {}
+[1.103116] (-) TimerEvent: {}
+[1.110376] (lidar_detector_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.203362] (-) TimerEvent: {}
+[1.303735] (-) TimerEvent: {}
+[1.404032] (-) TimerEvent: {}
+[1.504684] (-) TimerEvent: {}
+[1.605035] (-) TimerEvent: {}
+[1.705437] (-) TimerEvent: {}
+[1.805776] (-) TimerEvent: {}
+[1.906116] (-) TimerEvent: {}
+[2.006369] (-) TimerEvent: {}
+[2.106811] (-) TimerEvent: {}
+[2.166101] (lidar_detector_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.196891] (lidar_detector_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.206925] (-) TimerEvent: {}
+[2.249515] (lidar_detector_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.301152] (lidar_detector_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.307170] (-) TimerEvent: {}
+[2.407543] (-) TimerEvent: {}
+[2.507863] (-) TimerEvent: {}
+[2.525143] (lidar_detector_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.534116] (lidar_detector_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.608070] (-) TimerEvent: {}
+[2.708461] (-) TimerEvent: {}
+[2.808781] (-) TimerEvent: {}
+[2.909121] (-) TimerEvent: {}
+[3.009648] (-) TimerEvent: {}
+[3.109996] (-) TimerEvent: {}
+[3.210360] (-) TimerEvent: {}
+[3.310713] (-) TimerEvent: {}
+[3.411128] (-) TimerEvent: {}
+[3.511510] (-) TimerEvent: {}
+[3.612057] (-) TimerEvent: {}
+[3.712386] (-) TimerEvent: {}
+[3.812792] (-) TimerEvent: {}
+[3.913180] (-) TimerEvent: {}
+[3.960353] (lidar_detector_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.013375] (-) TimerEvent: {}
+[4.113616] (-) TimerEvent: {}
+[4.214002] (-) TimerEvent: {}
+[4.314289] (-) TimerEvent: {}
+[4.414666] (-) TimerEvent: {}
+[4.515068] (-) TimerEvent: {}
+[4.615529] (-) TimerEvent: {}
+[4.715975] (-) TimerEvent: {}
+[4.816356] (-) TimerEvent: {}
+[4.916666] (-) TimerEvent: {}
+[5.016989] (-) TimerEvent: {}
+[5.117403] (-) TimerEvent: {}
+[5.217833] (-) TimerEvent: {}
+[5.252079] (lidar_detector_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.318054] (-) TimerEvent: {}
+[5.418429] (-) TimerEvent: {}
+[5.518809] (-) TimerEvent: {}
+[5.546657] (lidar_detector_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[5.619047] (-) TimerEvent: {}
+[5.719374] (-) TimerEvent: {}
+[5.819669] (-) TimerEvent: {}
+[5.919974] (-) TimerEvent: {}
+[5.958637] (lidar_detector_ros) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[6.020302] (-) TimerEvent: {}
+[6.071889] (lidar_detector_ros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.087540] (lidar_detector_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros\n'}
+[6.120481] (-) TimerEvent: {}
+[6.181196] (lidar_detector_ros) StdoutLine: {'line': b'[ 73%] Built target detector_core\n'}
+[6.182900] (lidar_detector_ros) StdoutLine: {'line': b'[ 86%] Built target synthetic_scan_publisher\n'}
+[6.220912] (-) TimerEvent: {}
+[6.224009] (lidar_detector_ros) StdoutLine: {'line': b'[100%] Built target lidar_detector_node\n'}
+[6.235703] (lidar_detector_ros) CommandEnded: {'returncode': 0}
+[6.237758] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'install'}
+[6.245868] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayce', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayce', 'OLDPWD': '/mnt/c/Users/jayce/OneDrive/Attachments/Documents/LiDar RayTrace ROS2 Project', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/2731_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jayce/.codex/tmp/arg0/codex-arg0cP00kz:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/jayce/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76:/mnt/c/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[6.252411] (lidar_detector_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.252758] (lidar_detector_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.254352] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node\n'}
+[6.254463] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node\n'}
+[6.255175] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/synthetic_scan_publisher\n'}
+[6.256069] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/detector.yaml\n'}
+[6.257196] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/nav2_costmap.yaml\n'}
+[6.257413] (lidar_detector_ros) StdoutLine: {'line': b'-- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/custom_world_detector.launch.cpython-312.pyc\n'}
+[6.266825] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/detector.launch.cpython-312.pyc\n'}
+[6.267066] (lidar_detector_ros) StdoutLine: {'line': b'-- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/custom_world_detector.launch.py\n'}
+[6.275857] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/detector.launch.py\n'}
+[6.276505] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/turtlebot_detector.launch.py\n'}
+[6.277272] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/rviz/detector.rviz\n'}
+[6.277358] (lidar_detector_ros) StdoutLine: {'line': b'-- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/worlds/obstacle_test_world.sdf\n'}
+[6.287797] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros\n'}
+[6.289013] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/parent_prefix_path/lidar_detector_ros\n'}
+[6.289723] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.sh\n'}
+[6.290481] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.dsv\n'}
+[6.291132] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.sh\n'}
+[6.291757] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.dsv\n'}
+[6.292499] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.bash\n'}
+[6.293041] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.sh\n'}
+[6.293525] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.zsh\n'}
+[6.294196] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.dsv\n'}
+[6.294276] (lidar_detector_ros) StdoutLine: {'line': b'-- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.dsv\n'}
+[6.302180] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/packages/lidar_detector_ros\n'}
+[6.302659] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig.cmake\n'}
+[6.303552] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig-version.cmake\n'}
+[6.303960] (lidar_detector_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.xml\n'}
+[6.304956] (lidar_detector_ros) CommandEnded: {'returncode': 0}
+[6.321150] (-) TimerEvent: {}
+[6.332763] (lidar_detector_ros) JobEnded: {'identifier': 'lidar_detector_ros', 'rc': 0}
+[6.333428] (-) EventReactorShutdown: {}

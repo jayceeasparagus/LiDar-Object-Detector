@@ -228,3 +228,43 @@ TEST(ClusteringTest, SpatialGridMatchesBruteForceOnGeneratedData)
 
     EXPECT_EQ(brute_force_sizes, grid_sizes);
 }
+
+TEST(ClusteringTest, SpatialGrid3DSeparatesObjects) {
+    const std::vector<detector_core::Point3D> points{
+        {0.0, 0.0, 0.0},
+        {0.05, 0.0, 0.0},
+        {5.0, 5.0, 5.0},
+        {5.05, 5.0, 5.0}
+    };
+
+    const auto clusters =
+        detector_core::spatial_grid_clusters_3d(
+            points, 0.2, 2, 10);
+
+    ASSERT_EQ(clusters.size(), 2);
+}
+
+TEST(ClusteringTest, SpatialGrid3DSeparatesAlongZ) {
+    const std::vector<detector_core::Point3D> points{
+        {0.0, 0.0, 0.0},
+        {0.05, 0.0, 0.0},
+        {0.0, 0.0, 5.0},
+        {0.05, 0.0, 5.0}
+    };
+
+    const auto clusters =
+        detector_core::spatial_grid_clusters_3d(
+            points, 0.2, 2, 10);
+
+    ASSERT_EQ(clusters.size(), 2);
+}
+
+TEST(ClusteringTest, SpatialGrid3DHandlesEmptyInput) {
+    const std::vector<detector_core::Point3D> points;
+
+    const auto clusters =
+        detector_core::spatial_grid_clusters_3d(
+            points, 0.2, 1, 10);
+
+    EXPECT_TRUE(clusters.empty());
+}

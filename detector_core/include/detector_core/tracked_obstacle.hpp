@@ -9,10 +9,15 @@ namespace detector_core {
         public:
             TrackedObstacle(std::size_t id, const BoundingBox2D& initial_box,
                 double process_noise, double measurement_noise);
+            TrackedObstacle(std::size_t id, const BoundingBox2D& initial_box,
+                const OrientedBoundingBox2D& initial_oriented_box,
+                double process_noise, double measurement_noise);
 
             void predict(double delta_time);
 
             void update(const BoundingBox2D& measured_box);
+            void update(const BoundingBox2D& measured_box,
+                const OrientedBoundingBox2D& measured_oriented_box);
 
             void mark_missed();
 
@@ -23,11 +28,13 @@ namespace detector_core {
             double velocity_y() const;
             std::size_t missed_frames() const;
             const BoundingBox2D& bounding_box() const;
+            const OrientedBoundingBox2D& oriented_bounding_box() const;
 
             private:
                 std::size_t id_;
                 KalmanFilter2D filter_;
                 BoundingBox2D bounding_box_;
+                OrientedBoundingBox2D oriented_bounding_box_;
                 std::size_t missed_frames_;
     };
 }

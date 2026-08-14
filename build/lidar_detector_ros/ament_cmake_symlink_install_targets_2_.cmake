@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/pointcloud_inspector_node" "TARGETS" "pointcloud_inspector_node" "DESTINATION" "lib/lidar_detector_ros")

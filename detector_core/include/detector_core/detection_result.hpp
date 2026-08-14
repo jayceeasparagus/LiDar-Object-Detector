@@ -8,5 +8,6 @@ namespace detector_core {
     struct DetectionResult {
         std::vector<Point2D> obstacle_points;
         std::vector<BoundingBox2D> bounding_boxes;
+        std::vector<OrientedBoundingBox2D> oriented_bounding_boxes;
     };
 } // namespace detector_core

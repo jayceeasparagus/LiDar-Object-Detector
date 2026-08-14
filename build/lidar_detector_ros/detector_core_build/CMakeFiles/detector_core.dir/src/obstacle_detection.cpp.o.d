@@ -56,4 +56,5 @@ detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/detection_result.hpp \
- /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/clustering.hpp
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/clustering.hpp \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d.hpp

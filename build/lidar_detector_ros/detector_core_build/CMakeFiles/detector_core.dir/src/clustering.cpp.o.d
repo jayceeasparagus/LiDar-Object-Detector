@@ -54,6 +54,7 @@ detector_core_build/CMakeFiles/detector_core.dir/src/clustering.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d.hpp \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_heap.h /usr/include/c++/13/bits/stl_queue.h \

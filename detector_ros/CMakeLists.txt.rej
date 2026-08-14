@@ -1,0 +1,11 @@
+--- detector_ros/CMakeLists.txt
++++ detector_ros/CMakeLists.txt
+@@ -24,7 +24,8 @@
+ ament_target_dependencies(pointcloud_inspector_node
+   rclcpp
+   sensor_msgs
++  visualization_msgs
+ )
+ 
+ 
+ 

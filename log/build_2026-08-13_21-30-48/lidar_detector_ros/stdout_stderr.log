@@ -1,0 +1,56 @@
+[ 60%] Built target detector_core
+[ 70%] Built target odom_tf_broadcaster
+[ 75%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175,
+                 from /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:10:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)’:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:39: error: expected primary-expression before ‘filtered_cloud’
+   67 |         sensor_msgs::msg::PointCloud2 filtered_cloud;
+      |                                       ^~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: error: parse error in template argument list
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: error: wrong number of template arguments (1, should be 2)
+In file included from /usr/include/c++/13/bits/stl_pair.h:60,
+                 from /usr/include/c++/13/bits/stl_algobase.h:64,
+                 from /usr/include/c++/13/vector:62,
+                 from /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d_processing.hpp:4,
+                 from /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:2:
+/usr/include/c++/13/type_traits:3364:25: note: provided for ‘template<class _From, class _To> constexpr const bool std::is_convertible_v<_From, _To>’
+ 3364 |   inline constexpr bool is_convertible_v = __is_convertible(_From, _To);
+      |                         ^~~~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:53: error: expected ‘,’ before ‘;’ token
+   67 |         sensor_msgs::msg::PointCloud2 filtered_cloud;
+      |                                                     ^
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:53: error: expected string-literal before ‘;’ token
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:53: error: expected ‘)’ before ‘;’ token
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: note: to match this ‘(’
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^~~~~~~~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:68:9: error: ‘filtered_cloud’ was not declared in this scope
+   68 |         filtered_cloud.header = message->header;
+      |         ^~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: error: expected ‘;’ before ‘)’ token
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:39: error: expected primary-expression before ‘filtered_cloud’
+   67 |         sensor_msgs::msg::PointCloud2 filtered_cloud;
+      |                                       ^~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:39: error: expected ‘)’ before ‘filtered_cloud’
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: note: to match this ‘(’
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^~~~~~~~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:67:53: error: expected ‘)’ before ‘;’ token
+   67 |         sensor_msgs::msg::PointCloud2 filtered_cloud;
+      |                                                     ^
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: note: to match this ‘(’
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^~~~~~~~~~~~~~~~~~~~
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:66:9: error: expected ‘;’ before ‘)’ token
+   66 |         RCLCPP_INFO_THROTTLE(
+      |         ^~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

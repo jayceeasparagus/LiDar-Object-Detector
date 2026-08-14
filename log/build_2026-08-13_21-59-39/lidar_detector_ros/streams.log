@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.110s] [ 10%] Built target odom_tf_broadcaster
+[0.110s] [ 20%] Built target synthetic_scan_publisher
+[0.117s] [ 80%] Built target detector_core
+[0.151s] [ 90%] Built target lidar_detector_node
+[0.155s] [ 95%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+[2.879s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In constructor ‘PointCloudInspectorNode::PointCloudInspectorNode()’:
+[2.879s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:26:9: error: ‘voxel_size_’ was not declared in this scope
+[2.879s]    26 |         voxel_size_ = this->declare_parameter<double>("voxel_size", 0.05);
+[2.879s]       |         ^~~~~~~~~~~
+[2.908s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:37:9: error: ‘downsampled_cloud_publisher_’ was not declared in this scope; did you mean ‘filtered_cloud_publisher_’?
+[2.908s]    37 |         downsampled_cloud_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/downsampled_points", 10);
+[2.908s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.908s]       |         filtered_cloud_publisher_
+[2.924s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)’:
+[2.924s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:68:62: error: ‘voxel_size_’ was not declared in this scope
+[2.924s]    68 |             detector_core::voxel_downsample(filtered_points, voxel_size_);
+[2.924s]       |                                                              ^~~~~~~~~~~
+[2.942s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:130:9: error: ‘downsampled_cloud_publisher_’ was not declared in this scope; did you mean ‘filtered_cloud_publisher_’?
+[2.942s]   130 |         downsampled_cloud_publisher_->publish(downsampled_cloud);
+[2.942s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.942s]       |         filtered_cloud_publisher_
+[5.423s] gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+[5.423s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+[5.424s] gmake: *** [Makefile:146: all] Error 2
+[5.427s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

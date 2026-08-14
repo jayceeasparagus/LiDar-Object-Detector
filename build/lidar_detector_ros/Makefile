@@ -224,6 +224,32 @@ synthetic_scan_publisher/fast:
 .PHONY : synthetic_scan_publisher/fast
 
 #=============================================================================
+# Target rules for targets named odom_tf_broadcaster
+
+# Build rule for target.
+odom_tf_broadcaster: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 odom_tf_broadcaster
+.PHONY : odom_tf_broadcaster
+
+# fast build rule for target.
+odom_tf_broadcaster/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_tf_broadcaster.dir/build.make CMakeFiles/odom_tf_broadcaster.dir/build
+.PHONY : odom_tf_broadcaster/fast
+
+#=============================================================================
+# Target rules for targets named pointcloud_inspector_node
+
+# Build rule for target.
+pointcloud_inspector_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointcloud_inspector_node
+.PHONY : pointcloud_inspector_node
+
+# fast build rule for target.
+pointcloud_inspector_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_inspector_node.dir/build.make CMakeFiles/pointcloud_inspector_node.dir/build
+.PHONY : pointcloud_inspector_node/fast
+
+#=============================================================================
 # Target rules for targets named detector_core
 
 # Build rule for target.
@@ -273,6 +299,54 @@ src/lidar_detector_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_detector_node.dir/build.make CMakeFiles/lidar_detector_node.dir/src/lidar_detector_node.cpp.s
 .PHONY : src/lidar_detector_node.cpp.s
 
+src/odom_tf_broadcaster.o: src/odom_tf_broadcaster.cpp.o
+.PHONY : src/odom_tf_broadcaster.o
+
+# target to build an object file
+src/odom_tf_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_tf_broadcaster.dir/build.make CMakeFiles/odom_tf_broadcaster.dir/src/odom_tf_broadcaster.cpp.o
+.PHONY : src/odom_tf_broadcaster.cpp.o
+
+src/odom_tf_broadcaster.i: src/odom_tf_broadcaster.cpp.i
+.PHONY : src/odom_tf_broadcaster.i
+
+# target to preprocess a source file
+src/odom_tf_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_tf_broadcaster.dir/build.make CMakeFiles/odom_tf_broadcaster.dir/src/odom_tf_broadcaster.cpp.i
+.PHONY : src/odom_tf_broadcaster.cpp.i
+
+src/odom_tf_broadcaster.s: src/odom_tf_broadcaster.cpp.s
+.PHONY : src/odom_tf_broadcaster.s
+
+# target to generate assembly for a file
+src/odom_tf_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_tf_broadcaster.dir/build.make CMakeFiles/odom_tf_broadcaster.dir/src/odom_tf_broadcaster.cpp.s
+.PHONY : src/odom_tf_broadcaster.cpp.s
+
+src/pointcloud_inspector_node.o: src/pointcloud_inspector_node.cpp.o
+.PHONY : src/pointcloud_inspector_node.o
+
+# target to build an object file
+src/pointcloud_inspector_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_inspector_node.dir/build.make CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+.PHONY : src/pointcloud_inspector_node.cpp.o
+
+src/pointcloud_inspector_node.i: src/pointcloud_inspector_node.cpp.i
+.PHONY : src/pointcloud_inspector_node.i
+
+# target to preprocess a source file
+src/pointcloud_inspector_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_inspector_node.dir/build.make CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.i
+.PHONY : src/pointcloud_inspector_node.cpp.i
+
+src/pointcloud_inspector_node.s: src/pointcloud_inspector_node.cpp.s
+.PHONY : src/pointcloud_inspector_node.s
+
+# target to generate assembly for a file
+src/pointcloud_inspector_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_inspector_node.dir/build.make CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.s
+.PHONY : src/pointcloud_inspector_node.cpp.s
+
 src/synthetic_scan_publisher.o: src/synthetic_scan_publisher.cpp.o
 .PHONY : src/synthetic_scan_publisher.o
 
@@ -315,10 +389,18 @@ help:
 	@echo "... detector_core"
 	@echo "... detector_core_tests"
 	@echo "... lidar_detector_node"
+	@echo "... odom_tf_broadcaster"
+	@echo "... pointcloud_inspector_node"
 	@echo "... synthetic_scan_publisher"
 	@echo "... src/lidar_detector_node.o"
 	@echo "... src/lidar_detector_node.i"
 	@echo "... src/lidar_detector_node.s"
+	@echo "... src/odom_tf_broadcaster.o"
+	@echo "... src/odom_tf_broadcaster.i"
+	@echo "... src/odom_tf_broadcaster.s"
+	@echo "... src/pointcloud_inspector_node.o"
+	@echo "... src/pointcloud_inspector_node.i"
+	@echo "... src/pointcloud_inspector_node.s"
 	@echo "... src/synthetic_scan_publisher.o"
 	@echo "... src/synthetic_scan_publisher.i"
 	@echo "... src/synthetic_scan_publisher.s"

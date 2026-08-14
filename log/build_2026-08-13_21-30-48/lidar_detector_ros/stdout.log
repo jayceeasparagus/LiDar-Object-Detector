@@ -1,0 +1,3 @@
+[ 60%] Built target detector_core
+[ 70%] Built target odom_tf_broadcaster
+[ 75%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o

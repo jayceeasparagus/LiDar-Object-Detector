@@ -23,9 +23,26 @@ MultiObjectTracker::MultiObjectTracker(double association_distance, std::size_t 
 
 void MultiObjectTracker::update(
     const std::vector<BoundingBox2D>& detections, double delta_time) {
+    std::vector<OrientedBoundingBox2D> oriented_detections;
+    oriented_detections.reserve(detections.size());
+    for (const BoundingBox2D& detection : detections) {
+        oriented_detections.push_back(OrientedBoundingBox2D{
+            box_center_x(detection), box_center_y(detection),
+            detection.max_x - detection.min_x,
+            detection.max_y - detection.min_y, 0.0});
+    }
+    update(detections, oriented_detections, delta_time);
+}
+
+void MultiObjectTracker::update(
+    const std::vector<BoundingBox2D>& detections,
+    const std::vector<OrientedBoundingBox2D>& oriented_detections,
+    double delta_time) {
     if (tracks_.empty()) {
-        for (const BoundingBox2D& detection : detections) {
-            tracks_.emplace_back(next_track_id_, detection, process_noise_, measurement_noise_);
+        for (std::size_t detection_index = 0; detection_index < detections.size(); ++detection_index) {
+            const OrientedBoundingBox2D oriented_box = oriented_detections[detection_index];
+            tracks_.emplace_back(next_track_id_, detections[detection_index], oriented_box,
+                process_noise_, measurement_noise_);
 
             ++next_track_id_;
         }
@@ -72,7 +89,8 @@ void MultiObjectTracker::update(
         }
 
         if (best_track_index < tracks_.size() && best_distance_squared <= maximum_distance_squared) {
-            tracks_[best_track_index].update(detections[detection_index]);
+            const OrientedBoundingBox2D oriented_box = oriented_detections[detection_index];
+            tracks_[best_track_index].update(detections[detection_index], oriented_box);
 
             track_matched[best_track_index] = true;
             detection_matched[detection_index] = true;
@@ -91,7 +109,9 @@ void MultiObjectTracker::update(
     for (std::size_t detection_index = 0; detection_index < detections.size(); ++detection_index) {
 
         if (!detection_matched[detection_index]) {
-            tracks_.emplace_back(next_track_id_, detections[detection_index], process_noise_, measurement_noise_);
+            const OrientedBoundingBox2D oriented_box = oriented_detections[detection_index];
+            tracks_.emplace_back(next_track_id_, detections[detection_index], oriented_box,
+                process_noise_, measurement_noise_);
 
             ++next_track_id_;
         }

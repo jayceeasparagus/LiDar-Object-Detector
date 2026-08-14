@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000510] (lidar_detector_ros) JobQueued: {'identifier': 'lidar_detector_ros', 'dependencies': OrderedDict()}
+[0.000584] (lidar_detector_ros) JobStarted: {'identifier': 'lidar_detector_ros'}
+[0.009600] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'cmake'}
+[0.010099] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'build'}
+[0.010605] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', '--', '-j8', '-l8'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'USER': 'jayce', 'SHLVL': '1', 'HOME': '/home/jayce', 'OLDPWD': '/mnt/c/Users/jayce/OneDrive/Attachments/Documents/LiDar RayTrace ROS2 Project', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/8003_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jayce/.codex/tmp/arg0/codex-arg0cP00kz:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/jayce/AppData/Local/OpenAI/Codex/bin/2e371a028d4fba76:/mnt/c/Program Files/WindowsApps/OpenAI.Codex_26.803.10989.0_x64__2p2nqsd0c76g0/app/resources:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'SHELL': '/bin/bash', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}), 'shell': False}
+[0.029161] (lidar_detector_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099761] (-) TimerEvent: {}
+[0.199934] (-) TimerEvent: {}
+[0.300133] (-) TimerEvent: {}
+[0.400314] (-) TimerEvent: {}
+[0.500517] (-) TimerEvent: {}
+[0.600721] (-) TimerEvent: {}
+[0.700858] (-) TimerEvent: {}
+[0.801010] (-) TimerEvent: {}
+[0.901163] (-) TimerEvent: {}
+[1.001340] (-) TimerEvent: {}
+[1.101522] (-) TimerEvent: {}
+[1.201737] (-) TimerEvent: {}
+[1.301912] (-) TimerEvent: {}
+[1.402132] (-) TimerEvent: {}
+[1.502305] (-) TimerEvent: {}
+[1.602493] (-) TimerEvent: {}
+[1.702734] (-) TimerEvent: {}
+[1.802977] (-) TimerEvent: {}
+[1.903144] (-) TimerEvent: {}
+[2.003324] (-) TimerEvent: {}
+[2.103498] (-) TimerEvent: {}
+[2.166627] (lidar_detector_ros) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.166767] (lidar_detector_ros) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[2.167411] (lidar_detector_ros) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[2.167495] (lidar_detector_ros) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[2.185084] (lidar_detector_ros) StderrLine: {'line': b'CMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[2.185216] (lidar_detector_ros) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[2.185254] (lidar_detector_ros) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[2.185285] (lidar_detector_ros) StderrLine: {'line': b'  /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_package_templates/templates.cmake)\n'}
+[2.185313] (lidar_detector_ros) StderrLine: {'line': b'  returned error code 1\n'}
+[2.185338] (lidar_detector_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.185365] (lidar_detector_ros) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.185391] (lidar_detector_ros) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.185417] (lidar_detector_ros) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.185442] (lidar_detector_ros) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[2.185508] (lidar_detector_ros) StderrLine: {'line': b'\n'}
+[2.185590] (lidar_detector_ros) StderrLine: {'line': b'\n'}
+[2.185851] (lidar_detector_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.187689] (lidar_detector_ros) StderrLine: {'line': b'gmake: *** [Makefile:336: cmake_check_build_system] Error 1\n'}
+[2.188615] (lidar_detector_ros) CommandEnded: {'returncode': 2}
+[2.195146] (lidar_detector_ros) JobEnded: {'identifier': 'lidar_detector_ros', 'rc': 2}
+[2.203610] (-) TimerEvent: {}
+[2.205519] (-) EventReactorShutdown: {}

@@ -9,9 +9,11 @@ namespace detector_core {
 
         DetectionResult result;
         result.bounding_boxes.reserve(clusters.size());
+        result.oriented_bounding_boxes.reserve(clusters.size());
 
         for (const Cluster& cluster : clusters) {
             result.bounding_boxes.push_back(bounding_box_for_cluster(points, cluster));
+            result.oriented_bounding_boxes.push_back(oriented_bounding_box_for_cluster(points, cluster));
 
             for (const std::size_t i : cluster) {
                 result.obstacle_points.push_back(points[i]);

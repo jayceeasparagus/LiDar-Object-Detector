@@ -8,6 +8,7 @@
 #include <cstddef>
 #include <string>
 #include <algorithm>
+#include <cmath>
 #include <visualization_msgs/msg/marker_array.hpp>
 #include <cstdint>
 #include <sensor_msgs/msg/point_cloud2.hpp>
@@ -81,7 +82,7 @@ class LidarDetectorNode : public rclcpp::Node {
                 if (tracking_enabled_) {
                     const double delta_time = message->scan_time > 0.0F ? static_cast<double>(message->scan_time) : 0.2;
 
-                    tracker_->update(result.bounding_boxes, delta_time);
+                    tracker_->update(result.bounding_boxes, result.oriented_bounding_boxes, delta_time);
 
                     RCLCPP_INFO(this->get_logger(), "Active tracks: %zu", tracker_->tracks().size());
                 }
@@ -135,6 +136,7 @@ class LidarDetectorNode : public rclcpp::Node {
                 const uint32_t lifetime_nanosec = static_cast<uint32_t>((lifetime_seconds - lifetime_sec) * 1e9);
 
                 for (const auto& track : tracker_->tracks()) {
+                    const auto& oriented_box = track.oriented_bounding_box();
                     const auto& box = track.bounding_box();
 
                     visualization_msgs::msg::Marker marker;
@@ -148,10 +150,11 @@ class LidarDetectorNode : public rclcpp::Node {
                     marker.pose.position.x = track.x();
                     marker.pose.position.y = track.y();
                     marker.pose.position.z = 0.05;
-                    marker.pose.orientation.w = 1.0;
+                    marker.pose.orientation.z = std::sin(oriented_box.yaw / 2.0);
+                    marker.pose.orientation.w = std::cos(oriented_box.yaw / 2.0);
 
-                    marker.scale.x = std::max(0.02, box.max_x - box.min_x);
-                    marker.scale.y = std::max(0.02, box.max_y - box.min_y);
+                    marker.scale.x = std::max(0.02, oriented_box.width);
+                    marker.scale.y = std::max(0.02, oriented_box.height);
                     marker.scale.z = 0.1;
 
                     marker.color.r = 1.0;

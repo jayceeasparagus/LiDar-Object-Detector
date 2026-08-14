@@ -1,0 +1,76 @@
+[0.026s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.190s] [  5%] Building CXX object detector_core_build/CMakeFiles/detector_core.dir/src/point3d_processing.cpp.o
+[0.193s] [ 15%] Built target synthetic_scan_publisher
+[0.200s] [ 25%] Built target odom_tf_broadcaster
+[0.753s] [ 30%] Linking CXX static library libdetector_core.a
+[0.919s] [ 80%] Built target detector_core
+[0.962s] [ 85%] Linking CXX executable lidar_detector_node
+[0.963s] [ 90%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+[2.481s] [ 95%] Built target lidar_detector_node
+[4.312s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:107:9: error: ‘downsampled_cloud’ does not name a type
+[4.312s]   107 |         downsampled_cloud.header = message->header;
+[4.312s]       |         ^~~~~~~~~~~~~~~~~
+[4.316s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:108:9: error: ‘downsampled_cloud’ does not name a type
+[4.316s]   108 |         downsampled_cloud.height = 1;
+[4.316s]       |         ^~~~~~~~~~~~~~~~~
+[4.318s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:109:9: error: ‘downsampled_cloud’ does not name a type
+[4.319s]   109 |         downsampled_cloud.width = static_cast<std::uint32_t>(downsampled_points.size());
+[4.319s]       |         ^~~~~~~~~~~~~~~~~
+[4.322s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:110:9: error: ‘downsampled_cloud’ does not name a type
+[4.322s]   110 |         downsampled_cloud.is_bigendian = false;
+[4.322s]       |         ^~~~~~~~~~~~~~~~~
+[4.325s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:111:9: error: ‘downsampled_cloud’ does not name a type
+[4.325s]   111 |         downsampled_cloud.is_dense = true;
+[4.325s]       |         ^~~~~~~~~~~~~~~~~
+[4.325s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:113:63: error: ‘downsampled_cloud’ is not a type
+[4.325s]   113 |         sensor_msgs::PointCloud2Modifier downsampled_modifier(downsampled_cloud);
+[4.325s]       |                                                               ^~~~~~~~~~~~~~~~~
+[4.328s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:114:9: error: ‘downsampled_modifier’ does not name a type
+[4.328s]   114 |         downsampled_modifier.setPointCloud2FieldsByString(1, "xyz");
+[4.328s]       |         ^~~~~~~~~~~~~~~~~~~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:115:9: error: ‘downsampled_modifier’ does not name a type
+[4.333s]   115 |         downsampled_modifier.resize(downsampled_points.size());
+[4.333s]       |         ^~~~~~~~~~~~~~~~~~~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:117:63: error: ‘downsampled_cloud’ is not a type
+[4.333s]   117 |         sensor_msgs::PointCloud2Iterator<float> downsampled_x(downsampled_cloud, "x");
+[4.333s]       |                                                               ^~~~~~~~~~~~~~~~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:117:82: error: expected identifier before string constant
+[4.333s]   117 |         sensor_msgs::PointCloud2Iterator<float> downsampled_x(downsampled_cloud, "x");
+[4.333s]       |                                                                                  ^~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:117:82: error: expected ‘,’ or ‘...’ before string constant
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:118:63: error: ‘downsampled_cloud’ is not a type
+[4.333s]   118 |         sensor_msgs::PointCloud2Iterator<float> downsampled_y(downsampled_cloud, "y");
+[4.333s]       |                                                               ^~~~~~~~~~~~~~~~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:118:82: error: expected identifier before string constant
+[4.333s]   118 |         sensor_msgs::PointCloud2Iterator<float> downsampled_y(downsampled_cloud, "y");
+[4.333s]       |                                                                                  ^~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:118:82: error: expected ‘,’ or ‘...’ before string constant
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:119:63: error: ‘downsampled_cloud’ is not a type
+[4.333s]   119 |         sensor_msgs::PointCloud2Iterator<float> downsampled_z(downsampled_cloud, "z");
+[4.333s]       |                                                               ^~~~~~~~~~~~~~~~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:119:82: error: expected identifier before string constant
+[4.333s]   119 |         sensor_msgs::PointCloud2Iterator<float> downsampled_z(downsampled_cloud, "z");
+[4.333s]       |                                                                                  ^~~
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:119:82: error: expected ‘,’ or ‘...’ before string constant
+[4.333s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:121:9: error: expected unqualified-id before ‘for’
+[4.334s]   121 |         for (const detector_core::Point3D& point : downsampled_points) {
+[4.334s]       |         ^~~
+[4.338s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:131:9: error: ‘downsampled_cloud_publisher_’ does not name a type
+[4.338s]   131 |         downsampled_cloud_publisher_->publish(downsampled_cloud);
+[4.338s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.378s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In constructor ‘PointCloudInspectorNode::PointCloudInspectorNode()’:
+[4.379s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:26:9: error: ‘voxel_size_’ was not declared in this scope
+[4.379s]    26 |         voxel_size_ = this->declare_parameter<double>("voxel_size", 0.05);
+[4.379s]       |         ^~~~~~~~~~~
+[4.400s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:37:9: error: ‘downsampled_cloud_publisher_’ was not declared in this scope; did you mean ‘filtered_cloud_publisher_’?
+[4.400s]    37 |         downsampled_cloud_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/downsampled_points", 10);
+[4.400s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.400s]       |         filtered_cloud_publisher_
+[4.414s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)’:
+[4.414s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:68:62: error: ‘voxel_size_’ was not declared in this scope
+[4.414s]    68 |             detector_core::voxel_downsample(filtered_points, voxel_size_);
+[4.414s]       |                                                              ^~~~~~~~~~~
+[7.577s] gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+[7.578s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+[7.578s] gmake: *** [Makefile:146: all] Error 2
+[7.580s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

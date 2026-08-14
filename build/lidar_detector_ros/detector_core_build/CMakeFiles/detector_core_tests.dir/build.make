@@ -223,6 +223,62 @@ detector_core_build/CMakeFiles/detector_core_tests.dir/tests/multi_object_tracke
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_test.cpp.s"
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/multi_object_tracker_test.cpp -o CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_test.cpp.s
 
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/flags.make
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_test.cpp
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o -MF CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o.d -o CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_test.cpp
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_test.cpp > CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.i
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_test.cpp -o CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.s
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/flags.make
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_test.cpp
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o -MF CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o.d -o CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_test.cpp
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_test.cpp > CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.i
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_test.cpp -o CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.s
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/flags.make
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_processing_test.cpp
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o -MF CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o.d -o CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_processing_test.cpp
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_processing_test.cpp > CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.i
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/point3d_processing_test.cpp -o CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.s
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/flags.make
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o: /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_processing_test.cpp
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o: detector_core_build/CMakeFiles/detector_core_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o -MF CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o.d -o CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o -c /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_processing_test.cpp
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.i"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_processing_test.cpp > CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.i
+
+detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.s"
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jayce/projects/LiDar-Object-Detector/detector_core/tests/bounding_box3d_processing_test.cpp -o CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.s
+
 # Object files for target detector_core_tests
 detector_core_tests_OBJECTS = \
 "CMakeFiles/detector_core_tests.dir/tests/point2d_test.cpp.o" \
@@ -235,7 +291,11 @@ detector_core_tests_OBJECTS = \
 "CMakeFiles/detector_core_tests.dir/tests/detection_result_test.cpp.o" \
 "CMakeFiles/detector_core_tests.dir/tests/kalman_filter_2d_test.cpp.o" \
 "CMakeFiles/detector_core_tests.dir/tests/tracked_obstacle_test.cpp.o" \
-"CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_test.cpp.o"
+"CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_test.cpp.o" \
+"CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o" \
+"CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o" \
+"CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o" \
+"CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o"
 
 # External object files for target detector_core_tests
 detector_core_tests_EXTERNAL_OBJECTS =
@@ -251,12 +311,16 @@ detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector
 detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/kalman_filter_2d_test.cpp.o
 detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/tracked_obstacle_test.cpp.o
 detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_test.cpp.o
+detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o
+detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o
+detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o
+detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o
 detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/build.make
 detector_core_build/detector_core_tests: detector_core_build/libdetector_core.a
 detector_core_build/detector_core_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 detector_core_build/detector_core_tests: /usr/lib/x86_64-linux-gnu/libgtest.a
 detector_core_build/detector_core_tests: detector_core_build/CMakeFiles/detector_core_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable detector_core_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable detector_core_tests"
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detector_core_tests.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build && /usr/bin/cmake -D TEST_TARGET=detector_core_tests -D TEST_EXECUTABLE=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build/detector_core_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=detector_core_tests_TESTS -D CTEST_FILE=/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/detector_core_build/detector_core_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
 

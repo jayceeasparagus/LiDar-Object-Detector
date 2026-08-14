@@ -28,6 +28,41 @@ namespace detector_core {
         static_cast<int>(std::floor(point.y / cell_size))};
     }
 
+    struct GridCell3D {
+        int x;
+        int y;
+        int z;
+
+        bool operator==(const GridCell3D& other) const {
+            return x == other.x &&
+                y == other.y &&
+                z == other.z;
+        }
+    };
+
+    struct GridCell3DHash {
+        std::size_t operator()(const GridCell3D& cell) const {
+            const std::size_t x_hash = std::hash<int>{}(cell.x);
+            const std::size_t y_hash = std::hash<int>{}(cell.y);
+            const std::size_t z_hash = std::hash<int>{}(cell.z);
+
+            return x_hash ^
+                (y_hash << 1) ^
+                (z_hash << 2);
+        }
+    };
+
+    GridCell3D point_to_cell_3d(
+        const Point3D& point,
+        double cell_size) {
+
+        return GridCell3D{
+            static_cast<int>(std::floor(point.x / cell_size)),
+            static_cast<int>(std::floor(point.y / cell_size)),
+            static_cast<int>(std::floor(point.z / cell_size))
+        };
+    }
+
     std::vector<Cluster> euclidean_clusters(const std::vector<Point2D>& points, double distance_tolerance,
         std::size_t min_cluster_size, std::size_t max_cluster_size) {
             std::vector<Cluster> clusters;
@@ -190,6 +225,112 @@ namespace detector_core {
 
                 if (cluster_indices.size() >= min_cluster_size && cluster_indices.size() <= max_cluster_size) {
                     clusters.push_back(cluster_indices);
+                }
+            }
+
+            return clusters;
+        }
+
+        std::vector<Cluster> spatial_grid_clusters_3d(const std::vector<Point3D>& points, double distance_tolerance, std::size_t min_cluster_size, std::size_t max_cluster_size) {
+
+            using Grid = std::unordered_map<GridCell3D, std::vector<std::size_t>,GridCell3DHash>;
+
+            std::vector<Cluster> clusters;
+
+            if (points.empty() || distance_tolerance <= 0.0) {
+                return clusters;
+            }
+
+            Grid grid;
+            grid.reserve(points.size());
+
+            for (std::size_t i = 0; i < points.size(); ++i) {
+                const GridCell3D cell =
+                    point_to_cell_3d(points[i], distance_tolerance);
+
+                grid[cell].push_back(i);
+            }
+
+            const double tolerance_squared = distance_tolerance * distance_tolerance;
+
+            std::vector<bool> visited(points.size(), false);
+
+            for (std::size_t seed = 0; seed < points.size(); ++seed) {
+                if (visited[seed]) {
+                    continue;
+                }
+
+                std::queue<std::size_t> pending_points;
+                Cluster cluster;
+
+                visited[seed] = true;
+                pending_points.push(seed);
+
+                while (!pending_points.empty()) {
+                    const std::size_t current_index =
+                        pending_points.front();
+
+                    pending_points.pop();
+                    cluster.push_back(current_index);
+
+                    const GridCell3D current_cell =
+                        point_to_cell_3d(
+                            points[current_index],
+                            distance_tolerance);
+
+                    for (int offset_x = -1; offset_x <= 1; ++offset_x) {
+                        for (int offset_y = -1; offset_y <= 1; ++offset_y) {
+                            for (int offset_z = -1; offset_z <= 1; ++offset_z) {
+                                const GridCell3D neighbor_cell{
+                                    current_cell.x + offset_x,
+                                    current_cell.y + offset_y,
+                                    current_cell.z + offset_z
+                                };
+
+                                const auto cell_iterator =
+                                    grid.find(neighbor_cell);
+
+                                if (cell_iterator == grid.end()) {
+                                    continue;
+                                }
+
+                                for (const std::size_t candidate_index :
+                                    cell_iterator->second) {
+
+                                    if (visited[candidate_index]) {
+                                        continue;
+                                    }
+
+                                    const double dx =
+                                        points[candidate_index].x -
+                                        points[current_index].x;
+
+                                    const double dy =
+                                        points[candidate_index].y -
+                                        points[current_index].y;
+
+                                    const double dz =
+                                        points[candidate_index].z -
+                                        points[current_index].z;
+
+                                    const double distance_squared =
+                                        dx * dx +
+                                        dy * dy +
+                                        dz * dz;
+
+                                    if (distance_squared <= tolerance_squared) {
+                                        visited[candidate_index] = true;
+                                        pending_points.push(candidate_index);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (cluster.size() >= min_cluster_size &&
+                    cluster.size() <= max_cluster_size) {
+                    clusters.push_back(cluster);
                 }
             }
 

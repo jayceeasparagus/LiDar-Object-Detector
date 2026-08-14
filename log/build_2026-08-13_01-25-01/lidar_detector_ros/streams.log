@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.029s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.166s] Traceback (most recent call last):
+[2.166s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[2.167s]     from ament_package.templates import get_environment_hook_template_path
+[2.167s] ModuleNotFoundError: No module named 'ament_package'
+[2.185s] CMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.185s]   execute_process(/usr/bin/python3
+[2.185s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.185s]   /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_package_templates/templates.cmake)
+[2.185s]   returned error code 1
+[2.185s] Call Stack (most recent call first):
+[2.185s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.185s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.185s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.185s]   CMakeLists.txt:9 (find_package)
+[2.185s] 
+[2.185s] 
+[2.185s] -- Configuring incomplete, errors occurred!
+[2.187s] gmake: *** [Makefile:336: cmake_check_build_system] Error 1
+[2.188s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

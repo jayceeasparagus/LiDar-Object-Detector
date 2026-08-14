@@ -2,6 +2,8 @@
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/lidar_detector_ros_uninstall.dir
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/lidar_detector_node.dir
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/synthetic_scan_publisher.dir
+/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/odom_tf_broadcaster.dir
+/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/pointcloud_inspector_node.dir
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/test.dir
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/edit_cache.dir
 /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/CMakeFiles/rebuild_cache.dir

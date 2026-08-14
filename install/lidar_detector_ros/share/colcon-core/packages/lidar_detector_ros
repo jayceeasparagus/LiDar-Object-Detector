@@ -1,1 +1,1 @@
-ament_index_python:launch:launch_ros:nav2_costmap_2d:nav2_lifecycle_manager:rclcpp:rviz2:sensor_msgs:tf2_ros:visualization_msgs
+ament_index_python:geometry_msgs:launch:launch_ros:nav2_costmap_2d:nav2_lifecycle_manager:nav_msgs:rclcpp:ros_gz_sim:rviz2:sensor_msgs:tf2_ros:turtlebot3_gazebo:visualization_msgs

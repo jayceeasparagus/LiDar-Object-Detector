@@ -2,7 +2,8 @@ find_package(Eigen3 REQUIRED)
 
 add_library(detector_core STATIC src/library.cpp src/polar_conversion.cpp src/scan_processing.cpp
 src/clustering.cpp src/bounding_box.cpp src/obstacle_detection.cpp src/scan_detection.cpp
-src/kalman_filter_2d.cpp src/tracked_obstacle.cpp src/multi_object_tracker.cpp)
+src/kalman_filter_2d.cpp src/tracked_obstacle.cpp src/multi_object_tracker.cpp src/point3d_processing.cpp
+src/bounding_box3d_processing.cpp)
 
 target_include_directories(detector_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
@@ -15,6 +16,7 @@ find_package(GTest REQUIRED)
 add_executable(detector_core_tests tests/point2d_test.cpp tests/polar_conversion_test.cpp tests/scan_processing_test.cpp
 tests/clustering_test.cpp tests/bounding_box_test.cpp tests/obstacle_detection_test.cpp tests/scan_detection_test.cpp
 tests/detection_result_test.cpp tests/kalman_filter_2d_test.cpp tests/tracked_obstacle_test.cpp tests/multi_object_tracker_test.cpp
+tests/point3d_test.cpp tests/bounding_box3d_test.cpp tests/point3d_processing_test.cpp tests/bounding_box3d_processing_test.cpp
 )
 
 target_link_libraries(detector_core_tests PRIVATE detector_core GTest::gtest_main)

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/detector_core.dir/src/bounding_box.cpp.o"
   "CMakeFiles/detector_core.dir/src/bounding_box.cpp.o.d"
+  "CMakeFiles/detector_core.dir/src/bounding_box3d_processing.cpp.o"
+  "CMakeFiles/detector_core.dir/src/bounding_box3d_processing.cpp.o.d"
   "CMakeFiles/detector_core.dir/src/clustering.cpp.o"
   "CMakeFiles/detector_core.dir/src/clustering.cpp.o.d"
   "CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.o"
@@ -11,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.o.d"
   "CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o"
   "CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.o.d"
+  "CMakeFiles/detector_core.dir/src/point3d_processing.cpp.o"
+  "CMakeFiles/detector_core.dir/src/point3d_processing.cpp.o.d"
   "CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o"
   "CMakeFiles/detector_core.dir/src/polar_conversion.cpp.o.d"
   "CMakeFiles/detector_core.dir/src/scan_detection.cpp.o"

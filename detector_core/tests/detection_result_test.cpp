@@ -9,6 +9,7 @@ TEST(DetectionResultTest, ReturnsObstaclePointsAndBoundingBoxes) {
     const detector_core::DetectionResult result = detector_core::detect_obstacles_with_points(points, 0.2, 2, 3);
 
     ASSERT_EQ(result.bounding_boxes.size(), 2);
+    ASSERT_EQ(result.oriented_bounding_boxes.size(), 2);
     ASSERT_EQ(result.obstacle_points.size(), 4);
 
     EXPECT_DOUBLE_EQ(result.obstacle_points[0].x, 0.0);

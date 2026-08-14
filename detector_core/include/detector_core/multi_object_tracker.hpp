@@ -11,6 +11,9 @@ namespace detector_core {
                 double process_noise, double measurement_noise);
 
             void update(const std::vector<BoundingBox2D>& detections, double delta_time);
+            void update(const std::vector<BoundingBox2D>& detections,
+                const std::vector<OrientedBoundingBox2D>& oriented_detections,
+                double delta_time);
 
             const std::vector<TrackedObstacle>& tracks() const;
 

@@ -223,6 +223,30 @@ src/bounding_box.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box.cpp.s
 .PHONY : src/bounding_box.cpp.s
 
+src/bounding_box3d_processing.o: src/bounding_box3d_processing.cpp.o
+.PHONY : src/bounding_box3d_processing.o
+
+# target to build an object file
+src/bounding_box3d_processing.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box3d_processing.cpp.o
+.PHONY : src/bounding_box3d_processing.cpp.o
+
+src/bounding_box3d_processing.i: src/bounding_box3d_processing.cpp.i
+.PHONY : src/bounding_box3d_processing.i
+
+# target to preprocess a source file
+src/bounding_box3d_processing.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box3d_processing.cpp.i
+.PHONY : src/bounding_box3d_processing.cpp.i
+
+src/bounding_box3d_processing.s: src/bounding_box3d_processing.cpp.s
+.PHONY : src/bounding_box3d_processing.s
+
+# target to generate assembly for a file
+src/bounding_box3d_processing.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/bounding_box3d_processing.cpp.s
+.PHONY : src/bounding_box3d_processing.cpp.s
+
 src/clustering.o: src/clustering.cpp.o
 .PHONY : src/clustering.o
 
@@ -343,6 +367,30 @@ src/obstacle_detection.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/obstacle_detection.cpp.s
 .PHONY : src/obstacle_detection.cpp.s
 
+src/point3d_processing.o: src/point3d_processing.cpp.o
+.PHONY : src/point3d_processing.o
+
+# target to build an object file
+src/point3d_processing.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/point3d_processing.cpp.o
+.PHONY : src/point3d_processing.cpp.o
+
+src/point3d_processing.i: src/point3d_processing.cpp.i
+.PHONY : src/point3d_processing.i
+
+# target to preprocess a source file
+src/point3d_processing.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/point3d_processing.cpp.i
+.PHONY : src/point3d_processing.cpp.i
+
+src/point3d_processing.s: src/point3d_processing.cpp.s
+.PHONY : src/point3d_processing.s
+
+# target to generate assembly for a file
+src/point3d_processing.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/point3d_processing.cpp.s
+.PHONY : src/point3d_processing.cpp.s
+
 src/polar_conversion.o: src/polar_conversion.cpp.o
 .PHONY : src/polar_conversion.o
 
@@ -438,6 +486,54 @@ src/tracked_obstacle.s: src/tracked_obstacle.cpp.s
 src/tracked_obstacle.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.s
 .PHONY : src/tracked_obstacle.cpp.s
+
+tests/bounding_box3d_processing_test.o: tests/bounding_box3d_processing_test.cpp.o
+.PHONY : tests/bounding_box3d_processing_test.o
+
+# target to build an object file
+tests/bounding_box3d_processing_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.o
+.PHONY : tests/bounding_box3d_processing_test.cpp.o
+
+tests/bounding_box3d_processing_test.i: tests/bounding_box3d_processing_test.cpp.i
+.PHONY : tests/bounding_box3d_processing_test.i
+
+# target to preprocess a source file
+tests/bounding_box3d_processing_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.i
+.PHONY : tests/bounding_box3d_processing_test.cpp.i
+
+tests/bounding_box3d_processing_test.s: tests/bounding_box3d_processing_test.cpp.s
+.PHONY : tests/bounding_box3d_processing_test.s
+
+# target to generate assembly for a file
+tests/bounding_box3d_processing_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_processing_test.cpp.s
+.PHONY : tests/bounding_box3d_processing_test.cpp.s
+
+tests/bounding_box3d_test.o: tests/bounding_box3d_test.cpp.o
+.PHONY : tests/bounding_box3d_test.o
+
+# target to build an object file
+tests/bounding_box3d_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.o
+.PHONY : tests/bounding_box3d_test.cpp.o
+
+tests/bounding_box3d_test.i: tests/bounding_box3d_test.cpp.i
+.PHONY : tests/bounding_box3d_test.i
+
+# target to preprocess a source file
+tests/bounding_box3d_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.i
+.PHONY : tests/bounding_box3d_test.cpp.i
+
+tests/bounding_box3d_test.s: tests/bounding_box3d_test.cpp.s
+.PHONY : tests/bounding_box3d_test.s
+
+# target to generate assembly for a file
+tests/bounding_box3d_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/bounding_box3d_test.cpp.s
+.PHONY : tests/bounding_box3d_test.cpp.s
 
 tests/bounding_box_test.o: tests/bounding_box_test.cpp.o
 .PHONY : tests/bounding_box_test.o
@@ -607,6 +703,54 @@ tests/point2d_test.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point2d_test.cpp.s
 .PHONY : tests/point2d_test.cpp.s
 
+tests/point3d_processing_test.o: tests/point3d_processing_test.cpp.o
+.PHONY : tests/point3d_processing_test.o
+
+# target to build an object file
+tests/point3d_processing_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.o
+.PHONY : tests/point3d_processing_test.cpp.o
+
+tests/point3d_processing_test.i: tests/point3d_processing_test.cpp.i
+.PHONY : tests/point3d_processing_test.i
+
+# target to preprocess a source file
+tests/point3d_processing_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.i
+.PHONY : tests/point3d_processing_test.cpp.i
+
+tests/point3d_processing_test.s: tests/point3d_processing_test.cpp.s
+.PHONY : tests/point3d_processing_test.s
+
+# target to generate assembly for a file
+tests/point3d_processing_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_processing_test.cpp.s
+.PHONY : tests/point3d_processing_test.cpp.s
+
+tests/point3d_test.o: tests/point3d_test.cpp.o
+.PHONY : tests/point3d_test.o
+
+# target to build an object file
+tests/point3d_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.o
+.PHONY : tests/point3d_test.cpp.o
+
+tests/point3d_test.i: tests/point3d_test.cpp.i
+.PHONY : tests/point3d_test.i
+
+# target to preprocess a source file
+tests/point3d_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.i
+.PHONY : tests/point3d_test.cpp.i
+
+tests/point3d_test.s: tests/point3d_test.cpp.s
+.PHONY : tests/point3d_test.s
+
+# target to generate assembly for a file
+tests/point3d_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/point3d_test.cpp.s
+.PHONY : tests/point3d_test.cpp.s
+
 tests/polar_conversion_test.o: tests/polar_conversion_test.cpp.o
 .PHONY : tests/polar_conversion_test.o
 
@@ -721,6 +865,9 @@ help:
 	@echo "... src/bounding_box.o"
 	@echo "... src/bounding_box.i"
 	@echo "... src/bounding_box.s"
+	@echo "... src/bounding_box3d_processing.o"
+	@echo "... src/bounding_box3d_processing.i"
+	@echo "... src/bounding_box3d_processing.s"
 	@echo "... src/clustering.o"
 	@echo "... src/clustering.i"
 	@echo "... src/clustering.s"
@@ -736,6 +883,9 @@ help:
 	@echo "... src/obstacle_detection.o"
 	@echo "... src/obstacle_detection.i"
 	@echo "... src/obstacle_detection.s"
+	@echo "... src/point3d_processing.o"
+	@echo "... src/point3d_processing.i"
+	@echo "... src/point3d_processing.s"
 	@echo "... src/polar_conversion.o"
 	@echo "... src/polar_conversion.i"
 	@echo "... src/polar_conversion.s"
@@ -748,6 +898,12 @@ help:
 	@echo "... src/tracked_obstacle.o"
 	@echo "... src/tracked_obstacle.i"
 	@echo "... src/tracked_obstacle.s"
+	@echo "... tests/bounding_box3d_processing_test.o"
+	@echo "... tests/bounding_box3d_processing_test.i"
+	@echo "... tests/bounding_box3d_processing_test.s"
+	@echo "... tests/bounding_box3d_test.o"
+	@echo "... tests/bounding_box3d_test.i"
+	@echo "... tests/bounding_box3d_test.s"
 	@echo "... tests/bounding_box_test.o"
 	@echo "... tests/bounding_box_test.i"
 	@echo "... tests/bounding_box_test.s"
@@ -769,6 +925,12 @@ help:
 	@echo "... tests/point2d_test.o"
 	@echo "... tests/point2d_test.i"
 	@echo "... tests/point2d_test.s"
+	@echo "... tests/point3d_processing_test.o"
+	@echo "... tests/point3d_processing_test.i"
+	@echo "... tests/point3d_processing_test.s"
+	@echo "... tests/point3d_test.o"
+	@echo "... tests/point3d_test.i"
+	@echo "... tests/point3d_test.s"
 	@echo "... tests/polar_conversion_test.o"
 	@echo "... tests/polar_conversion_test.i"
 	@echo "... tests/polar_conversion_test.s"
