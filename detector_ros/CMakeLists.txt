@@ -33,8 +33,7 @@ ament_target_dependencies(synthetic_scan_publisher rclcpp sensor_msgs)
 ament_target_dependencies(odom_tf_broadcaster geometry_msgs nav_msgs rclcpp tf2_ros)
 
 ament_target_dependencies(pointcloud_inspector_node
-  rclcpp
-  sensor_msgs
+  rclcpp sensor_msgs visualization_msgs
 )
 
 target_link_libraries(lidar_detector_node detector_core)

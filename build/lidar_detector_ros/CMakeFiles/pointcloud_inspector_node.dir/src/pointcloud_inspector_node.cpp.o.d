@@ -1,9 +1,10 @@
 CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp \
  /usr/include/stdc-predef.h \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/bounding_box3d_processing.hpp \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/bounding_box3d.hpp \
  /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d.hpp \
- /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d_processing.hpp \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,6 +16,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
  /usr/include/c++/13/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
@@ -49,10 +52,12 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/vector.tcc \
- /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/c++/13/bits/memory_resource.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/clustering.hpp \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point2d.hpp \
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d_processing.hpp \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -114,7 +119,21 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/typeinfo /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/array \
+ /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/cstdlib \
+ /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
@@ -126,9 +145,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/13/bits/shared_ptr_base.h /usr/include/c++/13/typeinfo \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
@@ -164,9 +182,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /usr/include/c++/13/bits/cxxabi_forced.h \
  /usr/include/c++/13/bits/basic_string.h /usr/include/c++/13/string_view \
  /usr/include/c++/13/bits/string_view.tcc \
- /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
- /usr/include/c++/13/cstdio /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
@@ -211,12 +228,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
- /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h /usr/include/c++/13/array \
- /usr/include/c++/13/compare \
+ /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
@@ -392,14 +405,6 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/unordered_map \
- /usr/include/c++/13/bits/unordered_map.h \
- /usr/include/c++/13/bits/hashtable.h \
- /usr/include/c++/13/bits/hashtable_policy.h \
- /usr/include/c++/13/bits/enable_special_members.h \
- /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/erase_if.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
  /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/std_mutex.h \
@@ -699,4 +704,28 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o: \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp \
  /usr/include/c++/13/cstdarg \
- /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

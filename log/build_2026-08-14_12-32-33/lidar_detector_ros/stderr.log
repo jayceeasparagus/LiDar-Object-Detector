@@ -1,0 +1,7 @@
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudInspectorNode::[01;32m[Kpublish_markers[m[K(const std::vector<detector_core::Point3D>&, const std::vector<std::vector<long unsigned int> >&, const std_msgs::msg::Header&)[m[K’:
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:176:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[Kto_msg[m[K’
+  176 |             marker.lifetime = rclcpp::Duration::from_seconds(0.3).[01;31m[Kto_msg[m[K();
+      |                                                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

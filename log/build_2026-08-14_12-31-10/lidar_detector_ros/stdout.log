@@ -1,0 +1,5 @@
+[ 61%] Built target detector_core
+[ 71%] Built target synthetic_scan_publisher
+[ 80%] Built target odom_tf_broadcaster
+[ 85%] [32mBuilding CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o[0m
+[ 95%] Built target lidar_detector_node

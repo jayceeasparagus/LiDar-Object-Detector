@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.035s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.177s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.193s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.290s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.298s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.400s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.435s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.437s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.694s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.795s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.889s] -- Configuring done (0.9s)
+[0.922s] -- Generating done (0.0s)
+[0.927s] -- Build files have been written to: /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[0.958s] [  9%] Built target odom_tf_broadcaster
+[0.959s] [ 19%] Built target synthetic_scan_publisher
+[0.973s] [ 80%] Built target detector_core
+[0.993s] [ 95%] [32mBuilding CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o[0m
+[0.993s] [ 95%] Built target lidar_detector_node
+[2.361s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudInspectorNode::[01;32m[Kpublish_markers[m[K(const std::vector<detector_core::Point3D>&, const std::vector<std::vector<long unsigned int> >&, const std_msgs::msg::Header&)[m[K’:
+[2.362s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:176:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[Kto_msg[m[K’
+[2.362s]   176 |             marker.lifetime = rclcpp::Duration::from_seconds(0.3).[01;31m[Kto_msg[m[K();
+[2.362s]       |                                                                   [01;31m[K^~~~~~[m[K
+[3.763s] gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+[3.764s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+[3.764s] gmake: *** [Makefile:146: all] Error 2
+[3.765s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

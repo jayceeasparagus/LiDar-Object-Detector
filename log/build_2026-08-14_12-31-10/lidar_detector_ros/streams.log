@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.192s] [ 61%] Built target detector_core
+[0.194s] [ 71%] Built target synthetic_scan_publisher
+[0.205s] [ 80%] Built target odom_tf_broadcaster
+[0.218s] [ 85%] [32mBuilding CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o[0m
+[0.220s] [ 95%] Built target lidar_detector_node
+[0.550s] [01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+[0.550s]    14 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+[0.550s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.550s] compilation terminated.
+[0.550s] gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+[0.551s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+[0.551s] gmake: *** [Makefile:146: all] Error 2
+[0.552s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8

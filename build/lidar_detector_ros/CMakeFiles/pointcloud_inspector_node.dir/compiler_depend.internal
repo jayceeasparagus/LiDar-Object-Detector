@@ -3,6 +3,10 @@
 
 CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
  /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/bounding_box3d.hpp
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/bounding_box3d_processing.hpp
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/clustering.hpp
+ /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point2d.hpp
  /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d.hpp
  /home/jayce/projects/LiDar-Object-Detector/detector_core/include/detector_core/point3d_processing.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
@@ -17,6 +21,14 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp
@@ -384,6 +396,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
@@ -404,6 +418,8 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
  /opt/ros/jazzy/include/tracetools/tracetools/config.h
@@ -421,6 +437,18 @@ CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+ /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

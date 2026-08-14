@@ -1,0 +1,39 @@
+[ 61%] Built target detector_core
+[ 71%] Built target synthetic_scan_publisher
+[ 80%] Built target odom_tf_broadcaster
+[ 90%] Built target lidar_detector_node
+[ 95%] [32mBuilding CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pointcloud_inspector_node[0m
+[100%] Built target pointcloud_inspector_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/synthetic_scan_publisher
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/odom_tf_broadcaster
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/pointcloud_inspector_node
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/detector.yaml
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/nav2_costmap.yaml
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/nav2_costmap_turtlebot.yaml
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/custom_world_detector.launch.cpython-312.pyc
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/detector.launch.cpython-312.pyc
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/custom_world_detector.launch.py
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/detector.launch.py
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/turtlebot_detector.launch.py
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/rviz/detector.rviz
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/worlds/obstacle_test_world.sdf
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/parent_prefix_path/lidar_detector_ros
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.sh
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.dsv
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.bash
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.sh
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.zsh
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.dsv
+-- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.dsv
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/packages/lidar_detector_ros
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig.cmake
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig-version.cmake
+-- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.xml

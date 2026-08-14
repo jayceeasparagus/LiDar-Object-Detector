@@ -1,0 +1,12 @@
+[ 61%] Built target detector_core
+[ 71%] Built target synthetic_scan_publisher
+[ 80%] Built target odom_tf_broadcaster
+[ 85%] [32mBuilding CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o[0m
+[ 95%] Built target lidar_detector_node
+[01m[K/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+   14 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -2,14 +2,12 @@
 #include "detector_core/clustering.hpp"
 #include "detector_core/point3d.hpp"
 #include "detector_core/point3d_processing.hpp"
-
 #include <cmath>
 #include <cstdint>
 #include <functional>
 #include <memory>
 #include <string>
 #include <vector>
-
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
@@ -91,6 +89,14 @@ private:
                 clustering_distance_,
                 static_cast<std::size_t>(min_cluster_size_),
                 static_cast<std::size_t>(max_cluster_size_));
+
+        RCLCPP_INFO_THROTTLE(
+    this->get_logger(),
+    *this->get_clock(),
+    1000,
+    "Downsampled points: %zu, detected 3D clusters: %zu",
+    downsampled_points.size(),
+    clusters.size());
 
         publish_cloud(filtered_points, message->header, filtered_cloud_publisher_);
         publish_cloud(
@@ -175,7 +181,8 @@ private:
             marker.color.g = 0.2F;
             marker.color.b = 0.1F;
             marker.color.a = 0.65F;
-            marker.lifetime = rclcpp::Duration::from_seconds(0.3).to_msg();
+            marker.lifetime.sec = 0;
+            marker.lifetime.nanosec = 300000000;
             marker_array.markers.push_back(marker);
         }
 
