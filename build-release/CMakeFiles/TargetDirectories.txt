@@ -35,6 +35,7 @@
 /home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/CMakeFiles/edit_cache.dir
 /home/jayce/projects/LiDar-Object-Detector/build-release/detector_core/CMakeFiles/rebuild_cache.dir
 /home/jayce/projects/LiDar-Object-Detector/build-release/benchmarks/CMakeFiles/clustering_benchmark.dir
+/home/jayce/projects/LiDar-Object-Detector/build-release/benchmarks/CMakeFiles/clustering_benchmark_3d.dir
 /home/jayce/projects/LiDar-Object-Detector/build-release/benchmarks/CMakeFiles/test.dir
 /home/jayce/projects/LiDar-Object-Detector/build-release/benchmarks/CMakeFiles/edit_cache.dir
 /home/jayce/projects/LiDar-Object-Detector/build-release/benchmarks/CMakeFiles/rebuild_cache.dir

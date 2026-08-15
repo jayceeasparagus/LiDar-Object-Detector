@@ -295,6 +295,30 @@ src/kalman_filter_2d.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_2d.cpp.s
 .PHONY : src/kalman_filter_2d.cpp.s
 
+src/kalman_filter_3d.o: src/kalman_filter_3d.cpp.o
+.PHONY : src/kalman_filter_3d.o
+
+# target to build an object file
+src/kalman_filter_3d.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_3d.cpp.o
+.PHONY : src/kalman_filter_3d.cpp.o
+
+src/kalman_filter_3d.i: src/kalman_filter_3d.cpp.i
+.PHONY : src/kalman_filter_3d.i
+
+# target to preprocess a source file
+src/kalman_filter_3d.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_3d.cpp.i
+.PHONY : src/kalman_filter_3d.cpp.i
+
+src/kalman_filter_3d.s: src/kalman_filter_3d.cpp.s
+.PHONY : src/kalman_filter_3d.s
+
+# target to generate assembly for a file
+src/kalman_filter_3d.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/kalman_filter_3d.cpp.s
+.PHONY : src/kalman_filter_3d.cpp.s
+
 src/library.o: src/library.cpp.o
 .PHONY : src/library.o
 
@@ -342,6 +366,30 @@ src/multi_object_tracker.s: src/multi_object_tracker.cpp.s
 src/multi_object_tracker.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker.cpp.s
 .PHONY : src/multi_object_tracker.cpp.s
+
+src/multi_object_tracker_3d.o: src/multi_object_tracker_3d.cpp.o
+.PHONY : src/multi_object_tracker_3d.o
+
+# target to build an object file
+src/multi_object_tracker_3d.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker_3d.cpp.o
+.PHONY : src/multi_object_tracker_3d.cpp.o
+
+src/multi_object_tracker_3d.i: src/multi_object_tracker_3d.cpp.i
+.PHONY : src/multi_object_tracker_3d.i
+
+# target to preprocess a source file
+src/multi_object_tracker_3d.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker_3d.cpp.i
+.PHONY : src/multi_object_tracker_3d.cpp.i
+
+src/multi_object_tracker_3d.s: src/multi_object_tracker_3d.cpp.s
+.PHONY : src/multi_object_tracker_3d.s
+
+# target to generate assembly for a file
+src/multi_object_tracker_3d.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/multi_object_tracker_3d.cpp.s
+.PHONY : src/multi_object_tracker_3d.cpp.s
 
 src/obstacle_detection.o: src/obstacle_detection.cpp.o
 .PHONY : src/obstacle_detection.o
@@ -487,6 +535,30 @@ src/tracked_obstacle.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle.cpp.s
 .PHONY : src/tracked_obstacle.cpp.s
 
+src/tracked_obstacle_3d.o: src/tracked_obstacle_3d.cpp.o
+.PHONY : src/tracked_obstacle_3d.o
+
+# target to build an object file
+src/tracked_obstacle_3d.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle_3d.cpp.o
+.PHONY : src/tracked_obstacle_3d.cpp.o
+
+src/tracked_obstacle_3d.i: src/tracked_obstacle_3d.cpp.i
+.PHONY : src/tracked_obstacle_3d.i
+
+# target to preprocess a source file
+src/tracked_obstacle_3d.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle_3d.cpp.i
+.PHONY : src/tracked_obstacle_3d.cpp.i
+
+src/tracked_obstacle_3d.s: src/tracked_obstacle_3d.cpp.s
+.PHONY : src/tracked_obstacle_3d.s
+
+# target to generate assembly for a file
+src/tracked_obstacle_3d.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core.dir/build.make detector_core_build/CMakeFiles/detector_core.dir/src/tracked_obstacle_3d.cpp.s
+.PHONY : src/tracked_obstacle_3d.cpp.s
+
 tests/bounding_box3d_processing_test.o: tests/bounding_box3d_processing_test.cpp.o
 .PHONY : tests/bounding_box3d_processing_test.o
 
@@ -630,6 +702,54 @@ tests/kalman_filter_2d_test.s: tests/kalman_filter_2d_test.cpp.s
 tests/kalman_filter_2d_test.cpp.s:
 	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/kalman_filter_2d_test.cpp.s
 .PHONY : tests/kalman_filter_2d_test.cpp.s
+
+tests/kalman_filter_3d_test.o: tests/kalman_filter_3d_test.cpp.o
+.PHONY : tests/kalman_filter_3d_test.o
+
+# target to build an object file
+tests/kalman_filter_3d_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/kalman_filter_3d_test.cpp.o
+.PHONY : tests/kalman_filter_3d_test.cpp.o
+
+tests/kalman_filter_3d_test.i: tests/kalman_filter_3d_test.cpp.i
+.PHONY : tests/kalman_filter_3d_test.i
+
+# target to preprocess a source file
+tests/kalman_filter_3d_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/kalman_filter_3d_test.cpp.i
+.PHONY : tests/kalman_filter_3d_test.cpp.i
+
+tests/kalman_filter_3d_test.s: tests/kalman_filter_3d_test.cpp.s
+.PHONY : tests/kalman_filter_3d_test.s
+
+# target to generate assembly for a file
+tests/kalman_filter_3d_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/kalman_filter_3d_test.cpp.s
+.PHONY : tests/kalman_filter_3d_test.cpp.s
+
+tests/multi_object_tracker_3d_test.o: tests/multi_object_tracker_3d_test.cpp.o
+.PHONY : tests/multi_object_tracker_3d_test.o
+
+# target to build an object file
+tests/multi_object_tracker_3d_test.cpp.o:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_3d_test.cpp.o
+.PHONY : tests/multi_object_tracker_3d_test.cpp.o
+
+tests/multi_object_tracker_3d_test.i: tests/multi_object_tracker_3d_test.cpp.i
+.PHONY : tests/multi_object_tracker_3d_test.i
+
+# target to preprocess a source file
+tests/multi_object_tracker_3d_test.cpp.i:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_3d_test.cpp.i
+.PHONY : tests/multi_object_tracker_3d_test.cpp.i
+
+tests/multi_object_tracker_3d_test.s: tests/multi_object_tracker_3d_test.cpp.s
+.PHONY : tests/multi_object_tracker_3d_test.s
+
+# target to generate assembly for a file
+tests/multi_object_tracker_3d_test.cpp.s:
+	cd /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros && $(MAKE) $(MAKESILENT) -f detector_core_build/CMakeFiles/detector_core_tests.dir/build.make detector_core_build/CMakeFiles/detector_core_tests.dir/tests/multi_object_tracker_3d_test.cpp.s
+.PHONY : tests/multi_object_tracker_3d_test.cpp.s
 
 tests/multi_object_tracker_test.o: tests/multi_object_tracker_test.cpp.o
 .PHONY : tests/multi_object_tracker_test.o
@@ -874,12 +994,18 @@ help:
 	@echo "... src/kalman_filter_2d.o"
 	@echo "... src/kalman_filter_2d.i"
 	@echo "... src/kalman_filter_2d.s"
+	@echo "... src/kalman_filter_3d.o"
+	@echo "... src/kalman_filter_3d.i"
+	@echo "... src/kalman_filter_3d.s"
 	@echo "... src/library.o"
 	@echo "... src/library.i"
 	@echo "... src/library.s"
 	@echo "... src/multi_object_tracker.o"
 	@echo "... src/multi_object_tracker.i"
 	@echo "... src/multi_object_tracker.s"
+	@echo "... src/multi_object_tracker_3d.o"
+	@echo "... src/multi_object_tracker_3d.i"
+	@echo "... src/multi_object_tracker_3d.s"
 	@echo "... src/obstacle_detection.o"
 	@echo "... src/obstacle_detection.i"
 	@echo "... src/obstacle_detection.s"
@@ -898,6 +1024,9 @@ help:
 	@echo "... src/tracked_obstacle.o"
 	@echo "... src/tracked_obstacle.i"
 	@echo "... src/tracked_obstacle.s"
+	@echo "... src/tracked_obstacle_3d.o"
+	@echo "... src/tracked_obstacle_3d.i"
+	@echo "... src/tracked_obstacle_3d.s"
 	@echo "... tests/bounding_box3d_processing_test.o"
 	@echo "... tests/bounding_box3d_processing_test.i"
 	@echo "... tests/bounding_box3d_processing_test.s"
@@ -916,6 +1045,12 @@ help:
 	@echo "... tests/kalman_filter_2d_test.o"
 	@echo "... tests/kalman_filter_2d_test.i"
 	@echo "... tests/kalman_filter_2d_test.s"
+	@echo "... tests/kalman_filter_3d_test.o"
+	@echo "... tests/kalman_filter_3d_test.i"
+	@echo "... tests/kalman_filter_3d_test.s"
+	@echo "... tests/multi_object_tracker_3d_test.o"
+	@echo "... tests/multi_object_tracker_3d_test.i"
+	@echo "... tests/multi_object_tracker_3d_test.s"
 	@echo "... tests/multi_object_tracker_test.o"
 	@echo "... tests/multi_object_tracker_test.i"
 	@echo "... tests/multi_object_tracker_test.s"

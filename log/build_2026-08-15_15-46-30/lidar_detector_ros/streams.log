@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.047s] [  8%] Built target odom_tf_broadcaster
+[0.073s] [ 75%] Built target detector_core
+[0.077s] [ 83%] Built target synthetic_scan_publisher
+[0.090s] [ 91%] Built target lidar_detector_node
+[0.091s] [ 95%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+[5.760s] [100%] Linking CXX executable pointcloud_inspector_node
+[6.143s] [100%] Built target pointcloud_inspector_node
+[6.150s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[6.155s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros
+[6.160s] -- Install configuration: ""
+[6.160s] -- Execute custom install script
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/lidar_detector_node
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/synthetic_scan_publisher
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/odom_tf_broadcaster
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/lib/lidar_detector_ros/pointcloud_inspector_node
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/detector.yaml
+[6.160s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/detector_3d.yaml
+[6.161s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/detector_3d_mobile.yaml
+[6.161s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/nav2_costmap.yaml
+[6.161s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/nav2_costmap_turtlebot.yaml
+[6.161s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/config/turtlebot3_burger_3d_bridge.yaml
+[6.161s] -- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/custom_world_3d_detector.launch.cpython-312.pyc
+[6.166s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/custom_world_detector.launch.cpython-312.pyc
+[6.166s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/__pycache__/detector.launch.cpython-312.pyc
+[6.166s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/custom_world_3d_detector.launch.py
+[6.166s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/custom_world_detector.launch.py
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/detector.launch.py
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/detector_3d.launch.py
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/launch/turtlebot_detector.launch.py
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/rviz/detector.rviz
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/rviz/detector_3d.rviz
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/worlds/obstacle_test_world.sdf
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/models/turtlebot3_burger_3d/model.config
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/models/turtlebot3_burger_3d/model.sdf
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/parent_prefix_path/lidar_detector_ros
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.sh
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/ament_prefix_path.dsv
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.sh
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/environment/path.dsv
+[6.167s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.bash
+[6.168s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.sh
+[6.168s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.zsh
+[6.168s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/local_setup.dsv
+[6.168s] -- Symlinking: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.dsv
+[6.172s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/ament_index/resource_index/packages/lidar_detector_ros
+[6.172s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig.cmake
+[6.172s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/cmake/lidar_detector_rosConfig-version.cmake
+[6.172s] -- Up-to-date symlink: /home/jayce/projects/LiDar-Object-Detector/install/lidar_detector_ros/share/lidar_detector_ros/package.xml
+[6.173s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros

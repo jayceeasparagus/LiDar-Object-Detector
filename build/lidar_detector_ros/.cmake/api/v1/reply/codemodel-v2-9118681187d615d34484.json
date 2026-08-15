@@ -73,14 +73,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "detector_core::@b7da9f85b0c611f4523a",
-					"jsonFile" : "target-detector_core-525d8c6580e4420f37a5.json",
+					"jsonFile" : "target-detector_core-958317797b628ca1c884.json",
 					"name" : "detector_core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "detector_core_tests::@b7da9f85b0c611f4523a",
-					"jsonFile" : "target-detector_core_tests-6478a9ef00c7214cd734.json",
+					"jsonFile" : "target-detector_core_tests-b3e11e90b587fade24b9.json",
 					"name" : "detector_core_tests",
 					"projectIndex" : 0
 				},

@@ -1,5 +1,0 @@
-#include "detector_core/bounding_box3d_processing.hpp"
-#include <Eigen/Eigenvalues>
-#include <cmath>
-#include <limits>
-
