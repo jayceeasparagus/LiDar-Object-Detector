@@ -1,1 +1,1 @@
-geometry_msgs;nav_msgs;rclcpp;sensor_msgs;tf2_ros;visualization_msgs;launch;launch_ros;ament_index_python;rviz2;nav2_costmap_2d;nav2_lifecycle_manager;ros_gz_sim;turtlebot3_gazebo
+geometry_msgs;nav_msgs;rclcpp;sensor_msgs;tf2_ros;visualization_msgs;launch;launch_ros;ament_index_python;rviz2;nav2_costmap_2d;nav2_lifecycle_manager;robot_state_publisher;ros_gz_bridge;ros_gz_sim;turtlebot3_description;turtlebot3_gazebo

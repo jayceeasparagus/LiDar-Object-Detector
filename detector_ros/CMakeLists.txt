@@ -47,6 +47,6 @@ install(TARGETS lidar_detector_node synthetic_scan_publisher odom_tf_broadcaster
 
 install(TARGETS pointcloud_inspector_node DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY config launch rviz worlds DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY config launch rviz worlds models DESTINATION share/${PROJECT_NAME})
 
 ament_package()

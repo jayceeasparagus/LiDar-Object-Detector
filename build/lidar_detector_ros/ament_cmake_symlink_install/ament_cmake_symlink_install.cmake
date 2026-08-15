@@ -324,8 +324,8 @@ include("/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ame
 # install("TARGETS" "pointcloud_inspector_node" "DESTINATION" "lib/lidar_detector_ros")
 include("/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "config" "launch" "rviz" "worlds" "DESTINATION" "share/lidar_detector_ros")
-ament_cmake_symlink_install_directory("/home/jayce/projects/LiDar-Object-Detector/detector_ros" DIRECTORY "config" "launch" "rviz" "worlds" "DESTINATION" "share/lidar_detector_ros")
+# install(DIRECTORY "config" "launch" "rviz" "worlds" "models" "DESTINATION" "share/lidar_detector_ros")
+ament_cmake_symlink_install_directory("/home/jayce/projects/LiDar-Object-Detector/detector_ros" DIRECTORY "config" "launch" "rviz" "worlds" "models" "DESTINATION" "share/lidar_detector_ros")
 
 # install(FILES "/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jayce/projects/LiDar-Object-Detector/detector_ros" FILES "/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_detector_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

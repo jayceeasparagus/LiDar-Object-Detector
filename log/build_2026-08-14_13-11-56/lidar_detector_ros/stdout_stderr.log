@@ -1,0 +1,15 @@
+[ 61%] Built target detector_core
+[ 71%] Built target odom_tf_broadcaster
+[ 76%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)’:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:100:25: error: ‘obstacle_points’ was not declared in this scope; did you mean ‘obstack_printf’?
+  100 |         publish_markers(obstacle_points, clusters, message->header);
+      |                         ^~~~~~~~~~~~~~~
+      |                         obstack_printf
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::publish_markers(const std::vector<detector_core::Point3D>&, const std::vector<std::vector<long unsigned int> >&, const std_msgs::msg::Header&)’:
+/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:179:67: error: ‘class rclcpp::Duration’ has no member named ‘to_msg’
+  179 |             marker.lifetime = rclcpp::Duration::from_seconds(0.3).to_msg();
+      |                                                                   ^~~~~~
+gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -2,12 +2,14 @@
 #include "detector_core/clustering.hpp"
 #include "detector_core/point3d.hpp"
 #include "detector_core/point3d_processing.hpp"
+
 #include <cmath>
 #include <cstdint>
 #include <functional>
 #include <memory>
 #include <string>
 #include <vector>
+
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
@@ -29,6 +31,8 @@ public:
             "min_cluster_size", 5);
         max_cluster_size_ = this->declare_parameter<int>(
             "max_cluster_size", 100000);
+        min_z_ = this->declare_parameter<double>("min_z", -0.2);
+        max_z_ = this->declare_parameter<double>("max_z", 3.0);
 
         subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
             topic,
@@ -83,36 +87,36 @@ private:
         const std::vector<detector_core::Point3D> downsampled_points =
             detector_core::voxel_downsample(filtered_points, voxel_size_);
 
+        std::vector<detector_core::Point3D> obstacle_points;
+        for (const detector_core::Point3D& point : downsampled_points) {
+            if (point.z >= min_z_ && point.z <= max_z_) {
+                obstacle_points.push_back(point);
+            }
+        }
+
         const std::vector<detector_core::Cluster> clusters =
             detector_core::spatial_grid_clusters_3d(
-                downsampled_points,
+                obstacle_points,
                 clustering_distance_,
                 static_cast<std::size_t>(min_cluster_size_),
                 static_cast<std::size_t>(max_cluster_size_));
-
-        RCLCPP_INFO_THROTTLE(
-    this->get_logger(),
-    *this->get_clock(),
-    1000,
-    "Downsampled points: %zu, detected 3D clusters: %zu",
-    downsampled_points.size(),
-    clusters.size());
 
         publish_cloud(filtered_points, message->header, filtered_cloud_publisher_);
         publish_cloud(
             downsampled_points,
             message->header,
             downsampled_cloud_publisher_);
-        publish_markers(downsampled_points, clusters, message->header);
+        publish_markers(obstacle_points, clusters, message->header);
 
         RCLCPP_INFO_THROTTLE(
             this->get_logger(),
             *this->get_clock(),
             1000,
-            "Raw: %zu, valid: %zu, downsampled: %zu, clusters: %zu",
+            "Raw: %zu, valid: %zu, downsampled: %zu, obstacle points: %zu, clusters: %zu",
             points.size(),
             filtered_points.size(),
             downsampled_points.size(),
+            obstacle_points.size(),
             clusters.size());
     }
 
@@ -200,6 +204,8 @@ private:
     double clustering_distance_;
     int min_cluster_size_;
     int max_cluster_size_;
+    double min_z_;
+    double max_z_;
 };
 
 int main(int argc, char* argv[]) {

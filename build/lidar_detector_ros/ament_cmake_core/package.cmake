@@ -5,7 +5,7 @@ set(lidar_detector_ros_BUILD_DEPENDS "geometry_msgs" "nav_msgs" "rclcpp" "sensor
 set(lidar_detector_ros_BUILDTOOL_DEPENDS "ament_cmake")
 set(lidar_detector_ros_BUILD_EXPORT_DEPENDS "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2_ros" "visualization_msgs")
 set(lidar_detector_ros_BUILDTOOL_EXPORT_DEPENDS )
-set(lidar_detector_ros_EXEC_DEPENDS "launch" "launch_ros" "ament_index_python" "rviz2" "nav2_costmap_2d" "nav2_lifecycle_manager" "ros_gz_sim" "turtlebot3_gazebo" "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2_ros" "visualization_msgs")
+set(lidar_detector_ros_EXEC_DEPENDS "launch" "launch_ros" "ament_index_python" "rviz2" "nav2_costmap_2d" "nav2_lifecycle_manager" "robot_state_publisher" "ros_gz_bridge" "ros_gz_sim" "turtlebot3_description" "turtlebot3_gazebo" "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2_ros" "visualization_msgs")
 set(lidar_detector_ros_TEST_DEPENDS )
 set(lidar_detector_ros_GROUP_DEPENDS )
 set(lidar_detector_ros_MEMBER_OF_GROUPS )

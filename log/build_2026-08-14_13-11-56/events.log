@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (lidar_detector_ros) JobQueued: {'identifier': 'lidar_detector_ros', 'dependencies': OrderedDict()}
+[0.000128] (lidar_detector_ros) JobStarted: {'identifier': 'lidar_detector_ros'}
+[0.013437] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'cmake'}
+[0.015098] (lidar_detector_ros) JobProgress: {'identifier': 'lidar_detector_ros', 'progress': 'build'}
+[0.015201] (lidar_detector_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', '--', '-j8', '-l8'], 'cwd': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayce', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayce', 'OLDPWD': '/mnt/c/Users/jayce/OneDrive/Attachments/Documents/LiDar RayTrace ROS2 Project', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayce', 'NAME': 'JayceLaptop16', 'WSL_INTEROP': '/run/WSL/2490_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/jayce/.codex/tmp/arg0/codex-arg0Nl7TGI:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/jayce/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/jayce/.local/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/jayce/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jayce/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jayce/AppData/Local/Python/bin:/mnt/c/Users/jayce/.aftman/bin:/mnt/c/Users/jayce/.dotnet/tools:/mnt/c/Users/jayce/AppData/Local/Muse Hub/lib:/mnt/c/Users/jayce/AppData/Roaming/npm:/Docker/host/bin:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/jayce/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/jayce/AppData/Local/OpenAI/Codex/bin/d3a557c1f1167858:/mnt/c/Program Files/WindowsApps/OpenAI.Codex_26.810.4967.0_x64__2p2nqsd0c76g0/app/resources:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.098374] (-) TimerEvent: {}
+[0.108400] (lidar_detector_ros) StdoutLine: {'line': b'[ 61%] Built target detector_core\n'}
+[0.147172] (lidar_detector_ros) StdoutLine: {'line': b'[ 71%] Built target odom_tf_broadcaster\n'}
+[0.186270] (lidar_detector_ros) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o\n'}
+[0.198471] (-) TimerEvent: {}
+[0.299456] (-) TimerEvent: {}
+[0.399766] (-) TimerEvent: {}
+[0.500471] (-) TimerEvent: {}
+[0.602444] (-) TimerEvent: {}
+[0.702738] (-) TimerEvent: {}
+[0.802968] (-) TimerEvent: {}
+[0.903195] (-) TimerEvent: {}
+[1.003806] (-) TimerEvent: {}
+[1.104026] (-) TimerEvent: {}
+[1.204224] (-) TimerEvent: {}
+[1.305547] (-) TimerEvent: {}
+[1.409058] (-) TimerEvent: {}
+[1.509343] (-) TimerEvent: {}
+[1.609523] (-) TimerEvent: {}
+[1.710816] (-) TimerEvent: {}
+[1.811031] (-) TimerEvent: {}
+[1.911280] (-) TimerEvent: {}
+[2.015309] (-) TimerEvent: {}
+[2.115638] (-) TimerEvent: {}
+[2.217697] (-) TimerEvent: {}
+[2.318073] (-) TimerEvent: {}
+[2.420194] (-) TimerEvent: {}
+[2.520437] (-) TimerEvent: {}
+[2.620640] (-) TimerEvent: {}
+[2.721349] (-) TimerEvent: {}
+[2.821641] (-) TimerEvent: {}
+[2.922262] (-) TimerEvent: {}
+[3.022813] (-) TimerEvent: {}
+[3.125443] (-) TimerEvent: {}
+[3.226285] (-) TimerEvent: {}
+[3.326556] (-) TimerEvent: {}
+[3.427252] (-) TimerEvent: {}
+[3.527590] (-) TimerEvent: {}
+[3.627785] (-) TimerEvent: {}
+[3.730260] (-) TimerEvent: {}
+[3.830466] (-) TimerEvent: {}
+[3.930642] (-) TimerEvent: {}
+[4.031408] (-) TimerEvent: {}
+[4.131596] (-) TimerEvent: {}
+[4.231861] (-) TimerEvent: {}
+[4.238827] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function \xe2\x80\x98void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)\xe2\x80\x99:\n'}
+[4.239035] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:100:25: error: \xe2\x80\x98obstacle_points\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98obstack_printf\xe2\x80\x99?\n'}
+[4.239100] (lidar_detector_ros) StderrLine: {'line': b'  100 |         publish_markers(obstacle_points, clusters, message->header);\n'}
+[4.239154] (lidar_detector_ros) StderrLine: {'line': b'      |                         ^~~~~~~~~~~~~~~\n'}
+[4.239200] (lidar_detector_ros) StderrLine: {'line': b'      |                         obstack_printf\n'}
+[4.241287] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function \xe2\x80\x98void PointCloudInspectorNode::publish_markers(const std::vector<detector_core::Point3D>&, const std::vector<std::vector<long unsigned int> >&, const std_msgs::msg::Header&)\xe2\x80\x99:\n'}
+[4.241458] (lidar_detector_ros) StderrLine: {'line': b'/home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:179:67: error: \xe2\x80\x98class rclcpp::Duration\xe2\x80\x99 has no member named \xe2\x80\x98to_msg\xe2\x80\x99\n'}
+[4.241515] (lidar_detector_ros) StderrLine: {'line': b'  179 |             marker.lifetime = rclcpp::Duration::from_seconds(0.3).to_msg();\n'}
+[4.241562] (lidar_detector_ros) StderrLine: {'line': b'      |                                                                   ^~~~~~\n'}
+[4.331964] (-) TimerEvent: {}
+[4.432186] (-) TimerEvent: {}
+[4.532415] (-) TimerEvent: {}
+[4.635436] (-) TimerEvent: {}
+[4.735618] (-) TimerEvent: {}
+[4.836237] (-) TimerEvent: {}
+[4.938590] (-) TimerEvent: {}
+[5.038925] (-) TimerEvent: {}
+[5.139149] (-) TimerEvent: {}
+[5.239365] (-) TimerEvent: {}
+[5.341083] (-) TimerEvent: {}
+[5.441978] (-) TimerEvent: {}
+[5.542130] (-) TimerEvent: {}
+[5.642401] (-) TimerEvent: {}
+[5.743923] (-) TimerEvent: {}
+[5.850120] (-) TimerEvent: {}
+[5.950350] (-) TimerEvent: {}
+[6.050650] (-) TimerEvent: {}
+[6.150937] (-) TimerEvent: {}
+[6.251176] (-) TimerEvent: {}
+[6.351601] (-) TimerEvent: {}
+[6.451845] (-) TimerEvent: {}
+[6.552047] (-) TimerEvent: {}
+[6.653019] (-) TimerEvent: {}
+[6.754766] (-) TimerEvent: {}
+[6.855134] (-) TimerEvent: {}
+[6.955403] (-) TimerEvent: {}
+[7.058582] (-) TimerEvent: {}
+[7.158810] (-) TimerEvent: {}
+[7.259071] (-) TimerEvent: {}
+[7.359315] (-) TimerEvent: {}
+[7.459540] (-) TimerEvent: {}
+[7.559772] (-) TimerEvent: {}
+[7.659999] (-) TimerEvent: {}
+[7.762616] (-) TimerEvent: {}
+[7.863475] (-) TimerEvent: {}
+[7.964183] (-) TimerEvent: {}
+[8.064541] (-) TimerEvent: {}
+[8.141645] (lidar_detector_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1\n'}
+[8.142891] (lidar_detector_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2\n'}
+[8.145075] (lidar_detector_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.145347] (lidar_detector_ros) CommandEnded: {'returncode': 2}
+[8.166653] (-) TimerEvent: {}
+[8.170604] (lidar_detector_ros) JobEnded: {'identifier': 'lidar_detector_ros', 'rc': 2}
+[8.180816] (-) EventReactorShutdown: {}

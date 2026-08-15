@@ -1,0 +1,17 @@
+[0.016s] Invoking command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
+[0.108s] [ 61%] Built target detector_core
+[0.147s] [ 71%] Built target odom_tf_broadcaster
+[0.186s] [ 76%] Building CXX object CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o
+[4.239s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)’:
+[4.239s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:100:25: error: ‘obstacle_points’ was not declared in this scope; did you mean ‘obstack_printf’?
+[4.239s]   100 |         publish_markers(obstacle_points, clusters, message->header);
+[4.239s]       |                         ^~~~~~~~~~~~~~~
+[4.239s]       |                         obstack_printf
+[4.241s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp: In member function ‘void PointCloudInspectorNode::publish_markers(const std::vector<detector_core::Point3D>&, const std::vector<std::vector<long unsigned int> >&, const std_msgs::msg::Header&)’:
+[4.241s] /home/jayce/projects/LiDar-Object-Detector/detector_ros/src/pointcloud_inspector_node.cpp:179:67: error: ‘class rclcpp::Duration’ has no member named ‘to_msg’
+[4.241s]   179 |             marker.lifetime = rclcpp::Duration::from_seconds(0.3).to_msg();
+[4.241s]       |                                                                   ^~~~~~
+[8.142s] gmake[2]: *** [CMakeFiles/pointcloud_inspector_node.dir/build.make:76: CMakeFiles/pointcloud_inspector_node.dir/src/pointcloud_inspector_node.cpp.o] Error 1
+[8.143s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/pointcloud_inspector_node.dir/all] Error 2
+[8.145s] gmake: *** [Makefile:146: all] Error 2
+[8.146s] Invoked command in '/home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jayce/projects/LiDar-Object-Detector/build/lidar_detector_ros -- -j8 -l8
