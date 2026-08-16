@@ -1,36 +1,37 @@
 # LiDAR Object Detector
 
-A C++17 ROS 2 obstacle-detection pipeline for 2D `LaserScan` and 3D `PointCloud2` data. It filters and downsamples LiDAR points, groups them into obstacle clusters, generates oriented bounding boxes, and tracks detections with persistent IDs and Kalman-filtered velocity estimates.
+A ROS 2 perception system that processes 2D and 3D LiDAR data to detect, track, and visualize obstacles for autonomous robots.
 
 ![3D LiDAR detection in RViz2](docs/images/3d_lidar_box.png)
 
-## Highlights
+## Features
 
 - 2D and 3D LiDAR processing
-- Voxel-grid downsampling for 3D point clouds
-- Spatial-grid Euclidean clustering
-- Axis-aligned and oriented bounding boxes with yaw
-- 2D and 3D Kalman-filter tracking
-- Persistent track IDs and velocity labels
-- ROS 2 publishers, subscribers, parameters, TF, and launch files
+- Point filtering and 3D voxel downsampling
+- Efficient spatial-grid clustering
+- Axis-aligned and oriented bounding boxes
+- Kalman-filtered obstacle tracking
+- Persistent obstacle IDs and velocity estimates
 - Gazebo simulation with a mobile TurtleBot and 3D LiDAR
-- RViz2 visualization and Nav2 costmap compatibility
-- 47 GoogleTest tests and Release benchmarks
+- RViz2 visualization
+- Nav2-compatible obstacle output
+- Automated tests and performance benchmarks
+- Docker build environment
 
-## Pipeline
+## Processing pipeline
 
 ```text
-LaserScan / PointCloud2
-        ↓
-Filtering and 3D voxel downsampling
-        ↓
-Spatial-grid clustering
-        ↓
-Oriented bounding boxes
-        ↓
-Kalman filtering and track association
-        ↓
-RViz2 markers and Nav2-compatible obstacle data
+LiDAR data
+   ↓
+Filtering and downsampling
+   ↓
+Obstacle clustering
+   ↓
+Bounding-box generation
+   ↓
+Tracking and ID assignment
+   ↓
+ROS 2 topics and RViz2 visualization
 ```
 
 ## Build and test
@@ -49,21 +50,23 @@ source install/setup.bash
 
 ## Run the simulations
 
-2D detector with Nav2 costmap visualization:
+Start the 2D detector:
 
 ```bash
 ros2 launch lidar_detector_ros custom_world_detector.launch.py
 ```
 
-3D detector with the mobile 3D-LiDAR TurtleBot:
+Start the 3D detector:
 
 ```bash
 ros2 launch lidar_detector_ros custom_world_3d_detector.launch.py
 ```
 
+The 3D detector publishes processed point clouds and tracked obstacle markers. In RViz2, enable the point-cloud displays and the `MarkerArray` display for `/obstacles_3d`.
+
 ## Performance
 
-The spatial-grid implementation avoids comparing every point with every other point. In Release benchmarks it was approximately **8× faster for a typical 2D scan**, **12× faster for a 10,240-point 3D cloud**, and reached **over 20× speedup on larger 2D inputs** while producing the same cluster assignments as the brute-force reference.
+The detector includes benchmarks comparing brute-force clustering with spatial-grid clustering. The optimized implementation becomes increasingly faster as point-cloud size grows while preserving the same cluster assignments.
 
 ```bash
 cmake -S . -B build-release -G Ninja -DCMAKE_BUILD_TYPE=Release
@@ -73,8 +76,12 @@ cmake --build build-release
 ./build-release/benchmarks/clustering_benchmark_3d
 ```
 
-Detailed methodology and results are available in [docs/BENCHMARK_RESULTS.md](docs/BENCHMARK_RESULTS.md).
+Detailed benchmark methodology is available in [docs/BENCHMARK_RESULTS.md](docs/BENCHMARK_RESULTS.md).
+
+## Scope
+
+This project focuses on geometric LiDAR perception: detecting obstacle shapes, estimating motion, and publishing results to a ROS 2 system. It does not perform semantic object classification or implement SLAM.
 
 ## Conclusion
 
-This project demonstrates an end-to-end autonomous-systems perception pipeline: efficient LiDAR processing in C++, geometric obstacle detection, real-time tracking, ROS 2 integration, simulation, visualization, and Nav2-compatible output. The focus is obstacle geometry and motion tracking rather than semantic object classification.
+The project demonstrates a complete LiDAR perception workflow from raw sensor data to tracked 2D and 3D obstacles in simulation, with ROS 2 integration, RViz2 visualization, and Nav2-compatible outputs.
